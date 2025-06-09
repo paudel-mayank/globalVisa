@@ -1,0 +1,1 @@
+let o=document.querySelector(".load-more"),t=3;o.onclick=()=>{let e=[...document.querySelectorAll(".container .team-member .members")];for(var l=t;l<e.length;l++)e[l].style.display="inline-block";t+=3,t>=e.length&&(o.style.display="none")};
