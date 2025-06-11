@@ -83,7 +83,7 @@ body {
 
 .service-slider .swiper-pagination-bullet-active {
     background-color: #0f76bd !important;
-    -webkit-box-shadow: 0 0 0 4px rgba(192, 75, 98, .4) !important;
+    -webkit-box-shadow: 0 0 0 4px rgba(89, 72, 212, 0.422) !important;
     box-shadow: 0 0 0 4px #0f76bd66 !important
 }
 
