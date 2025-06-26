@@ -31,7 +31,7 @@
   <!-- Tailwind CSS -->
 
   <link rel="stylesheet" href="css/icons-c6274531.css">
-  <link rel="stylesheet" href="css/tailwind-55c03347.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="overflow-x-hidden">

@@ -20,10 +20,10 @@
           <a href=" index.php" class="leading-none"><i
               class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
           <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-          <a href="#"
+          <a href="contact.php"
             class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Contact</a>
           <img class="hidden" src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-          <a href="#"
+          <a href="contact.php"
             class="hidden sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear"></a>
         </div>
       </div>
@@ -118,43 +118,47 @@
       <div data-aos="zoom-in-down" data-aos-duration="700"
         class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[17px] items-center">
         <div
-          class="p-[30px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
-          <i
-            class="text-[50px] leading-[50px] text-primary-light ri-phone-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
+          class="p-[30px] h-[220px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] 
+          rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
+        
           <div class="flex flex-col gap-5">
-            <div class="flex flex-col gap-[5px]">
-              <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
+            <div class="flex flex-row gap-[5px] jsutify-start items-center">
+              <i
+            class="text-[40px] leading-[50px] text-primary-light ri-phone-fill group-hover:text-white transition-all duration-300 ease-linear"></i> 
+            <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
                 Contact us on
               </h5>
+              </div>
               <div class="relative w-full">
                 <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
                   class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
 
                 <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
                   class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-              </div>
+              <!-- </div> -->
             </div>
             <div>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                +1 781-294-6435
-              </h6>
-              <h6
+ + 977 9851338645              </h6>
+              <!-- <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
                 +1 781-294-6821
-              </h6>
+              </h6> -->
             </div>
           </div>
         </div>
         <div
-          class="p-[30px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
-          <i
-            class="text-[50px] leading-[50px] text-primary-light ri-map-pin-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
+          class="p-[30px]   h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
+          
           <div class="flex flex-col gap-5">
-            <div class="flex flex-col gap-[5px]">
+            <div class="flex flex-row gap-[5px] justify-start items-center">
+              <i
+            class="text-[40px] leading-[50px] text-primary-light ri-map-pin-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
               <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
                 Location
               </h5>
+</div>
               <div class="relative w-full">
                 <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
                   class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
@@ -162,72 +166,76 @@
                 <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
                   class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
               </div>
-            </div>
+            <!-- </div> -->
             <div>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                295 Plymouth Street,
+             3rd Floor, Tamang Plaza, Boudha Pipalbot
               </h6>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                Halifax MA 2338
+              Kathmandu, Nepal
               </h6>
             </div>
           </div>
         </div>
         <div
-          class="p-[30px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
-          <i
-            class="text-[50px] leading-[50px] text-primary-light ri-mail-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
+          class="p-[30px]  h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
+        
           <div class="flex flex-col gap-5">
-            <div class="flex flex-col gap-[5px]">
+            <div class="flex flex-row gap-[5px] justify-start items-center">
+                <i
+            class="text-[40px] leading-[50px] text-primary-light ri-mail-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
               <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
                 Email
               </h5>
+</div>
               <div class="relative w-full">
                 <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
                   class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
 
                 <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
                   class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-              </div>
+              <!-- </div> -->
             </div>
             <div>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
                 info@thevisaghar.com </h6>
-              <h6
+              <!-- <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
                 xyz_abc@gmail.com
-              </h6>
+              </h6> -->
             </div>
           </div>
         </div>
         <div
-          class="p-[30px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
-          <i
-            class="text-[50px] leading-[50px] text-primary-light ri-time-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
+          class="p-[30px]  h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
+        
           <div class="flex flex-col gap-5">
-            <div class="flex flex-col gap-[5px]">
+            <div class="flex lex-row gap-[5px] justify-start items-center">
+                <i
+            class="text-[40px] leading-[50px] text-primary-light ri-time-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
               <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
                 Opening hours
               </h5>
+</div>
               <div class="relative w-full">
                 <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
                   class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
 
                 <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
                   class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-              </div>
+              <!-- </div> -->
             </div>
             <div>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                09.00 AM to 05.00 PM
+             07:00AM to 06.00:00 PM
               </h6>
               <h6
                 class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                Sunday Fixed off
+                Saturday  off
               </h6>
             </div>
           </div>

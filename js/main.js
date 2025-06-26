@@ -3554,6 +3554,15 @@ new D(".homeSlider", {
   modules: [he],
   pagination: { el: ".swiper-pagination", clickable: !0 },
 });
+new Swiper(".universitySlider", {
+  spaceBetween: 40,
+  speed: 800,
+  loop: true,
+  autoplay: { delay: 100, disableOnInteraction: false },
+  slidesPerView: 6,
+  // pagination: { el: ".swiper-pagination", clickable: false },
+});
+
 document.addEventListener("DOMContentLoaded", function() {
   new D(".service-slider", {
     spaceBetween: 30,

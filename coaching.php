@@ -20,9 +20,9 @@
           class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
           <a href=" index.php" class="leading-none"><i
               class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
-          <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
+          <!-- <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
           <a href="#"
-            class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Pages</a>
+            class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Pages</a> -->
           <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
           <a href="#"
             class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Coaching</a>

@@ -13,14 +13,14 @@
 
       <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
         class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
-        <h1>Blog</h1>
+        <h1>About</h1>
         <div
           class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
           <a href=" index.php" class="leading-none"><i
               class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
           <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
           <a href="#"
-            class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Blog</a>
+            class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">About</a>
           <img class="hidden" src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
           <a href="#"
             class="hidden sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear"></a>
@@ -31,12 +31,12 @@
 
 <div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
   <div class="relative w-full h-full">
-    <img class=" absolute hidden lg:block top-0 left-5 "
+    <!-- <img class=" absolute hidden lg:block top-0 left-5 "
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAADGCAYAAADSf6ApAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD1SURBVHgB7ZrBDYJAEEVnqMCS5Kr2INKAWIFagdIA0R7Uq9oRHawrxsSQBTYuJiS+dwEm818IIf+0Kpb7JF0blUxeHMbnYiUeuHJ6m6Y7+5B9Lhoj2/hSbNpkTbnIXpP6sqospZvElYukZyL7mnl9aIw5dgWbcvq8uc4WezUyr4aqeXxq/35vvs0B/Jrqx6ZtgqBtAHygbcKhbQB8oG3CoW0AfKBtwqFtAHygbcKhbQB8oG3CoW0AfPjTthk5ll0zn51R//UlPYMQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEAxWWjnkp3Thzwz8r8gD5pKRM4xUsvwAAAABJRU5ErkJggg=="
       alt="design1.png" />
     <img class="absolute hidden lg:block -top-5 lg:-top-10 right-5 "
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
-      alt="design1.png" />
+      alt="design1.png" /> -->
 
     <div class>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
@@ -409,7 +409,7 @@
   </div>
 
 </div>
-<div class="bg-secondary-medium">
+<!-- <div class="bg-secondary-medium">
   <div class="relative">
     <img class=" hidden lg:block absolute left-1 lg:left-2 xl:left-5 top-5"
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALISURBVHgB7drRTRQBGEbRGSrgxdiNlqIdiBWIFQgdSClgOZhABY4DosmGu6xilplNzkk2G0d/XyY30fCNw2y6/vZpGKeT4f4Xw9fx1ZuPw19wt6e7aTgeeHnjcPv7fY3T9dWX+dHJxh/4MX0eX789fervcPcCdyxjfl9H89f7R79xNH7Yfe1u73csY35fRwPwyBzGdP7o6TRd7D51t/c7ljG/r/H++/rybP569/D4fHz19L+H/9y729Pd6D/fi5huh394XwAAAAAAAEt4+AGfteuq7qxrl2Fda13LE6xrV37HMqxroVnXrvmOZVjXrvXOunYZ1rUAAAAAAMCBuFt1Tt+vbu4/v8Zse72DtXvxdS0cgiXWtbB61rUQFljXwoG4W3XOn5uHz+m+7wAAAAAAAID/YF0Lm6xrIVjXQrCuhWBdC9tY1wIAAAAAAMABsa6FTda1EKxrIVjXQrCuhW2sawEAAAAAAOCAWNfCJutaCNa1EKxrIVjXwjbWtQAAAAAAAHBArGthk3UtBOtaCNa1EKxrYRvrWgAAAAAAADgg1rWwyboWgnUthLswjuP58bDbc+9g9czOIQgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAg3IVxG89vh92eewerN4cxnT96Ok0Xu0+fewcHYrq+PJs/Nw+f033fwdr9BN3FYkBvUF3mAAAAAElFTkSuQmCC"
@@ -523,8 +523,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="container py-[70px] xl:py-[100px]">
+</div> -->
+<!-- <div class="container py-[70px] xl:py-[100px]">
   <div class="relative">
     <div class="flex flex-col gap-10 sm:gap-[50px] xl:gap-[70px]">
       <div
@@ -838,7 +838,7 @@
     </div>
   </div>
 
-</div>
+</div> -->
 
 <?php include "includes/footer.php"?>
 

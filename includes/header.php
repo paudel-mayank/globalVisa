@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
 
-    <title><?php echo isset($pageTitle) ?"$pageTitle | Visa Ghar" :'My Website'; ?></title>
+    <title><?php echo isset($pageTitle) ?"$pageTitle | The Visa Ghar" :'My Website'; ?></title>
     <meta name="Visa Ghar" name="<?php echo $pageDescription ?? ''; ?>">
 
     <!-- <title> Home | Visa Ghar</title>
@@ -16,7 +16,7 @@
     <meta content="override" name="Visa Ghar" />
     <!-- favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/favicon-c6ec6d03.png" />
+    <link rel="shortcut icon" href="assets/V.png" />
     
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
@@ -25,15 +25,15 @@
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css" />
 
     <!-- aos  -->
-    <link rel="stylesheet" href="unpkg.com/aos%403.0.0-beta.6/dist/aos.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <!-- icon css -->
 
     <!-- Tailwind CSS -->
 
-    <script type="module" crossorigin src="js/main-e360c183.js"></script>
+    <script type="module" crossorigin src="js/main.js"></script>
     <link rel="stylesheet" href="css/main-e60a8ff7.css">
     <link rel="stylesheet" href="css/icons-c6274531.css">
-    <link rel="stylesheet" href="css/tailwind-55c03347.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="overflow-x-hidden">
@@ -80,7 +80,7 @@
 
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
-                            <a href="contact.php"
+                            <a href="testimonials.php"
                                 class="text-subtitle2 font-subtitle2 text-secondary-medium group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Success Story </a>
                         </div>
@@ -154,14 +154,14 @@
                 </div>
                 <div class="relative w-full">
                     <div class="flex group justify-between items-center">
-                        <a href="service.php"
+                        <a href="coaching.php"
                             class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
                             Test Preparation </a>
                     </div>
                 </div>
                 <div class="relative w-full">
                     <div class="flex group justify-between items-center">
-                        <a href="service.php"
+                        <a href="testimonials.php"
                             class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
                             Success Story </a>
                     </div>
@@ -169,9 +169,17 @@
 
                 <div class="relative w-full">
                     <div class="flex group justify-between items-center">
-                        <a href="contact.php"
+                        <a href="faq.php"
                             class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
                             FAQ </a>
+                    </div>
+                </div>
+
+                <div class="relative w-full">
+                    <div class="flex group justify-between items-center">
+                        <a href="blog.php"
+                            class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
+                            Blogs </a>
                     </div>
                 </div>
 
