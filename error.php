@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth" data-mode="light" dir="ltr">
 
-<!-- Mirrored from globelvisa-html.vercel.app/error.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:10 GMT -->
+<!-- Mirrored from globelvisa-html.vercel.app/error.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:10 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
@@ -52,7 +52,7 @@
 
       <div class="flex justify-center items-center">
         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-          href="home.html">Back To Home</a>
+          href=" index.php">Back To Home</a>
       </div>
     </div>
 
@@ -66,6 +66,6 @@
   </button>
 </body>
 
-<!-- Mirrored from globelvisa-html.vercel.app/error.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:11 GMT -->
+<!-- Mirrored from globelvisa-html.vercel.app/error.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:11 GMT -->
 
 </html>

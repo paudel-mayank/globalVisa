@@ -788,7 +788,7 @@ function oe(i) {
     && Object.prototype.toString.call(i).slice(8, -1) === "Object";
 }
 function it(i) {
-  return typeof window < "u" && typeof window.HTMLElement < "u"
+  return typeof window < "u" && typeof window.phpElement < "u"
     ? i instanceof HTMLElement
     : i && (i.nodeType === 1 || i.nodeType === 11);
 }
