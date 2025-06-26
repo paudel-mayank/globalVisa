@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicon-c6ec6d03.png" />
     
-    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
 
     <!-- swiper  -->

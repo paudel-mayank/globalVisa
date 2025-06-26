@@ -3,6 +3,31 @@
   $pageDescription = "About Visa ghar";
   include 'includes/header.php';
   ?>
+  <div class="max-w-full overflow-hidden relative  h-full bg-cover bg-center bg-no-repeat   "
+    style="background-image: url('assets/allBackground-8d35f342.png');">
+
+    <img class=" hidden lg:block absolute right-5 top-[100PX]"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALRSURBVHgB7drRbdpQGIbhYyZIL1C3SUdpNmg6QekEDRs0oyQdh0owQU8dirhwPqUWBGNbzyNRFMR/U/JKifI1pVU3v76Vpt6XWm4Kw2vKrv2//9ksb7/2efvx89p/4e4Sd03dPP9ov7wvXN+f+r35+Gn11lvi5+Xu3e8W7dNdYRwWzZce77pzd/m7RQFeacOo68I41PrY401rd5e/a/bPm6eH9ulz+1ugX76vou7af9bN8u2fh4/vPn5ee+6udAcAAAAAAHANhz/wWddelXXt6O6sa8fE2tW6lsDadTR31rUQWNeOibXraO6sa0fBunaKdwAAAAAAAMAZXlay9ffzdv/4Nw48+a4pMAPvvsotMAPtN/i2fepOmnbN8vbDKXfWtRAIg5kYepULE/Gykm0f28Njdek7AAAAAAAA4AzWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS1kNz1f63UnDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBjMxa7na73uhMFM1PXrl+pj+a9T72Ai6ubpoX1sD4/VOXd/AaY9jPpdnCdEAAAAAElFTkSuQmCC"
+      alt="right" />
+    <div class="container  pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
+
+      <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
+        class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
+        <h1>Blog</h1>
+        <div
+          class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
+          <a href=" index.php" class="leading-none"><i
+              class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
+          <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
+          <a href="#"
+            class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Blog</a>
+          <img class="hidden" src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
+          <a href="#"
+            class="hidden sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear"></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
   <div class="relative w-full h-full">
@@ -833,7 +858,7 @@
 <script src="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
 
 <!-- aos  -->
-<script src="unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+<script src="js/aos.js"></script>
 
 </body>
 

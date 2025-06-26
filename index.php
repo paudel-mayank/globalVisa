@@ -1644,7 +1644,7 @@ include 'includes/header.php';
 <script src="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
 
 <!-- aos  -->
-<script src="unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+<script src="js/aos.js"></script>
 
 </body>
 
