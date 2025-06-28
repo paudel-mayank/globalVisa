@@ -899,7 +899,7 @@ include 'includes/header.php';
             $images = array_merge($images, $images, $images);
 
             foreach ($images as $img) {
-                echo '<div class="swiper-slide" style="flex: 0 0 auto; width: 150px; height: 100px; display: flex; justify-content: center; align-items: center; padding: 10px;">
+                echo '<div class="swiper-slide" style="flex: 0 0 auto; width: 150px; height: 180px; display: flex; justify-content: center; align-items: center; padding: 10px;">
                     <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
                     </div>';
             }
