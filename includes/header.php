@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8" />
 
-    <title><?php echo isset($pageTitle) ?"$pageTitle | The Visa Ghar" :'My Website'; ?></title>
+    <title><?php echo isset($pageTitle) ? "$pageTitle | The Visa Ghar" : 'My Website'; ?></title>
     <meta name="Visa Ghar" name="<?php echo $pageDescription ?? ''; ?>">
 
     <!-- <title> Home | Visa Ghar</title>
@@ -17,7 +17,7 @@
     <!-- favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/V.png" />
-    
+
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
 
@@ -205,7 +205,7 @@
             </div>
         </div>
     </div>
-
+    <!-- 
     <div
         class="loader fixed top-0 left-0 w-full h-full flex items-center justify-center z-[9999] bg-white bg-opacity-50 backdrop-blur-[50px]">
         <div class="spinner">
@@ -215,4 +215,4 @@
             <div class="dot"></div>
             <div class="dot"></div>
         </div>
-    </div>
+    </div> -->
