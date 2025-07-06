@@ -3556,7 +3556,7 @@ new D(".homeSlider", {
 });
 new Swiper(".universitySlider", {
   spaceBetween: 40,
-  speed: 800,
+  speed: 1100,
   loop: true,
   autoplay: { delay: 100, disableOnInteraction: false },
   slidesPerView: 6,

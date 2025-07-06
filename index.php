@@ -11,7 +11,7 @@ include 'includes/header.php';
             <div class="container">
                 <div data-aos="fade-right" data-aos-duration="700"
                     class="flex max-w-[500px] xl:max-w-[585px] mx-auto 
-                                                lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10">
+                                                    lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10">
                     <div class="flex flex-col gap-5 sm:gap-[30px]">
                         <div class="flex flex-col gap-5">
                             <div class="flex justify-center lg:justify-start items-center lg:items-start gap-2">
@@ -45,20 +45,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                        text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 
-                                                        font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                        rounded-[20px] border-[2px] border-primary-white 
-                                                        text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 
+                                                            font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                            rounded-[20px] border-[2px] border-primary-white 
+                                                            text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                        px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                        sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                        border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                            sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                            border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="#contact">
                             Apply Now</a>
                     </div>
@@ -66,7 +66,7 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center 
-                                    " style="background-image: url('assets/slide2-f9945d95.png');">
+                                        " style="background-image: url('assets/slide2-f9945d95.png');">
             <div class="container">
                 <div data-aos="fade-right" data-aos-duration="700"
                     class="flex max-w-[500px] xl:max-w-[585px] mx-auto lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10">
@@ -102,20 +102,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                        text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 
-                                                        font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                        rounded-[20px] border-[2px] border-primary-white 
-                                                        text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 
+                                                            font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                            rounded-[20px] border-[2px] border-primary-white 
+                                                            text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                        px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                        sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                        border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                            sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                            border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="  ">
                             Apply Now</a>
                     </div>
@@ -159,20 +159,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                        text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 
-                                                        font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                        rounded-[20px] border-[2px] border-primary-white 
-                                                        text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 
+                                                            font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                            rounded-[20px] border-[2px] border-primary-white 
+                                                            text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                        px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                        sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                        sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                        border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                        hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                            px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                            sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                            sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                            border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                            hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="  ">
                             Apply Now</a>
                     </div>
@@ -187,13 +187,6 @@ include 'includes/header.php';
 
 <div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
     <div class="relative w-full h-full">
-        <!-- <img class=" absolute hidden lg:block top-0 left-5 "
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAADGCAYAAADSf6ApAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD1SURBVHgB7ZrBDYJAEEVnqMCS5Kr2INKAWIFagdIA0R7Uq9oRHawrxsSQBTYuJiS+dwEm818IIf+0Kpb7JF0blUxeHMbnYiUeuHJ6m6Y7+5B9Lhoj2/hSbNpkTbnIXpP6sqospZvElYukZyL7mnl9aIw5dgWbcvq8uc4WezUyr4aqeXxq/35vvs0B/Jrqx6ZtgqBtAHygbcKhbQB8oG3CoW0AfKBtwqFtAHygbcKhbQB8oG3CoW0AfPjTthk5ll0zn51R//UlPYMQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEAxWWjnkp3Thzwz8r8gD5pKRM4xUsvwAAAABJRU5ErkJggg=="
-                            alt="design1.png" />
-                        <img class="absolute hidden lg:block -top-5 lg:-top-10 right-5 "
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
-                            alt="design1.png" /> -->
-
         <div class>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
                 <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
@@ -215,7 +208,7 @@ include 'includes/header.php';
                                             Stress-Free Visa
                                             Assistance
                                             <!-- <span class="text-primary-light">Visa
-                                                                    Assistance.</span> -->
+                                                                        Assistance.</span> -->
                                         </h2>
                                         <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
                                     </div>
@@ -275,184 +268,182 @@ include 'includes/header.php';
             </div>
         </div>
     </div>
-    <div class="flex flex-col gap-[40px] sm:gap-[50px] container">
-        <div data-aos="fade-down" data-aos-duration="700"
-            class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
-            <div class="flex flex-col gap-[15px] xl:gap-5">
-                <div class="flex justify-center items-center gap-2">
-                    <i
-                        class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
-                    <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
-                        Our Services
-                    </p>
+    <!-- <div class="flex flex-col gap-[40px] sm:gap-[50px] container">
+            <div data-aos="fade-down" data-aos-duration="700"
+                class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
+                <div class="flex flex-col gap-[15px] xl:gap-5">
+                    <div class="flex justify-center items-center gap-2">
+                        <i
+                            class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
+                        <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
+                            Our Services
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[9px]">
+                        <h2 class="text-primary-dark text-center">
+                            Your Trusted
+                            Partner for
+                            Smooth
+                            Visa Processing.
+                        </h2>
+                        <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                    </div>
                 </div>
-                <div class="flex flex-col gap-[9px]">
-                    <h2 class="text-primary-dark text-center">
-                        Your Trusted
-                        <!-- <span class="text-primary-light">Trusted</span> -->
-                        Partner for
-                        Smooth
-                        <!-- <span class="text-primary-light">Smooth</span> -->
-                        Visa Processing.
-                    </h2>
-                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-                </div>
+                <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
+                    Lorem ipsum dolor sit amet consectetur.
+                    Elementum
+                    massa
+                    risus euismod
+                    semper fringilla tristique viverra urna metus.
+                </p>
             </div>
-            <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
-                Lorem ipsum dolor sit amet consectetur.
-                Elementum
-                massa
-                risus euismod
-                semper fringilla tristique viverra urna metus.
-            </p>
-        </div>
 
-        <div data-aos="fade-up" data-aos-duration="700" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
-                <img class="w-full" src="assets/img1-cbb28be8.png" alt="img1.png" />
-                <div class="w-full h-full absolute
-                                            top-0 opacity-0 group-hover:opacity-100 transition-all 
-                                            duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] 
-                                            px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex
-                                            
-                                            flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2
-                                            border-x-2 border-b-[10px]
-                                            border-primary-light
-                                                rounded-[20px]">
-                    <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i>
-                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                            <div class="flex flex-col xl:gap-[6px]">
-                                <h4 class="text-primary-dark font-semibold">Student
-                                    Visa</h4>
-                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+            <div data-aos="fade-up" data-aos-duration="700" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                    <img class="w-full" src="assets/img1-cbb28be8.png" alt="img1.png" />
+                    <div class="w-full h-full absolute
+                                                top-0 opacity-0 group-hover:opacity-100 transition-all 
+                                                duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] 
+                                                px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex
+                                                
+                                                flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2
+                                                border-x-2 border-b-[10px]
+                                                border-primary-light
+                                                    rounded-[20px]">
+                        <i
+                            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i>
+                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                                <div class="flex flex-col xl:gap-[6px]">
+                                    <h4 class="text-primary-dark font-semibold">Student
+                                        Visa</h4>
+                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                                </div>
+                                <p
+                                    class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                                    $
+                                    <span
+                                        class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
+                                </p>
                             </div>
                             <p
-                                class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                                $
-                                <span
-                                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
+                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                                Lorem ipsum dolor sit amet
+                                consectetur.
+                                Risus interdum vitae mattis
+                                nibh. Orci nisl sagittis augue nibh
+                                tempus
+                                nulla elementum id nunc.
+                                Interdum sit blandit sed eu dolor.
+                                Pharetra
+                                semper posuere dui at ut
+                                molestie tempus. Tempor risus
+                                iaculis
+                                lectus
+                                lacus amet dolor
                             </p>
+                            <a href="service.php"><i
+                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
                         </div>
-                        <p
-                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                            Lorem ipsum dolor sit amet
-                            consectetur.
-                            Risus interdum vitae mattis
-                            nibh. Orci nisl sagittis augue nibh
-                            tempus
-                            nulla elementum id nunc.
-                            Interdum sit blandit sed eu dolor.
-                            Pharetra
-                            semper posuere dui at ut
-                            molestie tempus. Tempor risus
-                            iaculis
-                            lectus
-                            lacus amet dolor
-                        </p>
-                        <a href="service.php"><i
-                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                    </div>
+                </div>
+                <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                    <img class="w-full" src="assets/img2-b2148f00.png" alt="img2.png" />
+                    <div
+                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                        <i
+                            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i>
+                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                                <div class="flex flex-col xl:gap-[6px]">
+                                    <h4 class="text-primary-dark font-semibold">Work
+                                        Visa</h4>
+                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                                </div>
+                                <p
+                                    class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                                    $
+                                    <span
+                                        class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
+                                </p>
+                            </div>
+                            <p
+                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                                Lorem ipsum dolor sit amet
+                                consectetur.
+                                Risus interdum vitae mattis
+                                nibh. Orci nisl sagittis augue nibh
+                                tempus
+                                nulla elementum id nunc.
+                                Interdum sit blandit sed eu dolor.
+                                Pharetra
+                                semper posuere dui at ut
+                                molestie tempus. Tempor risus
+                                iaculis
+                                lectus
+                                lacus amet dolor
+                            </p>
+                            <a href="service.php"><i
+                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                    <img class="w-full" src="assets/img3-3b89a210.png" alt="img3.png" />
+                    <div
+                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                        <i
+                            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i>
+                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                                <div class="flex flex-col xl:gap-[6px]">
+                                    <h4 class="text-primary-dark font-semibold">
+                                        Tourist & Guest Visa
+                                    </h4>
+                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                                </div>
+                                <p
+                                    class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                                    $
+                                    <span
+                                        class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
+                                </p>
+                            </div>
+                            <p
+                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                                Lorem ipsum dolor sit amet
+                                consectetur.
+                                Risus interdum vitae mattis
+                                nibh. Orci nisl sagittis augue nibh
+                                tempus
+                                nulla elementum id nunc.
+                                Interdum sit blandit sed eu dolor.
+                                Pharetra
+                                semper posuere dui at ut
+                                molestie tempus. Tempor risus
+                                iaculis
+                                lectus
+                                lacus amet dolor
+                            </p>
+                            <a href="service.php"><i
+                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
-                <img class="w-full" src="assets/img2-b2148f00.png" alt="img2.png" />
-                <div
-                    class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                    <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i>
-                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                            <div class="flex flex-col xl:gap-[6px]">
-                                <h4 class="text-primary-dark font-semibold">Work
-                                    Visa</h4>
-                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                            </div>
-                            <p
-                                class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                                $
-                                <span
-                                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
-                            </p>
-                        </div>
-                        <p
-                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                            Lorem ipsum dolor sit amet
-                            consectetur.
-                            Risus interdum vitae mattis
-                            nibh. Orci nisl sagittis augue nibh
-                            tempus
-                            nulla elementum id nunc.
-                            Interdum sit blandit sed eu dolor.
-                            Pharetra
-                            semper posuere dui at ut
-                            molestie tempus. Tempor risus
-                            iaculis
-                            lectus
-                            lacus amet dolor
-                        </p>
-                        <a href="service.php"><i
-                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
-                <img class="w-full" src="assets/img3-3b89a210.png" alt="img3.png" />
-                <div
-                    class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                    <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i>
-                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                            <div class="flex flex-col xl:gap-[6px]">
-                                <h4 class="text-primary-dark font-semibold">
-                                    Tourist & Guest Visa
-                                </h4>
-                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                            </div>
-                            <p
-                                class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                                $
-                                <span
-                                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                            </p>
-                        </div>
-                        <p
-                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                            Lorem ipsum dolor sit amet
-                            consectetur.
-                            Risus interdum vitae mattis
-                            nibh. Orci nisl sagittis augue nibh
-                            tempus
-                            nulla elementum id nunc.
-                            Interdum sit blandit sed eu dolor.
-                            Pharetra
-                            semper posuere dui at ut
-                            molestie tempus. Tempor risus
-                            iaculis
-                            lectus
-                            lacus amet dolor
-                        </p>
-                        <a href="service.php"><i
-                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div data-aos="zoom-in" data-aos-duration="700" class="flex justify-center items-center">
-            <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-                href="service.php">More Visa Services</a>
-        </div>
-    </div>
+            <div data-aos="zoom-in" data-aos-duration="700" class="flex justify-center items-center">
+                <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
+                    href="service.php">More Visa Services</a>
+            </div>
+        </div> -->
     <div class=" relative w-full h-full flex flex-col gap-[70px] ">
         <!-- <img class="absolute hidden lg:block top-0 left-5   "
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAADGCAYAAADSf6ApAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD1SURBVHgB7ZrBDYJAEEVnqMCS5Kr2INKAWIFagdIA0R7Uq9oRHawrxsSQBTYuJiS+dwEm818IIf+0Kpb7JF0blUxeHMbnYiUeuHJ6m6Y7+5B9Lhoj2/hSbNpkTbnIXpP6sqospZvElYukZyL7mnl9aIw5dgWbcvq8uc4WezUyr4aqeXxq/35vvs0B/Jrqx6ZtgqBtAHygbcKhbQB8oG3CoW0AfKBtwqFtAHygbcKhbQB8oG3CoW0AfPjTthk5ll0zn51R//UlPYMQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEAxWWjnkp3Thzwz8r8gD5pKRM4xUsvwAAAABJRU5ErkJggg=="
-                            alt="design1.png" />
-                        <img class=" absolute hidden lg:block  -top-5 lg:-top-10    right-5 "
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
-                            alt="design1.png" /> -->
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAADGCAYAAADSf6ApAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD1SURBVHgB7ZrBDYJAEEVnqMCS5Kr2INKAWIFagdIA0R7Uq9oRHawrxsSQBTYuJiS+dwEm818IIf+0Kpb7JF0blUxeHMbnYiUeuHJ6m6Y7+5B9Lhoj2/hSbNpkTbnIXpP6sqospZvElYukZyL7mnl9aIw5dgWbcvq8uc4WezUyr4aqeXxq/35vvs0B/Jrqx6ZtgqBtAHygbcKhbQB8oG3CoW0AfKBtwqFtAHygbcKhbQB8oG3CoW0AfPjTthk5ll0zn51R//UlPYMQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEAxWWjnkp3Thzwz8r8gD5pKRM4xUsvwAAAABJRU5ErkJggg=="
+                                alt="design1.png" />
+                            <img class=" absolute hidden lg:block  -top-5 lg:-top-10    right-5 "
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
+                                alt="design1.png" /> -->
 
         <div class="container">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -461,7 +452,7 @@ include 'includes/header.php';
                     <div
                         class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[60px] sm:bottom-[121px] left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
                         <p class="text-[35px] leading-10 sm:leading-[74px] sm:text-[56px] 
-                                            text-center font-bold">
+                                                text-center font-bold">
                             40+
                         </p>
                         <p class="sm:leading-[26px] sm:text-[20px] text-center">
@@ -493,7 +484,7 @@ include 'includes/header.php';
                                     Effortless
                                     Visa Processing, Exceptional
                                     <!-- <span class="text-primary-light">
-                                                            Exceptional</span> -->
+                                                                Exceptional</span> -->
                                     Service.
                                 </h2>
                                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
@@ -513,9 +504,9 @@ include 'includes/header.php';
                             <img class="size-[40px] sm:size-[50px] xl:size-[70px]" src="assets/choose1-59b164c9.svg"
                                 alt="choose1.svg" />
                             <!-- <div class=" size-[80px] bg-secondary-medium sm:gap-[15px] xl:gap-5 ">
-                                                    <i class="ri-search-eye-line  
-                                                        text-[48px] xl:text-[58px] " />
-                                                </div> -->
+                                                        <i class="ri-search-eye-line  
+                                                            text-[48px] xl:text-[58px] " />
+                                                    </div> -->
                             <div class="flex flex-col gap-[5px] xl:gap-[10px]">
                                 <div class="flex flex-col gap-[5px]">
                                     <h5 class="text-primary-dark">Virtual
@@ -591,13 +582,13 @@ include 'includes/header.php';
                 class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
                 <div class="flex justify-center items-center gap-5">
                     <i class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
-                                            ri-exchange-dollar-fill"></i>
+                                                ri-exchange-dollar-fill"></i>
                     <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                         40+
                     </h1>
                 </div>
                 <h6 class="text-primary-dark group-hover:text-white transition-all duration-300
-                                        ease-in font-semibold text-center">
+                                            ease-in font-semibold text-center">
                     Countries we offer
                 </h6>
             </div>
@@ -681,7 +672,7 @@ include 'includes/header.php';
                             Countries
                             Eligible
                             <!-- <span class="text-primary-light">Countries
-                                                    Eligible</span> -->
+                                                        Eligible</span> -->
                             for Our Immigration Services
                         </h2>
                         <img class="max-w-full" src="assets/lineC-45a5ef51.svg" alt="lineC.svg" />
@@ -900,8 +891,8 @@ include 'includes/header.php';
 
             foreach ($images as $img) {
                 echo '<div class="swiper-slide" style="flex: 0 0 auto; width: 150px; height: 180px; display: flex; justify-content: center; align-items: center; padding: 10px;">
-                    <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
-                    </div>';
+                        <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
+                        </div>';
             }
             ?>
         </div>
@@ -1310,9 +1301,9 @@ include 'includes/header.php';
                         <div class="flex flex-col gap-[9px]">
                             <h2 class="text-primary-dark">
                                 Have any
-                                <span class="text-primary-light">Inquiries?</span>
+                                Inquiries?
                                 Contact us
-                                <span class="text-primary-light">Anytime!</span>
+                                Anytime!
                             </h2>
                             <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
                         </div>
@@ -1328,31 +1319,15 @@ include 'includes/header.php';
                         placeholder="Your Full Name" type="text" />
                     <input required
                         class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
-                        placeholder="Email Address" type="text" />
-                    <select id="cars"
-                        class="text-textColor-dark focus:outline-none border border-primary-light rounded-[10px] py-[10px] px-5">
-                        <option class="text-textColor-dark" value="volvo">
-                            Service
-                        </option>
-                        <option class="text-textColor-dark" value="saab">
-                            India
-                        </option>
-                        <option class="text-textColor-dark" value="opel">
-                            United Kingdom
-                        </option>
-                        <option class="text-textColor-dark" value="audi">
-                            United States
-                        </option>
-                        <option class="text-textColor-dark" value="audi">
-                            Dubai
-                        </option>
-                        <option class="text-textColor-dark" value="audi">
-                            Australia
-                        </option>
-                        <option class="text-textColor-dark" value="audi">
-                            Russia
-                        </option>
-                    </select>
+                        placeholder="Email Address" type="email" />
+                    <input required
+                        class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
+                        placeholder="Contact Number" type="text" />
+                    <input required
+                        class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
+                        placeholder="Subject" type="text" />
+
+
                     <textarea required placeholder="Your Message"
                         class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-body1 placeholder:text-textColor-dark focus:outline-none"></textarea>
                     <div>

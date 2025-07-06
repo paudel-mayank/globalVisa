@@ -74,30 +74,37 @@ include 'includes/header.php';
             <input required
               class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
               placeholder="Email Address" type="text" />
-            <select id="cars"
-              class="text-textColor-dark focus:outline-none border border-primary-light rounded-[10px] py-[10px] px-5">
-              <option class="text-textColor-dark" value="volvo">
-                Service
-              </option>
-              <option class="text-textColor-dark" value="saab">
-                India
-              </option>
-              <option class="text-textColor-dark" value="opel">
-                United Kingdom
-              </option>
-              <option class="text-textColor-dark" value="audi">
-                United States
-              </option>
-              <option class="text-textColor-dark" value="audi">
-                Dubai
-              </option>
-              <option class="text-textColor-dark" value="audi">
-                Australia
-              </option>
-              <option class="text-textColor-dark" value="audi">
-                Russia
-              </option>
-            </select>
+            <input required
+              class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
+              placeholder="Contact Number" type="text" />
+            <input required
+              class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
+              placeholder="Subject" type="text" />
+
+            <!-- <select id="cars"
+                        class="text-textColor-dark focus:outline-none border border-primary-light rounded-[10px] py-[10px] px-5">
+                        <option class="text-textColor-dark" value="volvo">
+                            Service
+                        </option>
+                        <option class="text-textColor-dark" value="saab">
+                            India
+                        </option>
+                        <option class="text-textColor-dark" value="opel">
+                            United Kingdom
+                        </option>
+                        <option class="text-textColor-dark" value="audi">
+                            United States
+                        </option>
+                        <option class="text-textColor-dark" value="audi">
+                            Dubai
+                        </option>
+                        <option class="text-textColor-dark" value="audi">
+                            Australia
+                        </option>
+                        <option class="text-textColor-dark" value="audi">
+                            Russia
+                        </option>
+                    </select> -->
             <textarea required placeholder="Your Message"
               class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-body1 placeholder:text-textColor-dark focus:outline-none"></textarea>
             <div>
