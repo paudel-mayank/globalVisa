@@ -29,7 +29,7 @@ include 'includes/header.php';
   <div class="relative w-full h-full">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
       <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
-        data-aos-duration="700">
+        data-aos-duration="700" id="text-column">
         <div class="flex flex-col gap-[15px] xl:gap-10">
           <div class="flex flex-col gap-[15px] xl:gap-[30px]">
             <div class="flex flex-col gap-[15px] xl:gap-[30px]">
@@ -100,7 +100,7 @@ include 'includes/header.php';
           </div>
         </div>
       </div>
-      <div data-aos="fade-left" data-aos-duration="700">
+      <div data-aos="fade-left" data-aos-duration="700" id="image-column">
 
 
         <img src="assets/about1-2e92feb2.png" class="w-full" alt />

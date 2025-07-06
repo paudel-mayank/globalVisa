@@ -3616,3 +3616,27 @@ Ee && (window.onscroll = function() {
   window.goToTop = function() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+   function equalizeHeights() {
+        const textColumn = document.getElementById('text-column');
+        const imageColumn = document.getElementById('image-column');
+
+        // Reset heights
+        textColumn.style.height = 'auto';
+        imageColumn.style.height = 'auto';
+
+        // Only apply equal heights on large screens
+        if (window.innerWidth >= 1024) {
+            const textHeight = textColumn.offsetHeight;
+            const imageHeight = imageColumn.offsetHeight;
+            const maxHeight = Math.min(textHeight, imageHeight);
+
+            textColumn.style.height = maxHeight + 'px';
+            imageColumn.style.height = maxHeight + 'px';
+        }
+    }
+
+    // Run on page load
+    window.addEventListener('load', equalizeHeights);
+
+    // Run on window resize
+    window.addEventListener('resize', equalizeHeights);

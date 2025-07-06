@@ -187,9 +187,9 @@ include 'includes/header.php';
 <div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
     <div class="relative w-full h-full">
         <div class>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
-                <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
-                    data-aos-duration="700">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start container">
+                <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" id="text-column"
+                    data-aos="fade-right" data-aos-duration="700">
                     <div class="flex flex-col gap-[15px] xl:gap-10">
                         <div class="flex flex-col gap-[15px] xl:gap-[30px]">
                             <div class="flex flex-col gap-[15px] xl:gap-[30px]">
@@ -261,8 +261,10 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="700">
-                    <img src="assets/about1-2e92feb2.png" class="w-full" alt />
+                <div class="image-column" id="image-column" data-aos="fade-left" data-aos-duration="700">
+                    <div class="h-full  ">
+                        <img src="assets/a.jpg" class="h-full w-full object-cover " alt="About Image" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -436,38 +438,32 @@ include 'includes/header.php';
                     href="service.php">More Visa Services</a>
             </div>
         </div> -->
-    <div class=" relative w-full h-full flex flex-col gap-[70px] ">
-        <!-- <img class="absolute hidden lg:block top-0 left-5   "
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAADGCAYAAADSf6ApAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAD1SURBVHgB7ZrBDYJAEEVnqMCS5Kr2INKAWIFagdIA0R7Uq9oRHawrxsSQBTYuJiS+dwEm818IIf+0Kpb7JF0blUxeHMbnYiUeuHJ6m6Y7+5B9Lhoj2/hSbNpkTbnIXpP6sqospZvElYukZyL7mnl9aIw5dgWbcvq8uc4WezUyr4aqeXxq/35vvs0B/Jrqx6ZtgqBtAHygbcKhbQB8oG3CoW0AfKBtwqFtAHygbcKhbQB8oG3CoW0AfPjTthk5ll0zn51R//UlPYMQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKEAxWWjnkp3Thzwz8r8gD5pKRM4xUsvwAAAABJRU5ErkJggg=="
-                                alt="design1.png" />
-                            <img class=" absolute hidden lg:block  -top-5 lg:-top-10    right-5 "
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
-                                alt="design1.png" /> -->
-
-        <div class="container">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-                <div data-aos="fade-right" data-aos-duration="700" class="relative">
-                    <img class="w-full relative" src="assets/chooseImg-2bd4b929.png" alt="chooseImg" />
-                    <div
-                        class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[60px] sm:bottom-[121px] left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
-                        <p class="text-[35px] leading-10 sm:leading-[74px] sm:text-[56px] 
+    <div class=" relative w-full h-full flex flex-col gap-[70px]  container">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div data-aos="fade-right" data-aos-duration="700" class="relative" id='image-column'>
+                <img class="w-full relative" src="assets/a.jpg" alt="chooseImg" />
+                <div
+                    class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[60px] sm:bottom-[130px] 
+                        left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
+                    <p class="text-[35px] leading-10 sm:leading-[74px] sm:text-[56px] 
                                                 text-center font-bold">
-                            40+
-                        </p>
-                        <p class="sm:leading-[26px] sm:text-[20px] text-center">
-                            Countries we offer
-                        </p>
-                        <img class="max-w-full" src="assets/LineD-55c746e6.svg" alt="LineD.svg" />
-                        <div class="flex justify-center items-center">
-                            <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
-                            <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
-                            <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
-                            <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
-                            <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
-                        </div>
+                        40+
+                    </p>
+                    <p class="sm:leading-[26px] sm:text-[20px] text-center">
+                        Countries we offer
+                    </p>
+                    <img class="max-w-full" src="assets/LineD-55c746e6.svg" alt="LineD.svg" />
+                    <div class="flex justify-center items-center">
+                        <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
+                        <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
+                        <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
+                        <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
+                        <i class="text-[15px] leading-[15px] ri-star-s-fill"></i>
                     </div>
                 </div>
-                <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-5 xl:gap-10 pt-1">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="700" id="text-column">
+                <div class="flex flex-col gap-5 xl:gap-10 pt-1">
                     <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
                         <div class="flex flex-col gap-[15px] xl:gap-5">
                             <div class="flex justify-center lg:justify-start items-center lg:items-start gap-2">
@@ -575,66 +571,67 @@ include 'includes/header.php';
                 </div>
             </div>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="700"
-            class="grid grid-cols-1 min-[530px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 container">
-            <div
-                class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
-                <div class="flex justify-center items-center gap-5">
-                    <i class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="700"
+        class="grid grid-cols-1 min-[530px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 container">
+        <div
+            class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
+            <div class="flex justify-center items-center gap-5">
+                <i class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
                                                 ri-exchange-dollar-fill"></i>
-                    <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
-                        40+
-                    </h1>
-                </div>
-                <h6 class="text-primary-dark group-hover:text-white transition-all duration-300
+                <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
+                    40+
+                </h1>
+            </div>
+            <h6 class="text-primary-dark group-hover:text-white transition-all duration-300
                                             ease-in font-semibold text-center">
-                    Countries we offer
-                </h6>
+                Countries we offer
+            </h6>
+        </div>
+        <div
+            class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
+            <div class="flex justify-center items-center gap-5">
+                <i
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-passport-line"></i>
+                <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
+                    500+
+                </h1>
             </div>
-            <div
-                class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
-                <div class="flex justify-center items-center gap-5">
-                    <i
-                        class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-passport-line"></i>
-                    <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
-                        500+
-                    </h1>
-                </div>
-                <h6
-                    class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
-                    Visa and passport issued.
-                </h6>
+            <h6
+                class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
+                Visa and passport issued.
+            </h6>
+        </div>
+        <div
+            class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
+            <div class="flex justify-center items-center gap-5">
+                <i
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] fa-solid fa-piggy-bank"></i>
+                <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
+                    20M
+                </h1>
             </div>
-            <div
-                class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
-                <div class="flex justify-center items-center gap-5">
-                    <i
-                        class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] fa-solid fa-piggy-bank"></i>
-                    <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
-                        20M
-                    </h1>
-                </div>
-                <h6
-                    class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
-                    Yearly income earned.
-                </h6>
+            <h6
+                class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
+                Yearly income earned.
+            </h6>
+        </div>
+        <div
+            class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
+            <div class="flex justify-center items-center gap-5">
+                <i
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-user-add-fill"></i>
+                <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
+                    5+
+                </h1>
             </div>
-            <div
-                class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
-                <div class="flex justify-center items-center gap-5">
-                    <i
-                        class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-user-add-fill"></i>
-                    <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
-                        5+
-                    </h1>
-                </div>
-                <h6
-                    class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
-                    Experience in visa service
-                </h6>
-            </div>
+            <h6
+                class="text-primary-dark group-hover:text-white transition-all duration-300 ease-in font-semibold text-center">
+                Experience in visa service
+            </h6>
         </div>
     </div>
+
 
 </div>
 
@@ -1365,7 +1362,9 @@ include 'includes/header.php';
 
 <!-- aos  -->
 <script src="js/aos.js"></script>
+<script src="js/image.js">
 
+</script>
 
 
 

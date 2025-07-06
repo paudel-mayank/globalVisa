@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Locations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-light': '#3B82F6',
+                        'primary-dark': '#1E40AF',
+                        'textColor-dark': '#374151'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 p-6">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8 text-primary-dark">Our Office Locations</h2>
+
+        <!-- Office Cards Container -->
+        <div class="flex flex-col gap-8">
+
+            <!-- Office 1 - Main Office -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+                    <!-- Left Side - Office Details -->
+                    <div class="p-8 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-bold text-primary-dark mb-2">Main Office</h3>
+                            <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Address -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-primary-light rounded-full">
+                                    <i class="ri-map-pin-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+                                    <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+                                    <p class="text-textColor-dark">Kathmandu, Nepal</p>
+                                </div>
+                            </div>
+
+                            <!-- Contact -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-primary-light rounded-full">
+                                    <i class="ri-phone-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+                                    <p class="text-textColor-dark">+977 9851338645</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-primary-light rounded-full">
+                                    <i class="ri-mail-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+                                    <p class="text-textColor-dark">info@thevisaghar.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Opening Hours -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-primary-light rounded-full">
+                                    <i class="ri-time-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+                                    <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+                                    <p class="text-textColor-dark">Saturday off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Map -->
+                    <div class="relative">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="w-full h-full min-h-[400px] object-cover">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office 2 - Branch Office -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+                    <!-- Left Side - Office Details -->
+                    <div class="p-8 flex flex-col justify-center bg-gradient-to-br from-green-50 to-white">
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-bold text-primary-dark mb-2">Branch Office</h3>
+                            <div class="w-16 h-1 bg-green-500 rounded-full"></div>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Address -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-green-500 rounded-full">
+                                    <i class="ri-map-pin-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+                                    <p class="text-textColor-dark">2nd Floor, City Mall</p>
+                                    <p class="text-textColor-dark">Thamel, Kathmandu, Nepal</p>
+                                </div>
+                            </div>
+
+                            <!-- Contact -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-green-500 rounded-full">
+                                    <i class="ri-phone-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+                                    <p class="text-textColor-dark">+977 9851338646</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-green-500 rounded-full">
+                                    <i class="ri-mail-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+                                    <p class="text-textColor-dark">thamel@thevisaghar.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Opening Hours -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-green-500 rounded-full">
+                                    <i class="ri-time-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+                                    <p class="text-textColor-dark">08:00 AM to 07:00 PM</p>
+                                    <p class="text-textColor-dark">Saturday off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Map -->
+                    <div class="relative">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.2542926550936!2d85.30827631558045!3d27.714558082795893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb196a842cc2a9%3A0x5c6aa7a86c6e3c7e!2sThamel%2C%20Kathmandu%2044600%2C%20Nepal!5e0!3m2!1sen!2snp!4v1735171234567!5m2!1sen!2snp"
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="w-full h-full min-h-[400px] object-cover">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office 3 - Regional Office -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+                    <!-- Left Side - Office Details -->
+                    <div class="p-8 flex flex-col justify-center bg-gradient-to-br from-purple-50 to-white">
+                        <div class="mb-6">
+                            <h3 class="text-2xl font-bold text-primary-dark mb-2">Regional Office</h3>
+                            <div class="w-16 h-1 bg-purple-500 rounded-full"></div>
+                        </div>
+
+                        <div class="space-y-6">
+                            <!-- Address -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-purple-500 rounded-full">
+                                    <i class="ri-map-pin-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+                                    <p class="text-textColor-dark">1st Floor, Business Hub</p>
+                                    <p class="text-textColor-dark">Pokhara, Nepal</p>
+                                </div>
+                            </div>
+
+                            <!-- Contact -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-purple-500 rounded-full">
+                                    <i class="ri-phone-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+                                    <p class="text-textColor-dark">+977 9851338647</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-purple-500 rounded-full">
+                                    <i class="ri-mail-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+                                    <p class="text-textColor-dark">pokhara@thevisaghar.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Opening Hours -->
+                            <div class="flex items-start gap-4">
+                                <div class="p-3 bg-purple-500 rounded-full">
+                                    <i class="ri-time-fill text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+                                    <p class="text-textColor-dark">09:00 AM to 05:00 PM</p>
+                                    <p class="text-textColor-dark">Saturday off</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side - Map -->
+                    <div class="relative">
+                        <iframe src="https://www.google.com/maps/embed?p
+                            />

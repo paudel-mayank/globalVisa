@@ -31,10 +31,8 @@ include 'includes/header.php';
 </div>
 
 <div class="relative w-full h-full  py-[70px] xl:py-[100px]">
-
-
-  <div class="overflow-hidden flex flex-col gap-[70px] xl:gap-[100px] container">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+  <div class="flex flex-col gap-[70px] xl:gap-[100px] container">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center" id="inquiry">
       <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
         data-aos-duration="700">
         <div class="flex flex-col gap-[15px] xl:gap-[30px]">
@@ -91,139 +89,212 @@ include 'includes/header.php';
       </div>
     </div>
 
-    <div data-aos="zoom-in-down" data-aos-duration="700"
-      class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[17px] items-center">
-      <div
-        class="p-[30px] h-[220px] group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] 
-          rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
 
-        <div class="flex flex-col gap-5">
-          <div class="flex flex-row gap-[5px] jsutify-start items-center">
-            <i
-              class="text-[40px] leading-[50px] text-primary-light ri-phone-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
-            <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
-              Contact us on
-            </h5>
-          </div>
-          <div class="relative w-full">
-            <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
-              class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+  </div>
+</div>
+<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container ">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+    <!-- Left Side - Office Details -->
+    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+      <div class="mb-6">
+        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Head Office</h3>
+        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+      </div>
 
-            <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
-              class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-            <!-- </div> -->
+      <div class="space-y-6">
+        <!-- Address -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
           </div>
           <div>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              + 977 9851338645 </h6>
-            <!-- <h6
-                class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                +1 781-294-6821
-              </h6> -->
+            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+            <p class="text-textColor-dark">Kathmandu, Nepal</p>
           </div>
         </div>
-      </div>
-      <div
-        class="p-[30px]   h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
 
-        <div class="flex flex-col gap-5">
-          <div class="flex flex-row gap-[5px] justify-start items-center">
-            <i
-              class="text-[40px] leading-[50px] text-primary-light ri-map-pin-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
-            <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
-              Location
-            </h5>
+        <!-- Contact -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-phone-fill text-primary-light text-xl"></i>
           </div>
-          <div class="relative w-full">
-            <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
-              class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-            <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
-              class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-          </div>
-          <!-- </div> -->
           <div>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              3rd Floor, Tamang Plaza, Boudha Pipalbot
-            </h6>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              Kathmandu, Nepal
-            </h6>
+            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+            <p class="text-textColor-dark">+977 9851338645</p>
           </div>
         </div>
-      </div>
-      <div
-        class="p-[30px]  h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
 
-        <div class="flex flex-col gap-5">
-          <div class="flex flex-row gap-[5px] justify-start items-center">
-            <i
-              class="text-[40px] leading-[50px] text-primary-light ri-mail-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
-            <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
-              Email
-            </h5>
-          </div>
-          <div class="relative w-full">
-            <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
-              class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-            <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
-              class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-            <!-- </div> -->
+        <!-- Email -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-mail-fill text-primary-light text-xl"></i>
           </div>
           <div>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              info@thevisaghar.com </h6>
-            <!-- <h6
-                class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-                xyz_abc@gmail.com
-              </h6> -->
+            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+            <p class="text-textColor-dark">info@thevisaghar.com</p>
           </div>
         </div>
-      </div>
-      <div
-        class="p-[30px]  h-[220px]  group flex flex-col gap-[30px] justify-start items-start border-x-2 border-t-2 border-b-[10px] rounded-[20px] border-primary-light hover:bg-primary-light hover:shadow-medium transition-all duration-300 ease-linear">
 
-        <div class="flex flex-col gap-5">
-          <div class="flex lex-row gap-[5px] justify-start items-center">
-            <i
-              class="text-[40px] leading-[50px] text-primary-light ri-time-fill group-hover:text-white transition-all duration-300 ease-linear"></i>
-            <h5 class="text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
-              Opening hours
-            </h5>
-          </div>
-          <div class="relative w-full">
-            <img src="assets/lines-1-27b54cd0.svg" alt="blog1"
-              class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-            <img src="assets/lines-2-2d57881f.svg" alt="blog1 hover"
-              class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 ease-linear group-hover:opacity-100" />
-            <!-- </div> -->
+        <!-- Opening Hours -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-time-fill text-primary-light text-xl"></i>
           </div>
           <div>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              07:00AM to 06.00:00 PM
-            </h6>
-            <h6
-              class="text-textColor-dark font-semibold group-hover:text-white transition-all duration-300 ease-linear">
-              Saturday off
-            </h6>
+            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+            <p class="text-textColor-dark">Saturday off</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
-      class="overflow-hidden">
+    <!-- Right Side - Map -->
+    <div class="relative">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container py-[70px] xl:py-[100px] ">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+    <!-- Left Side - Office Details -->
+    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+      <div class="mb-6">
+        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
+        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Address -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+            <p class="text-textColor-dark">Kathmandu, Nepal</p>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-phone-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+            <p class="text-textColor-dark">+977 9851338645</p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-mail-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+            <p class="text-textColor-dark">info@thevisaghar.com</p>
+          </div>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-time-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+            <p class="text-textColor-dark">Saturday off</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side - Map -->
+    <div class="relative">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container  pb-[70px] xl:pb-[100px]">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+    <!-- Left Side - Office Details -->
+    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+      <div class="mb-6">
+        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
+        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+      </div>
+
+      <div class="space-y-6">
+        <!-- Address -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+            <p class="text-textColor-dark">Kathmandu, Nepal</p>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-phone-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+            <p class="text-textColor-dark">+977 9851338645</p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-mail-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+            <p class="text-textColor-dark">info@thevisaghar.com</p>
+          </div>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="flex items-start gap-4">
+          <div class="p-3  rounded-full">
+            <i class="ri-time-fill text-primary-light text-xl"></i>
+          </div>
+          <div>
+            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+            <p class="text-textColor-dark">Saturday off</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side - Map -->
+    <div class="relative">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+      </iframe>
     </div>
   </div>
 </div>
