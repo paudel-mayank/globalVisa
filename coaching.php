@@ -34,13 +34,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach1-ffae62ab.svg" alt="coach1" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">120</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">
@@ -74,13 +74,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach2-631453a2.svg" alt="coach2" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">110</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">
@@ -114,13 +114,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach3-2189a781.svg" alt="coach3" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">140</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">
@@ -154,13 +154,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach4-2a33c866.svg" alt="coach4" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">130</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">
@@ -194,13 +194,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach5-4e1abc68.svg" alt="coach5" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">90</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">
@@ -234,13 +234,13 @@ include 'includes/header.php';
       <div class="relative">
         <img class="w-full relative rounded-t-[20px]" src="assets/coach6-8dec0fa7.svg" alt="coach6" />
 
-        <div
+        <!-- <div
           class="absolute top-0 left-0 rounded-tl-[20px] rounded-br-[20px] py-[5px] xl:py-[10px] px-[15px] lg:px-[10px] xl:px-5 bg-secondary-medium opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
           <p class="text-[18px] xl:text-[20px] leading-[24px] xl:leading-[26px] font-semibold">
             $
             <span class="text-[22px] xl:text-[24px] leading-7 xl:leading-[30px] font-semibold">100</span>
           </p>
-        </div>
+        </div> -->
       </div>
       <div
         class="py-4 md:py-5 lg:py-[15px] xl:py-[30px] px-4 md:px-5 lg:px-[15px] xl:px-5 flex flex-col gap-[15px] md:gap-5 lg:gap-[15px] xl:gap-5 rounded-b-[20px]">

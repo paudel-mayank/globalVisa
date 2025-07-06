@@ -17,18 +17,19 @@ include 'includes/header.php';
         <a href=" index.php" class="leading-none"><i
             class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
         <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="coaching.php"
-          class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Coaching</a>
+        <a href="coaching.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light
+           transition-all duration-300 ease-linear">Course</a>
         <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="#"
-          class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Coaching
-          Details</a>
+        <a href="#" class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light
+           transition-all duration-300 ease-linear">Course Details</a>
       </div>
     </div>
   </div>
 </div>
+<!-- grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  -->
+<div class="container py-[70px] xl:py-[100px] 
 
-<div class="container py-[70px] xl:py-[100px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-hidden">
+gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[50px]">
     <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1" />
 
@@ -36,10 +37,10 @@ include 'includes/header.php';
       <div class="flex flex-col gap-[5px]">
         <div class="flex justify-between items-center">
           <h3 class="text-primary-dark">IELTS Courses</h3>
-          <p class="font-semibold text-[24px] leading-[30px] text-secondary-dark">
+          <!-- <p class="font-semibold text-[24px] leading-[30px] text-secondary-dark">
             $
             <span class="text-[28px] leading-[34px] xl:text-[36px] xl:leading-[42px]">180</span>
-          </p>
+          </p> -->
         </div>
         <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
       </div>
@@ -67,7 +68,7 @@ include 'includes/header.php';
       </p>
     </div>
 
-    <div class="flex flex-col gap-5 xl:gap-[30px]">
+    <!-- <div class="flex flex-col gap-5 xl:gap-[30px]">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">
           Included in the Course
@@ -143,7 +144,7 @@ include 'includes/header.php';
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="flex flex-wrap xl:flex-nowrap justify-start lg:justify-center items-center gap-5">
       <img class="max-w-full" src="assets/coachA-dd0931ff.png" alt="part1" />
@@ -176,7 +177,7 @@ include 'includes/header.php';
     </div>
   </div>
 
-  <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
+  <!-- <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
     <div class="flex flex-col gap-5 xl:gap-10">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">Search</h4>
@@ -389,7 +390,7 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 

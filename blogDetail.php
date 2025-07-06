@@ -28,7 +28,9 @@ include 'includes/header.php';
   </div>
 </div>
 
-<div class="container py-[70px] xl:py-[100px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-hidden">
+<!-- grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 -->
+<div class="container py-[70px] xl:py-[100px] 
+ gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[70px]">
     <div class="flex flex-col gap-10 xl:gap-[50px]">
       <div class="flex flex-col gap-5">
@@ -42,10 +44,10 @@ include 'includes/header.php';
             <i class="text-primary-light text-[18px] leading-[18px] ri-shield-user-fill"></i>
             <p class="text-textColor-dark text-body1">Ronald Sullivan</p>
           </div>
-          <div class="flex gap-[10px] justify-start items-center">
+          <!-- <div class="flex gap-[10px] justify-start items-center">
             <i class="text-primary-light text-[18px] leading-[18px] ri-message-2-fill"></i>
             <p class="text-textColor-dark text-body1">Comments(02)</p>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -216,17 +218,17 @@ include 'includes/header.php';
       </div>
     </div>
 
-    <div class="flex flex-col gap-10">
-      <div class="flex flex-col gap-[5px]">
+    <!-- <div class="flex flex-col gap-10"> -->
+    <!-- <div class="flex flex-col gap-[5px]">
         <div class="flex justify-between items-center">
           <h4 class="text-primary-dark font-semibold">Comment</h4>
           <h4 class="text-primary-dark font-semibold">(02)</h4>
         </div>
 
         <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-      </div>
+      </div> -->
 
-      <div class="flex flex-col gap-10">
+    <!-- <div class="flex flex-col gap-10">
         <div class="flex flex-col gap-[25px]">
           <div class="flex flex-col gap-[10px]">
             <div class="flex justify-start items-center gap-5">
@@ -303,9 +305,9 @@ include 'includes/header.php';
             </p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="flex flex-col gap-10">
+      </div> -->
+    <!-- </div> -->
+    <!-- <div class="flex flex-col gap-10">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">Send A Comment</h4>
         <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
@@ -332,10 +334,59 @@ include 'includes/header.php';
           </button>
         </div>
       </form>
-    </div>
+    </div> -->
   </div>
 
-  <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
+  <div class="flex flex-col gap-5 xl:gap-10 mt-10">
+    <div class="flex flex-col gap-[5px]">
+      <h4 class="text-primary-dark font-semibold">Recent Posts</h4>
+
+      <!-- <img src="assets/lineA-831eca49.svg" alt="lineA.svg" /> -->
+    </div>
+    <div class="flex flex-col gap-5">
+      <div
+        class="flex group justify-start items-center gap-5 border-2 rounded-[10px] border-primary-light hover:bg-primary-light transition-all duration-300 ease-linear cursor-pointer">
+        <img src="assets/mini1-b4e9f973.png" alt="mini1.png" />
+        <div class="flex flex-col gap-[5px] sm:gap-[10px] justify-start items-start">
+          <p class="text-body3 text-textColor-dark group-hover:text-white transition-all duration-300 ease-linear">
+            22 APR 2024
+          </p>
+          <p
+            class="text-body2 sm:text-body1 text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
+            Step-by-Step Guide: Applying for a Tourist Visa Made Easy
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex group justify-start items-center gap-5 border-2 rounded-[10px] border-primary-light hover:bg-primary-light transition-all duration-300 ease-linear cursor-pointer">
+        <img src="assets/mini2-4ae69d54.png" alt="mini2.png" />
+        <div class="flex flex-col gap-[5px] sm:gap-[10px] justify-start items-start">
+          <p class="text-body3 text-textColor-dark group-hover:text-white transition-all duration-300 ease-linear">
+            28 MAR 2024
+          </p>
+          <p
+            class="text-body2 sm:text-body1 text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
+            Digital Nomad Visas: The Best Countries for Remote Workers
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex group justify-start items-center gap-5 border-2 rounded-[10px] border-primary-light hover:bg-primary-light transition-all duration-300 ease-linear cursor-pointer">
+        <img src="assets/mini3-97f72bda.png" alt="mini3.png" />
+        <div class="flex flex-col gap-[5px] sm:gap-[10px] justify-start items-start">
+          <p class="text-body3 text-textColor-dark group-hover:text-white transition-all duration-300 ease-linear">
+            18 MAR 2024
+          </p>
+          <p
+            class="text-body2 sm:text-body1 text-primary-dark group-hover:text-white transition-all duration-300 ease-linear">
+            Student Visa Checklist: What You Need Before You Apply
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
     <div class="flex flex-col gap-5 xl:gap-10">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">Search</h4>
@@ -614,8 +665,8 @@ include 'includes/header.php';
             class="text-secondary-medium text-[24px] sm:text-[30px] leading-6 sm:leading-[30px] ri-linkedin-fill hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
       </div>
     </div>
-  </div>
-</div>
+  </div> -->
+
 
 
 <?php include "includes/footer.php" ?>
