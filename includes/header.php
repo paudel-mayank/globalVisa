@@ -101,15 +101,14 @@
                                 Blogs
                             </a>
                     </li>
-                    <!-- <li class="relative group">
+
+                    <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
-                            <a href="testimonials.php"
+                            <a href="contact.php"
                                 class="text-subtitle2 font-subtitle2 text-secondary-medium group-hover:text-primary-light transition-all duration-300 ease-in">
-                                Testimonials
+                                Contact
                             </a>
-                    </li> -->
-
-
+                    </li>
                 </ul>
                 <div class="flex justify-end gap-[10px]">
                     <div class="flex justify-center items-center gap-2 xl:gap-5">
@@ -119,7 +118,7 @@
 
                         <div class="hidden xl:flex justify-center items-center">
                             <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-                                href="contact.php">Apply Now</a>
+                                href="contact.php#inquiry">Apply Now</a>
                         </div>
                     </div>
                     <button id="menu-toggle" class="block lg:hidden">

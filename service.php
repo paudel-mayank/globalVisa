@@ -270,11 +270,11 @@ include 'includes/header.php';
                 </h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -301,11 +301,11 @@ include 'includes/header.php';
                 <h4 class="text-primary-dark font-semibold">Work Visa</h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -334,11 +334,11 @@ include 'includes/header.php';
                 </h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -367,11 +367,11 @@ include 'includes/header.php';
                 </h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">250</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -398,11 +398,11 @@ include 'includes/header.php';
                 <h4 class="text-primary-dark font-semibold">Family Visa</h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">220</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -429,11 +429,11 @@ include 'includes/header.php';
                 <h4 class="text-primary-dark font-semibold">Sport Visa</h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">90</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -463,11 +463,11 @@ include 'includes/header.php';
                 </h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">250</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
@@ -496,11 +496,11 @@ include 'includes/header.php';
                 </h4>
                 <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
               </div>
-              <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+              <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
                 $
                 <span
                   class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">90</span>
-              </p>
+              </p> -->
             </div>
             <p
               class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">

@@ -10,7 +10,7 @@ include 'includes/header.php';
     <img class=" hidden lg:block absolute right-5 top-[100PX]"
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALRSURBVHgB7drRbdpQGIbhYyZIL1C3SUdpNmg6QekEDRs0oyQdh0owQU8dirhwPqUWBGNbzyNRFMR/U/JKifI1pVU3v76Vpt6XWm4Kw2vKrv2//9ksb7/2efvx89p/4e4Sd03dPP9ov7wvXN+f+r35+Gn11lvi5+Xu3e8W7dNdYRwWzZce77pzd/m7RQFeacOo68I41PrY401rd5e/a/bPm6eH9ulz+1ugX76vou7af9bN8u2fh4/vPn5ee+6udAcAAAAAAHANhz/wWddelXXt6O6sa8fE2tW6lsDadTR31rUQWNeOibXraO6sa0fBunaKdwAAAAAAAMAZXlay9ffzdv/4Nw48+a4pMAPvvsotMAPtN/i2fepOmnbN8vbDKXfWtRAIg5kYepULE/Gykm0f28Njdek7AAAAAAAA4AzWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS1kNz1f63UnDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBjMxa7na73uhMFM1PXrl+pj+a9T72Ai6ubpoX1sD4/VOXd/AaY9jPpdnCdEAAAAAElFTkSuQmCC"
       alt="right" /> -->
-  <div class="container pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
+  <div class="container  pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
 
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
       class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
@@ -31,7 +31,9 @@ include 'includes/header.php';
 </div>
 
 <div class="relative w-full h-full  py-[70px] xl:py-[100px]">
-  <div class=" flex flex-col gap-[70px] xl:gap-[100px] container">
+
+
+  <div class="overflow-hidden flex flex-col gap-[70px] xl:gap-[100px] container">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
       <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
         data-aos-duration="700">
@@ -47,7 +49,7 @@ include 'includes/header.php';
               <div class="flex flex-col gap-[9px]">
                 <h2 class="text-primary-dark">
                   Have any
-                  inquiries?
+                  nquiries?
                   Contact us
                   Anytime!
                 </h2>
@@ -73,8 +75,6 @@ include 'includes/header.php';
             <input required
               class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-textColor-dark focus:outline-none"
               placeholder="Subject" type="text" />
-
-
             <textarea required placeholder="Your Message"
               class="text-textColor-dark py-[10px] px-5 border border-primary-light rounded-[10px] placeholder:text-body1 placeholder:text-textColor-dark focus:outline-none"></textarea>
             <div>
