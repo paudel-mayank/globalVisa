@@ -28,7 +28,7 @@ include 'includes/header.php';
   </div>
 </div>
 
-<div class="container py-[70px] xl:py-[100px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 overflow-hidden">
+<div class="container py-[70px] xl:py-[100px]  gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[50px]">
     <img class="max-w-full" src="assets/visaDetail-5382a8ae.png" alt="visaDetail" />
 
@@ -36,10 +36,10 @@ include 'includes/header.php';
       <div class="flex flex-col gap-[5px]">
         <div class="flex justify-between items-center">
           <h3 class="text-primary-dark">Student Visa</h3>
-          <p class="font-semibold text-[24px] leading-[30px] text-secondary-dark">
+          <!-- <p class="font-semibold text-[24px] leading-[30px] text-secondary-dark">
             $
             <span class="text-[28px] leading-[34px] xl:text-[36px] xl:leading-[42px]">180</span>
-          </p>
+          </p> -->
         </div>
         <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
       </div>
@@ -67,7 +67,7 @@ include 'includes/header.php';
       </p>
     </div>
 
-    <div class="flex flex-col gap-5 xl:gap-[30px]">
+    <!-- <div class="flex flex-col gap-5 xl:gap-[30px]">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">
           What you can do
@@ -143,7 +143,7 @@ include 'includes/header.php';
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="flex flex-wrap xl:flex-nowrap justify-start lg:justify-center items-center gap-5">
       <img class="max-w-full" src="assets/part1-8e6abf86.png" alt="part1" />
@@ -151,7 +151,7 @@ include 'includes/header.php';
     </div>
   </div>
 
-  <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
+  <!-- <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">
     <div class="flex flex-col gap-5 xl:gap-10">
       <div class="flex flex-col gap-[5px]">
         <h4 class="text-primary-dark font-semibold">Search</h4>
@@ -364,7 +364,7 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 <?php include "includes/footer.php" ?>
 

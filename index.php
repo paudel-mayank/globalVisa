@@ -24,7 +24,7 @@ include 'includes/header.php';
                             <div class="flex flex-col gap-[9px]">
                                 <h1 class="text-center lg:text-left">
                                     Submit Your
-                                    <span class="text-primary-light">Visa</span>
+                                    Visa
                                     Application
                                 </h1>
 
@@ -81,8 +81,7 @@ include 'includes/header.php';
                             </div>
                             <div class="flex flex-col gap-[9px]">
                                 <h1 class="text-center lg:text-left">
-                                    Submit Your
-                                    <span class="text-primary-light">Visa</span>
+                                    Submit Your Visa
                                     Application
                                 </h1>
                                 <img class="max-w-full" src="assets/lineC-45a5ef51.svg" alt="lineA.svg" />
@@ -139,7 +138,7 @@ include 'includes/header.php';
                             <div class="flex flex-col gap-[9px]">
                                 <h1 class="text-center lg:text-left">
                                     Submit Your
-                                    <span class="text-primary-light">Visa</span>
+                                    Visa
                                     Application
                                 </h1>
                                 <img class="max-w-full" src="assets/lineC-45a5ef51.svg" alt="lineA.svg" />

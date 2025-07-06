@@ -47,7 +47,7 @@ include 'includes/header.php';
                     <div class="flex flex-col gap-[9px]">
                         <h2 class="text-primary-dark text-center lg:text-left">
                             Hear from those who’ve
-                            <span class="text-primary-light">Experienced</span>
+                            Experienced
                             Our Services.
                         </h2>
                         <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
@@ -409,8 +409,8 @@ include 'includes/header.php';
                 <div class="flex flex-col gap-[9px]">
                     <h2 class="text-primary-dark text-center">
                         Our
-                        <span class="text-primary-light">Wall</span>
-                        of <span class="text-primary-light">Love</span>
+                        Wall
+                        of Love
                     </h2>
                     <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
                 </div>
