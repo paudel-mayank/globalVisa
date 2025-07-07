@@ -111,7 +111,7 @@ include 'includes/header.php';
 
 
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
-  <img src="assets/about1-2e92feb2.png" class="w-full" alt />
+  <img src="assets/mission.jpg" class="w-full" alt />
 
 
 
@@ -183,9 +183,9 @@ include 'includes/header.php';
           </div>
         </div>
         <!-- <div class="flex justify-center lg:justify-start items-center lg:items-start">
-        <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-          href="about.php">About More</a>
-      </div> -->
+          <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
+            href="about.php">About More</a>
+        </div> -->
       </div>
     </div>
   </div>
@@ -260,19 +260,19 @@ include 'includes/header.php';
             </div>
           </div>
           <!-- <div class="flex justify-center lg:justify-start items-center lg:items-start">
-            <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-              href="about.php">About More</a>
-          </div> -->
+              <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
+                href="about.php">About More</a>
+            </div> -->
         </div>
       </div>
       <div data-aos="fade-left" data-aos-duration="700">
-        <img src="assets/about1-2e92feb2.png" class="w-full" alt />
+        <img src="assets/service1-264b6f59.png" class="w-full" alt />
       </div>
     </div>
   </div>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container mb-20">
   <img src="assets/about1-2e92feb2.png" class="w-full" alt />
 
 

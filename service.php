@@ -515,13 +515,6 @@ include 'includes/header.php';
       </div>
     </div>
 
-    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
-      class="flex justify-center items-center">
-      <button
-        class="load-more capitalize py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium transition-all duration-300 ease-in text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1">
-        More Visa Services
-      </button>
-    </div>
   </div>
 </div>
 
