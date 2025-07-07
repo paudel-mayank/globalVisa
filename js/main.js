@@ -3616,16 +3616,13 @@ Ee && (window.onscroll = function() {
   window.goToTop = function() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
-   function equalizeHeights() {
+function equalizeHeights() {
         const textColumn = document.getElementById('text-column');
         const imageColumn = document.getElementById('image-column');
 
         // Reset heights
         textColumn.style.height = 'auto';
         imageColumn.style.height = 'auto';
- console.log(textColumn.offsetHeight, 'asdfasdf')
-  console.log(imageColumn.offsetHeight, 'asdfasdf')
-
         // Only apply equal heights on large screens
         if (window.innerWidth >= 1024) {
             const textHeight = textColumn.offsetHeight;

@@ -396,307 +396,261 @@ include 'includes/header.php';
         </div>
     </div>
 
-    <div data-aos="fade-up" data-aos-duration="700" class="flex flex-col gap-[40px] sm:gap-[50px]">
-        <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
-            <div class="flex flex-col gap-[15px] xl:gap-5">
-                <div class="flex justify-center items-center gap-2">
-                    <i
-                        class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
-                    <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
-                        Client Stories
+
+
+</div>
+<div id="teams">
+    <div class="container py-[70px] xl:py-[100px] gap-10 lg:gap-[70px] flex flex-col overflow-hidden">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            class="team-member grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div class="members cursor-pointer">
+                <div
+                    class="max-w-[288px]  relative  sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog1-a36e4b8b.png" alt="blog1" />
+
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[52px] xl:left-[134px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Ronald Sullivan
                     </p>
-                </div>
-                <div class="flex flex-col gap-[9px]">
-                    <h2 class="text-primary-dark text-center">
-                        Our
-                        Wall
-                        of Love
-                    </h2>
-                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                How to Get a Visa Fast: Tips & Tricks for a Smooth Process
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
-                Lorem ipsum dolor sit amet consectetur. Elementum
-                massa
-                risus euismod
-                semper fringilla tristique viverra urna metus.
-            </p>
+            <div class="members cursor-pointer">
+                <div
+                    class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog2-d36ad345.png" alt="blog2" />
+
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto  lg:left-[71px] xl:left-[152px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Lana Ramsey
+                    </p>
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Student Visa Checklist: What You Need Before You Apply
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="members cursor-pointer">
+                <div
+                    class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog3-2f4f0194.png" alt="blog3" />
+
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[67px] xl:left-[148px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Wilbur Walsh
+                    </p>
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Digital Nomad Visas: The Best Countries for Remote Workers
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="members cursor-pointer">
+                <div
+                    class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog4-f0430086.png" alt="blog4" />
+
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[71px] xl:left-[150px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Gail Coleman
+                    </p>
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Step-by-Step Guide: Applying for a Tourist Visa Made Easy
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="members hidden cursor-pointer">
+                <div
+                    class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog5-e6b36b61.png" alt="blog5" />
+                    <p
+                        class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        15 MAR 2024
+                    </p>
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[74px] xl:left-[155px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Dustin Mejia
+                    </p>
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Schengen Visa Explained: Process, Requirements & Tips
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="members hidden cursor-pointer">
+                <div
+                    class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+                    <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+                        src="assets/blog6-02faa1a4.png" alt="blog6" />
+
+                    <p
+                        class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[81px] xl:left-[162px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
+                        Yolanda Lin
+                    </p>
+
+                    <div
+                        class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <p
+                                class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Visa-Free Countries You Can Visit with Your Passport
+                            </p>
+                            <div class="relative w-full">
+                                <img src="assets/lineB-28c55641.svg" alt="blog1"
+                                    class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
+
+                                <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
+                                    class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                            </div>
+                            <p
+                                class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
+                                Neque volutpat at malesuada at turpis ac egestas. Erat
+                                placerat fames id volutpat vivamus diam.
+                            </p>
+                        </div>
+                        <div class="flex justify-start items-start">
+                            <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
+                                href="testimonialsDetail.php">
+                                Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div data-aos="fade-up" data-aos-duration="700" class="swiper w-full h-full blog-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog1-a36e4b8b.png" alt="blog1" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 FEB 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[52px] xl:left-[134px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Ronald Sullivan
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    How to Get a Visa Fast: Tips &
-                                    Tricks for a Smooth Process
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog2-d36ad345.png" alt="blog2" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 FEB 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[71px] xl:left-[152px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Lana Ramsey
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Student Visa Checklist: What You
-                                    Need Before You Apply
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog3-2f4f0194.png" alt="blog3" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 FEB 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[67px] xl:left-[148px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Wilbur Walsh
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Digital Nomad Visas: The Best
-                                    Countries for Remote Workers
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog4-f0430086.png" alt="blog4" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 FEB 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[71px] xl:left-[150px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Gail Coleman
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Step-by-Step Guide: Applying for
-                                    a
-                                    Tourist Visa Made Easy
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog5-e6b36b61.png" alt="blog5" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 MAR 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[74px] xl:left-[155px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Dustin Mejia
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Schengen Visa Explained:
-                                    Process,
-                                    Requirements & Tips
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide cursor-pointer">
-                    <div
-                        class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-                        <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
-                            src="assets/blog6-02faa1a4.png" alt="blog6" />
-                        <p
-                            class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            15 FEB 2024
-                        </p>
-                        <p
-                            class="hidden sm:block absolute bottom-auto top-[251px] sm:top-[243px] md:top-[307px] lg:top-auto lg:bottom-0 right-0 lg:right-auto lg:left-[81px] xl:left-[162px] rounded-tl-[10px] rounded-br-[20px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
-                            Yolanda Lin
-                        </p>
-
-                        <div
-                            class="flex flex-col gap-3 md:gap-5 lg:gap-[10px] xl:gap-5 px-4 md:px-5 lg:px-2 xl:px-5 py-4 md:py-5 lg:py-2 xl:py-[21.5px]">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <p
-                                    class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Visa-Free Countries You Can
-                                    Visit
-                                    with Your Passport
-                                </p>
-                                <div class="relative w-full">
-                                    <img src="assets/lineB-28c55641.svg" alt="blog1"
-                                        class="w-full h-full transition-opacity duration-300 group-hover:opacity-0" />
-
-                                    <img src="assets/LineD-55c746e6.svg" alt="blog1 hover"
-                                        class="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                                </div>
-                                <p
-                                    class="lg:text-[14px] lg:leading-5 xl:text-[16px] xl:leading-6 text-textColor-dark group-hover:text-white transition-all duration-300 ease-in">
-                                    Neque volutpat at malesuada at
-                                    turpis ac egestas. Erat placerat
-                                    fames id volutpat vivamus diam.
-                                </p>
-                            </div>
-                            <div class="flex justify-start items-start">
-                                <a class="py-[10px] px-[14px] rounded-[20px] border-2 text-primary-light border-primary-light text-subtitle3 font-semibold group-hover:text-white group-hover:bg-primary-light transition-all duration-300 ease-in"
-                                    href="blog.php">
-                                    Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="!relative swiper-pagination mt-10 sm:mt-[50px] xl:mt-[70px]"></div>
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            class="flex justify-center items-center">
+            <button
+                class="load-more capitalize py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1">
+                More Stories
+            </button>
         </div>
     </div>
-
 </div>
 
 <?php include "includes/footer.php" ?>

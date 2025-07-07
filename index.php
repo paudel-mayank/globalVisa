@@ -263,7 +263,7 @@ include 'includes/header.php';
                 </div>
                 <div id="image-column" data-aos="fade-left" data-aos-duration="700">
                     <div class="h-full  ">
-                        <img src="assets/a.jpg" class="h-full w-full object-cover " alt="About Image" />
+                        <img src="assets/a.jpg" class=" h-full w-full object-cover " alt="About Image" />
                     </div>
                 </div>
             </div>
@@ -440,8 +440,8 @@ include 'includes/header.php';
             </div> -->
     <div class=" relative w-full h-full flex flex-col gap-[70px]  container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            <div data-aos="fade-right" data-aos-duration="700" class="relative" id=''>
-                <img class="w-full relative" src="assets/a.jpg" alt="chooseImg" />
+            <div data-aos="fade-right" data-aos-duration="700" class="relative h-full" id='image-column'>
+                <img class="w-full h-full object-cover relative" src="assets/a.jpg" alt="chooseImg" />
                 <div
                     class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[60px] sm:bottom-[130px] 
                             left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
@@ -462,7 +462,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="700" id="">
+            <div data-aos="fade-left" data-aos-duration="700" id="text-column">
                 <div class="flex flex-col gap-5 xl:gap-10 pt-1">
                     <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
                         <div class="flex flex-col gap-[15px] xl:gap-5">
@@ -648,7 +648,7 @@ include 'includes/header.php';
 
 </div>
 
-<div class="bg-secondary-medium">
+<div class="bg-secondary-medium mb-[70px]">
     <div class="relative">
         <img class=" hidden lg:block absolute left-1 lg:left-2 xl:left-5 top-5"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALISURBVHgB7drRTRQBGEbRGSrgxdiNlqIdiBWIFQgdSClgOZhABY4DosmGu6xilplNzkk2G0d/XyY30fCNw2y6/vZpGKeT4f4Xw9fx1ZuPw19wt6e7aTgeeHnjcPv7fY3T9dWX+dHJxh/4MX0eX789fervcPcCdyxjfl9H89f7R79xNH7Yfe1u73csY35fRwPwyBzGdP7o6TRd7D51t/c7ljG/r/H++/rybP569/D4fHz19L+H/9y729Pd6D/fi5huh394XwAAAAAAAEt4+AGfteuq7qxrl2Fda13LE6xrV37HMqxroVnXrvmOZVjXrvXOunYZ1rUAAAAAAMCBuFt1Tt+vbu4/v8Zse72DtXvxdS0cgiXWtbB61rUQFljXwoG4W3XOn5uHz+m+7wAAAAAAAID/YF0Lm6xrIVjXQrCuhWBdC9tY1wIAAAAAAMABsa6FTda1EKxrIVjXQrCuhW2sawEAAAAAAOCAWNfCJutaCNa1EKxrIVjXwjbWtQAAAAAAAHBArGthk3UtBOtaCNa1EKxrYRvrWgAAAAAAADgg1rWwyboWgnUthLswjuP58bDbc+9g9czOIQgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAg3IVxG89vh92eewerN4cxnT96Ok0Xu0+fewcHYrq+PJs/Nw+f033fwdr9BN3FYkBvUF3mAAAAAElFTkSuQmCC"
@@ -871,7 +871,32 @@ include 'includes/header.php';
 
 </div>
 
-
+<div class=" mt-[50px] sm:mt-[61px] xl:mt-[79px] ">
+    <div class="flex flex-col gap-[30px] xl:gap-[60px]">
+        <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto mt-[61px]">
+            <div class="flex flex-col gap-[15px] xl:gap-5">
+                <div class="flex justify-center items-center gap-2">
+                    <i
+                        class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
+                    <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
+                        Popular Universities </p>
+                </div>
+                <div class="flex flex-col gap-[9px]">
+                    <h2 class="text-primary-dark text-center">
+                        Universities we offer
+                    </h2>
+                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                </div>
+            </div>
+            <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
+                Lorem ipsum dolor sit amet consectetur. Elementum
+                massa
+                risus euismod
+                semper fringilla tristique viverra urna metus.
+            </p>
+        </div>
+    </div>
+</div>
 
 <div class="gap-[30px] xl:gap-[60px] py-40px] xl:py-[60px]">
     <div class="swiper universitySlider"

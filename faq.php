@@ -39,11 +39,11 @@ include 'includes/header.php';
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALdSURBVHgB7dphThNBAIbhGU7AkeSvcgcWLiCeQDyB9AJE7oD+RW/UG4yLiVG3X7Eh22yZPk9CKJPOr+YNkP1qGf14e/Wx1XI9vjwtLGE9fn158/Xuwy5v/uvzKu7t5179/u7q8/jDdWFxrZVPZ9/ubp57T/q83Jv/3sn4fSgchFrL+x3eNri3/3snBdhwMv7aWBUOQmvt/v/v2fy83Jv/Xn168Xh+eVtbuRh/ifjnexFt3WpdnT08//fwb38+r/Gme4vdAwAAAAAAWMKvB3zWtYuzrj2we9a1B8Ta1bqWwNr1cO5Z10JgXXtArF2ta/mHde1rvAcAAAAAALCEWqATs65rC3RgH+ta6MEwPbCuhZkJgy7sZV0LPbCuBQAAAAAAjoEHfHTDuhYmrGshG6YH1rUwM2HQBeta2MK6FgAAAAAAOAYe8NEN61qYsK6FbJgeWNfCzIRBF6xrYQvrWgAAAAAA4Bh4wEc3rGthwroWsmF6YF0LMxMGXbCuhS2sawEAAAAAgGPgAR/dsK6FCetayIbpgXUtzEwYdMG6FrawrgUAAAAAAI6BB3x0w7oWJqxrIRumB9a1UMrpjmc73RMGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDHqx3vFsp3vCoAutldXmWbt/6b1aoBOP55e3tZWLp9et1tXZw93NS+/9BCff7kNTpLb2AAAAAElFTkSuQmCC"
       alt="design1.png" /> -->
 
-  <div class="grid lg:grid-cols-2 xl:grid-cols-3 gap-10 container">
-    <div data-aos="fade-right" data-aos-duration="700">
-      <img class="drop-shadow-medium mx-auto lg:mx-0 max-w-full" src="assets/faq-297def80.png" alt="faq.png" />
-    </div>
-    <div data-aos="fade-left" data-aos-duration="700" class="xl:col-span-2">
+  <div class=" gap-10 container">
+    <!-- <div data-aos="fade-right" data-aos-duration="700"> -->
+    <!-- <img class="drop-shadow-medium mx-auto lg:mx-0 max-w-full" src="assets/faq-297def80.png" alt="faq.png" /> -->
+    <!-- </div> -->
+    <div data-aos="fade-left" data-aos-duration="700" class="xl:col-span-1">
       <div class="hs-accordion-group flex flex-col gap-4 xl:gap-6">
         <div class="hs-accordion active border-2 border-primary-light rounded-[30px]"
           id="hs-basic-with-title-and-arrow-stretched-heading-one">
