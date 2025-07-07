@@ -101,8 +101,6 @@ include 'includes/header.php';
         </div>
       </div>
       <div data-aos="fade-left" data-aos-duration="700" id="image-column">
-
-
         <img src="assets/about1-2e92feb2.png" class="w-full" alt />
       </div>
     </div>

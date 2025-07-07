@@ -65,7 +65,7 @@
                     </li>
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
-                            <a href="service.php"
+                            <a href="countries.php"
                                 class="text-subtitle2 font-subtitle2 text-secondary-medium group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Study Abroad </a>
                         </div>

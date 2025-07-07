@@ -21,16 +21,15 @@ include 'includes/header.php';
             class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
 
         <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="serviceDetail.php"
-          class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Study
-          Abroad</a>
+        <a href="serviceDetail.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 
+          hover:text-primary-light transition-all duration-300 ease-linear">Services</a>
       </div>
     </div>
   </div>
 </div>
 
 
-<div class="bg-secondary-medium">
+<!-- <div class="bg-secondary-medium">
   <div class="relative ">
     <img class=" hidden lg:block absolute left-1 lg:left-2 xl:left-5 top-5"
       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALISURBVHgB7drRTRQBGEbRGSrgxdiNlqIdiBWIFQgdSClgOZhABY4DosmGu6xilplNzkk2G0d/XyY30fCNw2y6/vZpGKeT4f4Xw9fx1ZuPw19wt6e7aTgeeHnjcPv7fY3T9dWX+dHJxh/4MX0eX789fervcPcCdyxjfl9H89f7R79xNH7Yfe1u73csY35fRwPwyBzGdP7o6TRd7D51t/c7ljG/r/H++/rybP569/D4fHz19L+H/9y729Pd6D/fi5huh394XwAAAAAAAEt4+AGfteuq7qxrl2Fda13LE6xrV37HMqxroVnXrvmOZVjXrvXOunYZ1rUAAAAAAMCBuFt1Tt+vbu4/v8Zse72DtXvxdS0cgiXWtbB61rUQFljXwoG4W3XOn5uHz+m+7wAAAAAAAID/YF0Lm6xrIVjXQrCuhWBdC9tY1wIAAAAAAMABsa6FTda1EKxrIVjXQrCuhW2sawEAAAAAAOCAWNfCJutaCNa1EKxrIVjXwjbWtQAAAAAAAHBArGthk3UtBOtaCNa1EKxrYRvrWgAAAAAAADgg1rWwyboWgnUthLswjuP58bDbc+9g9czOIQgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAgCAOCMCAIA4IwIAgDgjAg3IVxG89vh92eewerN4cxnT96Ok0Xu0+fewcHYrq+PJs/Nw+f033fwdr9BN3FYkBvUF3mAAAAAElFTkSuQmCC"
@@ -61,8 +60,7 @@ include 'includes/header.php';
             <h2 class="text-white text-center lg:text-left">
               Countries
               Eligible
-              <!-- <span class="text-primary-light">Countries
-                                    Eligible</span> -->
+
               for Our Immigration Services
             </h2>
             <img class="max-w-full" src="assets/lineC-45a5ef51.svg" alt="lineC.svg" />
@@ -249,7 +247,7 @@ include 'includes/header.php';
     </div>
   </div>
 
-</div>
+</div> -->
 
 
 <div id="teams">

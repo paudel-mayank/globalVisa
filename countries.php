@@ -17,11 +17,12 @@ include 'includes/header.php';
         <a href=" index.php" class="leading-none"><i
             class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
         <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
+        <a href="countres.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 
+          hover:text-primary-light transition-all duration-300 ease-linear">Countries</a>
+        <!-- <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
         <a href="#"
-          class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Pages</a>
-        <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="#"
-          class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Countries</a>
+          class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all 
+          duration-300 ease-linear">Countries</a>-->
       </div>
     </div>
   </div>
@@ -237,12 +238,47 @@ include 'includes/header.php';
       </div>
     </div>
 
-    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+    <!-- <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
       class="flex justify-center items-center">
       <button
         class="load-more capitalize py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1">
         More Countries
       </button>
+    </div> -->
+  </div>
+</div>
+
+<div class="gap-[30px] xl:gap-[60px] py-40px] xl:py-[60px]">
+  <div class="swiper universitySlider"
+    style="display: flex; align-items: center; gap: 20px; overflow: hidden; padding: 20px;">
+    <div class="swiper-wrapper" style="display: flex; gap: 20px;">
+      <?php
+      $images = [
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/g1T1yajnYjJRHvDyFsqDRDo8t6sSbnMm2u3QApbM.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/R0twl1oJJnQOCHROeFUNFTcPrpMib9lx92OKerbt.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/sm0MYVNKoZ5qzjx3loBXMDAmBuml2mfj5ordkxk4.jpg",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/VuxiFBF0Mg2bc3k7vlX3xDQglSfSbnndK7OUyXPf.jpg",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/SZwHWXeWT4qT4n4P8H6RMLugwD5fE9sY9oSVKhfo.jpg",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/OZx4jpw8BzCmWiZcRrnPxmVnI0G8GNRFkncp4SD7.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/dLKNuK9DT17JDALlfNsoG11MRa8IlKvHeiGdrTiZ.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/RGaaHztPFdIYw1mQuzahnY3HtVVtoe9czZmYIFec.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/J6ZQxCNxhpBYPat7UAbHZfXrVkkMAcntBH0Ny5vX.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/xVTh1uRl7ekQTuAtaiGxHscGPWfL1S5PdHxIZ5NJ.jpg",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/dLKNuK9DT17JDALlfNsoG11MRa8IlKvHeiGdrTiZ.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/RGaaHztPFdIYw1mQuzahnY3HtVVtoe9czZmYIFec.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/J6ZQxCNxhpBYPat7UAbHZfXrVkkMAcntBH0Ny5vX.png",
+        "https://student-public.s3.ap-southeast-1.amazonaws.com/prod/schools/xVTh1uRl7ekQTuAtaiGxHscGPWfL1S5PdHxIZ5NJ.jpg",
+      ];
+
+      // Repeat images to simulate continuous loop
+      $images = array_merge($images, $images, $images);
+
+      foreach ($images as $img) {
+        echo '<div class="swiper-slide" style="flex: 0 0 auto; width: 150px; height: 180px; display: flex; justify-content: center; align-items: center; padding: 10px;">
+                            <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
+                            </div>';
+      }
+      ?>
     </div>
   </div>
 </div>

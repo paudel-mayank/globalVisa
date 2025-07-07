@@ -4591,3 +4591,23 @@ h6 {
         background-color: rgb(30 41 59 / var(--tw-bg-opacity))
     }
 }
+
+.icon-wrapper {
+    background-color: #0f76bd;
+    width: 50x;
+    /* height: 50px; */
+    padding: 10px;
+    border-radius: 60px;
+    /* Makes it a perfect circle */
+    display: flex;
+    /* Center the icon inside */
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper i {
+    font-size: 24px;
+    /* or use width/height if it's an image */
+    color: white;
+    /* optional: for contrast */
+}
