@@ -27,7 +27,7 @@ include 'includes/header.php';
 
 <div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
   <div class="relative w-full h-full">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-20 items-center container">
       <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
         data-aos-duration="700" id="text-column">
         <div class="flex flex-col gap-[15px] xl:gap-10">
@@ -110,12 +110,8 @@ include 'includes/header.php';
 
 
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container xl:gap-[100px] py-[70px] xl:py-[100px]">
   <img src="assets/mission.jpg" class="w-full" alt />
-
-
-
-
   <div data-aos="fade-left" data-aos-duration="700">
     <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
       data-aos-duration="700">
@@ -191,7 +187,7 @@ include 'includes/header.php';
   </div>
 </div>
 
-<div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px]">
+<div class="flex flex-col overflow-hidden  gap-[70px] xl:gap-[100px] pb-[70px] xl:pb-[100px] mt-20">
   <div class="relative w-full h-full">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container">
       <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
@@ -272,7 +268,7 @@ include 'includes/header.php';
   </div>
 </div>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container mb-20">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center container xl:gap-[100px] py-[70px] xl:py-[100px]">
   <img src="assets/about1-2e92feb2.png" class="w-full" alt />
 
 

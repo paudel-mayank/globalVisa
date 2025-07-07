@@ -144,11 +144,11 @@ include 'includes/header.php';
         </div>
       </div>
     </div> -->
-
+    <!-- 
     <div class="flex flex-wrap xl:flex-nowrap justify-start lg:justify-center items-center gap-5">
       <img class="max-w-full" src="assets/part1-8e6abf86.png" alt="part1" />
       <img class="max-w-full" src="assets/part2-037e5a40.png" alt="part2" />
-    </div>
+    </div> -->
   </div>
 
   <!-- <div data-aos="fade-left" data-aos-duration="700" class="flex flex-col gap-10 xl:gap-[70px]">

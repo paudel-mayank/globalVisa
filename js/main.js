@@ -3623,6 +3623,8 @@ Ee && (window.onscroll = function() {
         // Reset heights
         textColumn.style.height = 'auto';
         imageColumn.style.height = 'auto';
+ console.log(textColumn.offsetHeight, 'asdfasdf')
+  console.log(imageColumn.offsetHeight, 'asdfasdf')
 
         // Only apply equal heights on large screens
         if (window.innerWidth >= 1024) {
@@ -3630,8 +3632,8 @@ Ee && (window.onscroll = function() {
             const imageHeight = imageColumn.offsetHeight;
             const maxHeight = Math.min(textHeight, imageHeight);
 
-            textColumn.style.height = maxHeight + 'px';
-            imageColumn.style.height = maxHeight + 'px';
+            textColumn.style.height = textHeight + 'px';
+            imageColumn.style.height = textHeight + 'px';
         }
     }
 

@@ -6,10 +6,6 @@ include 'includes/header.php';
 
 <div class="max-w-full overflow-hidden relative  h-full bg-cover bg-center bg-no-repeat 
      bg-[url('assets/')]" style="background-image: url('assets/allBackground-8d35f342.png');">
-  <!-- 
-    <img class=" hidden lg:block absolute right-5 top-[100PX]"
-      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALRSURBVHgB7drRbdpQGIbhYyZIL1C3SUdpNmg6QekEDRs0oyQdh0owQU8dirhwPqUWBGNbzyNRFMR/U/JKifI1pVU3v76Vpt6XWm4Kw2vKrv2//9ksb7/2efvx89p/4e4Sd03dPP9ov7wvXN+f+r35+Gn11lvi5+Xu3e8W7dNdYRwWzZce77pzd/m7RQFeacOo68I41PrY401rd5e/a/bPm6eH9ulz+1ugX76vou7af9bN8u2fh4/vPn5ee+6udAcAAAAAAHANhz/wWddelXXt6O6sa8fE2tW6lsDadTR31rUQWNeOibXraO6sa0fBunaKdwAAAAAAAMAZXlay9ffzdv/4Nw48+a4pMAPvvsotMAPtN/i2fepOmnbN8vbDKXfWtRAIg5kYepULE/Gykm0f28Njdek7AAAAAAAA4AzWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS1kNz1f63UnDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBjMxa7na73uhMFM1PXrl+pj+a9T72Ai6ubpoX1sD4/VOXd/AaY9jPpdnCdEAAAAAElFTkSuQmCC"
-      alt="right" /> -->
   <div class="container  pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
 
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
@@ -92,209 +88,212 @@ include 'includes/header.php';
 
   </div>
 </div>
-<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container ">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
-    <!-- Left Side - Office Details -->
-    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
-      <div class="mb-6">
-        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Head Office</h3>
-        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+<div>
+
+  <div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container " id="branch">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+      <!-- Left Side - Office Details -->
+      <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+        <div class="mb-6">
+          <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Head Office</h3>
+          <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Address -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-map-pin-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+              <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+              <p class="text-textColor-dark">Kathmandu, Nepal</p>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-phone-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+              <p class="text-textColor-dark">+977 9851338645</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-mail-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+              <p class="text-textColor-dark">info@thevisaghar.com</p>
+            </div>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-time-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+              <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+              <p class="text-textColor-dark">Saturday off</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="space-y-6">
-        <!-- Address -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
-            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
-            <p class="text-textColor-dark">Kathmandu, Nepal</p>
-          </div>
-        </div>
-
-        <!-- Contact -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-phone-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
-            <p class="text-textColor-dark">+977 9851338645</p>
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-mail-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
-            <p class="text-textColor-dark">info@thevisaghar.com</p>
-          </div>
-        </div>
-
-        <!-- Opening Hours -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-time-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
-            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
-            <p class="text-textColor-dark">Saturday off</p>
-          </div>
-        </div>
+      <!-- Right Side - Map -->
+      <div class="relative">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+        </iframe>
       </div>
-    </div>
-
-    <!-- Right Side - Map -->
-    <div class="relative">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
-        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
-      </iframe>
     </div>
   </div>
-</div>
 
-<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container py-[70px] xl:py-[100px] ">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
-    <!-- Left Side - Office Details -->
-    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
-      <div class="mb-6">
-        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
-        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+  <div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container py-[70px] xl:py-[100px] ">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+      <!-- Left Side - Office Details -->
+      <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+        <div class="mb-6">
+          <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
+          <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Address -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-map-pin-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+              <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+              <p class="text-textColor-dark">Kathmandu, Nepal</p>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-phone-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+              <p class="text-textColor-dark">+977 9851338645</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-mail-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+              <p class="text-textColor-dark">info@thevisaghar.com</p>
+            </div>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-time-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+              <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+              <p class="text-textColor-dark">Saturday off</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="space-y-6">
-        <!-- Address -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
-            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
-            <p class="text-textColor-dark">Kathmandu, Nepal</p>
-          </div>
-        </div>
-
-        <!-- Contact -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-phone-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
-            <p class="text-textColor-dark">+977 9851338645</p>
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-mail-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
-            <p class="text-textColor-dark">info@thevisaghar.com</p>
-          </div>
-        </div>
-
-        <!-- Opening Hours -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-time-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
-            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
-            <p class="text-textColor-dark">Saturday off</p>
-          </div>
-        </div>
+      <!-- Right Side - Map -->
+      <div class="relative">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+        </iframe>
       </div>
-    </div>
-
-    <!-- Right Side - Map -->
-    <div class="relative">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
-        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
-      </iframe>
     </div>
   </div>
-</div>
 
-<div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container  pb-[70px] xl:pb-[100px]">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
-    <!-- Left Side - Office Details -->
-    <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
-      <div class="mb-6">
-        <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
-        <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+  <div class="bg-white rounded-2xl overflow-hidden  transition-shadow duration-300 container  pb-[70px] xl:pb-[100px]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
+      <!-- Left Side - Office Details -->
+      <div class="py-6 flex flex-col justify-center bg-gradient-to-br from-blue-50 to-white">
+        <div class="mb-6">
+          <h3 class="text-2xl font-bold text-primary-dark mb-2 py-4">Branch Office</h3>
+          <div class="w-16 h-1 bg-primary-light rounded-full"></div>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Address -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-map-pin-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
+              <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
+              <p class="text-textColor-dark">Kathmandu, Nepal</p>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-phone-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
+              <p class="text-textColor-dark">+977 9851338645</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-mail-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
+              <p class="text-textColor-dark">info@thevisaghar.com</p>
+            </div>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="flex items-start gap-4">
+            <div class="p-3  rounded-full">
+              <i class="ri-time-fill text-primary-light text-xl"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
+              <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
+              <p class="text-textColor-dark">Saturday off</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="space-y-6">
-        <!-- Address -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-map-pin-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Address</h4>
-            <p class="text-textColor-dark">3rd Floor, Tamang Plaza, Boudha Pipalbot</p>
-            <p class="text-textColor-dark">Kathmandu, Nepal</p>
-          </div>
-        </div>
-
-        <!-- Contact -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-phone-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Contact</h4>
-            <p class="text-textColor-dark">+977 9851338645</p>
-          </div>
-        </div>
-
-        <!-- Email -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-mail-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Email</h4>
-            <p class="text-textColor-dark">info@thevisaghar.com</p>
-          </div>
-        </div>
-
-        <!-- Opening Hours -->
-        <div class="flex items-start gap-4">
-          <div class="p-3  rounded-full">
-            <i class="ri-time-fill text-primary-light text-xl"></i>
-          </div>
-          <div>
-            <h4 class="font-semibold text-primary-dark mb-1">Opening Hours</h4>
-            <p class="text-textColor-dark">07:00 AM to 06:00 PM</p>
-            <p class="text-textColor-dark">Saturday off</p>
-          </div>
-        </div>
+      <!-- Right Side - Map -->
+      <div class="relative">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
+        </iframe>
       </div>
-    </div>
-
-    <!-- Right Side - Map -->
-    <div class="relative">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.901885574063!2d85.36032471751805!3d27.720315459978895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1b085ed94dd7%3A0x8df87c4987a775ef!2sThe%20Visa%20Ghar!5e0!3m2!1sen!2snp!4v1750089391397!5m2!1sen!2snp"
-        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[400px] object-cover">
-      </iframe>
     </div>
   </div>
 </div>

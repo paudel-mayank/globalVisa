@@ -261,7 +261,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="image-column" id="image-column" data-aos="fade-left" data-aos-duration="700">
+                <div id="image-column" data-aos="fade-left" data-aos-duration="700">
                     <div class="h-full  ">
                         <img src="assets/a.jpg" class="h-full w-full object-cover " alt="About Image" />
                     </div>
@@ -440,7 +440,7 @@ include 'includes/header.php';
             </div> -->
     <div class=" relative w-full h-full flex flex-col gap-[70px]  container">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            <div data-aos="fade-right" data-aos-duration="700" class="relative" id='image-column'>
+            <div data-aos="fade-right" data-aos-duration="700" class="relative" id=''>
                 <img class="w-full relative" src="assets/a.jpg" alt="chooseImg" />
                 <div
                     class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[60px] sm:bottom-[130px] 
@@ -462,7 +462,7 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="700" id="text-column">
+            <div data-aos="fade-left" data-aos-duration="700" id="">
                 <div class="flex flex-col gap-5 xl:gap-10 pt-1">
                     <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto">
                         <div class="flex flex-col gap-[15px] xl:gap-5">

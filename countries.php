@@ -34,173 +34,199 @@ include 'includes/header.php';
       class="team-member grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/india-74be8e43.svg" alt="india" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              India
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/india-74be8e43.svg" alt="india" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                India
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/germany-33d923f1.svg" alt="germany" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Germany
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/germany-33d923f1.svg" alt="germany" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Germany
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/canada-96831683.svg" alt="canada" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Canada
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/canada-96831683.svg" alt="canada" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Canada
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/us-a9829e51.svg" alt="us" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              United States
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/us-a9829e51.svg" alt="us" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                United States
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/australia-8907532d.svg" alt="australia" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Australia
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/australia-8907532d.svg" alt="australia" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Australia
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/dubai-0879e502.svg" alt="dubai" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Dubai
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/dubai-0879e502.svg" alt="dubai" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Dubai
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/uk-48b9d3da.svg" alt="uk" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              United Kingdom
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/uk-48b9d3da.svg" alt="uk" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                United Kingdom
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/russia-7be430b7.svg" alt="russia" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Russia
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/russia-7be430b7.svg" alt="russia" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Russia
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members hidden cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/thailand-c8bba50e.svg" alt="russia" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Thailand
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/thailand-c8bba50e.svg" alt="russia" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Thailand
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div
         class="members hidden cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
-        <div
-          class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
-          <img class="drop-shadow-medium" src="assets/singapore-9a940886.svg" alt="singapore" />
-          <div class="grid grid-cols-1 gap-[10px]">
-            <h4 class="text-primary-dark text-center font-semibold">
-              Singapore
-            </h4>
-            <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-            <p class="text-textColor-dark text-center">
-              Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
-              tincidunt.
-            </p>
+        <a href="countryDetail.php">
+
+          <div
+            class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+            <img class="drop-shadow-medium" src="assets/singapore-9a940886.svg" alt="singapore" />
+            <div class="grid grid-cols-1 gap-[10px]">
+              <h4 class="text-primary-dark text-center font-semibold">
+                Singapore
+              </h4>
+              <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+              <p class="text-textColor-dark text-center">
+                Lorem ipsum dolor sit amet consectetur. Vitae posuere velit
+                tincidunt.
+              </p>
+            </div>
           </div>
-        </div>
+          <a href="countryDetail.php">
+
       </div>
       <div
         class="members hidden cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary hover:shadow-medium transition-all duration-300 ease-in">
@@ -237,14 +263,6 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-
-    <!-- <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
-      class="flex justify-center items-center">
-      <button
-        class="load-more capitalize py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1">
-        More Countries
-      </button>
-    </div> -->
   </div>
 </div>
 

@@ -481,7 +481,7 @@ include 'includes/header.php';
         </div>
       </div>
       <div class="lg:mt-[50px] members hidden max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
-        <img class="w-full" src="assets/img8-2eceea44.png" alt="img8.png" />
+        <img class="w-full" src="assets/mission.jpg" alt="img8.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
           <i
