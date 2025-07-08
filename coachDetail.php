@@ -31,7 +31,8 @@ include 'includes/header.php';
 
 gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[50px]">
-    <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1" />
+    <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1"
+      style="height:450px; object-fit:cover; object-position:center;" />
 
     <div class="flex flex-col gap-5 xl:gap-[30px]">
       <div class="flex flex-col gap-[5px]">
