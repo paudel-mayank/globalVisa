@@ -21,7 +21,7 @@ include 'includes/header.php';
             class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
 
         <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="serviceDetail.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 
+        <a href="visaDetail.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 
           hover:text-primary-light transition-all duration-300 ease-linear">Services</a>
       </div>
     </div>
@@ -257,9 +257,10 @@ include 'includes/header.php';
       <div class="members max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
         <img class="w-full" src="assets/img1-cbb28be8.png" alt="img1.png" />
         <div
-          class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i>
+          class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all 
+          duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -291,8 +292,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img2-b2148f00.png" alt="img2.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -322,8 +323,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img3-3b89a210.png" alt="img3.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -355,8 +356,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img4-9fe12621.png" alt="img4.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-briefcase-fill"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-briefcase-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -388,8 +389,10 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img5-0fc3ff64.png" alt="img4.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-team-fill"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px]
+             xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px]
+              xl:leading-[37px] 2xl:leading-[57px] ri-team-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -419,8 +422,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img6-4de0e520.png" alt="img4.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-basketball-fill"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-basketball-fill"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -451,8 +454,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/img7-b66834d2.png" alt="img7.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] fa-solid fa-child-reaching"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] fa-solid fa-child-reaching"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">
@@ -484,8 +487,8 @@ include 'includes/header.php';
         <img class="w-full" src="assets/mission.jpg" alt="img8.png" />
         <div
           class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-          <i
-            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-plane-line"></i>
+          <!-- <i
+            class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-plane-line"></i> -->
           <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
               <div class="flex flex-col xl:gap-[6px]">

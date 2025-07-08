@@ -11,18 +11,18 @@ include 'includes/header.php';
 
         <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
             class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
-            <h1>Blog Details</h1>
+            <h1>Testimonials</h1>
             <div
                 class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
                 <a href=" index.php" class="leading-none"><i
                         class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
                 <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-                <a href="blog.php"
-                    class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Blog</a>
-                <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
+                <a href="blog.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light
+                     transition-all duration-300 ease-linear">Testmonial Details</a>
+                <!-- <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
                 <a href="#"
                     class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear">Blog
-                    Details</a>
+                    Details</a> -->
             </div>
         </div>
     </div>
@@ -34,7 +34,8 @@ include 'includes/header.php';
     <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[70px]">
         <div class="flex flex-col gap-10 xl:gap-[50px]">
             <div class="flex flex-col gap-5">
-                <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1" />
+                <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1"
+                    style="height:450px; object-fit:cover; object-position:center;" />
                 <div class="flex flex-wrap sm:flex-nowrap justify-start items-center gap-1 sm:gap-3 xl:gap-5">
                     <div class="flex gap-[10px] justify-start items-center pr-2 xl:pr-5 border-r border-textColor-dark">
                         <i class="text-primary-light text-[18px] leading-[17.5px] ri-calendar-fill"></i>

@@ -782,6 +782,36 @@ h6 {
     bottom: 60px
 }
 
+.bottom-\[80px\] {
+    bottom: 80px
+}
+
+.bottom-\[100px\] {
+    bottom: 100px
+}
+
+.bottom-\[120px\] {
+    bottom: 120px
+}
+
+.bottom-\[125px\] {
+    bottom: 125px
+}
+
+.bottom-\[130px\] {
+    bottom: 130px
+}
+
+.bottom-\[150px\] {
+    bottom: 150px
+}
+
+.bottom-\[170px\] {
+    bottom: 170px
+}
+
+
+
 .bottom-auto {
     bottom: auto
 }
@@ -1090,6 +1120,14 @@ h6 {
 
 .h-\[430px\] {
     height: 430px
+}
+
+/* .h-\[650px\] {
+    height: 650px
+} */
+
+.max-h-\[650px\] {
+    max-height: 650px
 }
 
 .h-full {
@@ -4610,4 +4648,82 @@ h6 {
     /* or use width/height if it's an image */
     color: white;
     /* optional: for contrast */
+}
+
+
+.equal-height-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: start;
+    /* This ensures both sections stretch to match the tallest */
+}
+
+@media (min-width: 1024px) {
+    .equal-height-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 100%;
+    /* Ensures it takes full height */
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100%; */
+    height: 400px;
+
+    /* Ensures it takes full height */
+}
+
+.choose-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.choose-us>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* Maintains aspect ratio while filling the container */
+    border-radius: 0.5rem;
+    /* Optional: adds rounded corners */
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* Maintains aspect ratio while filling the container */
+    border-radius: 0.5rem;
+    /* Optional: adds rounded corners */
+}
+
+
+.flex-equal-height {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+    .flex-equal-height {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .flex-equal-height>div {
+        flex: 1;
+    }
 }
