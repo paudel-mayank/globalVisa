@@ -7,7 +7,6 @@ include 'includes/header.php';
 <div class="max-w-full overflow-hidden relative  h-full bg-cover bg-center bg-no-repeat 
      bg-[url('assets/')]" style="background-image: url('assets/allBackground-8d35f342.png');">
   <div class="container  pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
-
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
       class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
       <h1>Contact</h1>
@@ -28,8 +27,8 @@ include 'includes/header.php';
 
 <div class="relative w-full h-full  py-[70px] xl:py-[100px]">
   <div class="flex flex-col gap-[70px] xl:gap-[100px] container">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center" id="inquiry">
-      <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
+    <div class="flex-equal-height gap-10 items-center" id="inquiry">
+      <div class="team-section max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
         data-aos-duration="700">
         <div class="flex flex-col gap-[15px] xl:gap-[30px]">
           <div class="flex flex-col gap-[15px] xl:gap-[30px]">
@@ -47,14 +46,14 @@ include 'includes/header.php';
                   Contact us
                   Anytime!
                 </h2>
-                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                <!-- <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" /> -->
               </div>
             </div>
-            <p class="xl:text-body1 font-body1 text-textColor-dark">
+            <!-- <p class="xl:text-body1 font-body1 text-textColor-dark">
               Lorem ipsum dolor sit amet consectetur. Elementum massa
               risus
               euismod semper fringilla tristique viverra urna metus.
-            </p>
+            </p> -->
           </div>
           <form class="flex flex-col gap-[15px] xl:gap-5">
             <input required
@@ -80,8 +79,8 @@ include 'includes/header.php';
           </form>
         </div>
       </div>
-      <div data-aos="fade-left" data-aos-duration="700">
-        <img src="assets/contact-ead108d9.png" class="mx-auto" alt="contact" />
+      <div data-aos="fade-left" data-aos-duration="700" class="image-section">
+        <img src="assets/contact.jpg" class="mx-auto" alt="contact" />
       </div>
     </div>
 

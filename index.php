@@ -763,10 +763,35 @@ include 'includes/header.php';
         </div>
     </div>
 </div>
-
+<div class=" mt-[50px] sm:mt-[61px] xl:mt-[79px] ">
+    <div class="flex flex-col gap-[30px] xl:gap-[60px]">
+        <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto mt-[61px]">
+            <div class="flex flex-col gap-[15px] xl:gap-5">
+                <div class="flex justify-center items-center gap-2">
+                    <i
+                        class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
+                    <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
+                        Our Servies </p>
+                </div>
+                <div class="flex flex-col gap-[9px]">
+                    <h2 class="text-primary-dark text-center">
+                        Services we offer
+                    </h2>
+                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                </div>
+            </div>
+            <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
+                Lorem ipsum dolor sit amet consectetur. Elementum
+                massa
+                risus euismod
+                semper fringilla tristique viverra urna metus.
+            </p>
+        </div>
+    </div>
+</div>
 
 <div id="teams">
-    <div class="container py-[70px] xl:py-[100px] gap-10 lg:gap-[70px] flex flex-col overflow-hidden">
+    <div class="container py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-col overflow-hidden">
         <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
             class="team-member  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <div class="members max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
@@ -1419,9 +1444,9 @@ include 'includes/header.php';
 
 
 
-<div class="overflow-hidden flex flex-col gap-[70px] xl:gap-[100px] py-[70px] xl:py-[100px] container" id="contact">
-    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div class="max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
+<div class="overflow-hidden flex flex-col gap-[70px] xl:gap-[100px] py-[50px] xl:py-[70px] container" id="contact">
+    <div class=" flex-equal-height gap-10 items-center">
+        <div class=" text-section max-w-[680px] mx-auto lg:text-start text-center pt-1 xl:pt-0" data-aos="fade-right"
             data-aos-duration="700">
             <div class="flex flex-col gap-[15px] xl:gap-[30px]">
                 <div class="flex flex-col gap-[15px] xl:gap-[30px]">
@@ -1440,13 +1465,13 @@ include 'includes/header.php';
                                 Contact us
                                 Anytime!
                             </h2>
-                            <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                            <!-- <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" /> -->
                         </div>
                     </div>
-                    <p class="xl:text-body1 font-body1 text-textColor-dark">
+                    <!-- <p class="xl:text-body1 font-body1 text-textColor-dark">
                         Lorem ipsum dolor sit amet consectetur. Elementum massa risus
                         euismod semper fringilla tristique viverra urna metus.
-                    </p>
+                    </p> -->
                 </div>
                 <form class="flex flex-col gap-[15px] xl:gap-5">
                     <input required
@@ -1474,8 +1499,9 @@ include 'includes/header.php';
                 </form>
             </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="700">
-            <img src="assets/contact-ead108d9.png" class="mx-auto" alt="contact" />
+        <div data-aos="fade-left" data-aos-duration="700" class='image-section'>
+            <img src="assets/contact.jpg
+            " class="mx-auto" alt="contact" />
         </div>
     </div>
 </div>
@@ -1509,6 +1535,7 @@ include 'includes/header.php';
 
 </body>
 
-<!-- Mirrored from globelvisa-html.vercel.app/ index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 15:59:06 GMT -->
+<!-- Mirrored from globelvisa-html.vercel.app/ index.php by HTTrack Website Copier/3.x [XR&CO' 2014], Tue, 03 Jun 2025
+            15:59:06 GMT -->
 
 </html>
