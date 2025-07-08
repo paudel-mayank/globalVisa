@@ -420,7 +420,7 @@ include 'includes/header.php';
                         <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
                             <p
                                 class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                How to Get a Visa Fast: Tips & Tricks for a Smooth Process
+                                Delighful Experience at The Visa Ghar
                             </p>
                             <div class="relative w-full">
                                 <img src="assets/lineB-28c55641.svg" alt="blog1"
@@ -459,7 +459,8 @@ include 'includes/header.php';
                         <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
                             <p
                                 class="text-[22px] leading-7 md:text-[24px] md:leading-[30px] lg:text-[18px] lg:leading-6 xl:text-[22px] 2xl:text-[24px] xl:leading-[28px] 2xl:leading-[30px] font-semibold text-primary-dark group-hover:text-white transition-all duration-300 ease-in">
-                                Student Visa Checklist: What You Need Before You Apply
+                                Guidance Experience at The Visa Ghar
+
                             </p>
                             <div class="relative w-full">
                                 <img src="assets/lineB-28c55641.svg" alt="blog1"

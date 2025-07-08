@@ -101,7 +101,7 @@ include 'includes/header.php';
         </div>
       </div>
       <div data-aos="fade-left" class="image-section" data-aos-duration="700">
-        <img src="assets/about1-2e92feb2.png" class="w-full" alt />
+        <img src="assets/about.jpg" class="w-full" alt />
       </div>
     </div>
   </div>
@@ -278,7 +278,8 @@ include 'includes/header.php';
     <div class="flex-equal-height gap-10 items-center container xl:gap-[100px] py-[70px] xl:py-[100px]">
       <div class="image-section">
 
-        <img src="assets/about1-2e92feb2.png" class="w-full" alt />
+        <img src="assets/objective.jpg
+        " class="w-full" alt />
 
       </div>
       <div data-aos="fade-left" data-aos-duration="700" class="text-section">

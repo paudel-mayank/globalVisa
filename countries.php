@@ -27,6 +27,31 @@ include 'includes/header.php';
     </div>
   </div>
 </div>
+<div class=" mt-[50px] sm:mt-[61px] xl:mt-[79px] ">
+  <div class="flex flex-col gap-[30px] xl:gap-[60px]">
+    <div class="flex flex-col gap-[15px] xl:gap-[30px] max-w-[680px] mx-auto mt-[61px]">
+      <div class="flex flex-col gap-[15px] xl:gap-5">
+        <div class="flex justify-center items-center gap-2">
+          <i class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1 ri-shield-star-fill"></i>
+          <p class="text-secondary-dark text-subtitle2 sm:text-subtitle1 font-subtitle1">
+            Popular Countries </p>
+        </div>
+        <div class="flex flex-col gap-[9px]">
+          <h2 class="text-primary-dark text-center">
+            Popular Destination of Customers
+          </h2>
+          <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+        </div>
+      </div>
+      <p class="xl:text-body1 font-body1 text-center text-textColor-dark">
+        Lorem ipsum dolor sit amet consectetur. Elementum
+        massa
+        risus euismod
+        semper fringilla tristique viverra urna metus.
+      </p>
+    </div>
+  </div>
+</div>
 
 <div id="teams">
   <div class="container py-[70px] xl:py-[100px] gap-10 lg:gap-[70px] flex flex-col overflow-hidden">
@@ -266,7 +291,7 @@ include 'includes/header.php';
   </div>
 </div>
 
-<div class="gap-[30px] xl:gap-[60px] py-40px] xl:py-[60px]">
+<!-- <div class="gap-[30px] xl:gap-[60px] py-40px] xl:py-[60px]">
   <div class="swiper universitySlider"
     style="display: flex; align-items: center; gap: 20px; overflow: hidden; padding: 20px;">
     <div class="swiper-wrapper" style="display: flex; gap: 20px;">
@@ -299,7 +324,7 @@ include 'includes/header.php';
       ?>
     </div>
   </div>
-</div>
+</div> -->
 
 <?php include "includes/footer.php" ?>
 

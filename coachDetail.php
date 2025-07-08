@@ -26,7 +26,6 @@ include 'includes/header.php';
     </div>
   </div>
 </div>
-<!-- grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  -->
 <div class="container py-[70px] xl:py-[100px] 
 
 gap-10 overflow-hidden">
@@ -38,10 +37,7 @@ gap-10 overflow-hidden">
       <div class="flex flex-col gap-[5px]">
         <div class="flex justify-between items-center">
           <h3 class="text-primary-dark">IELTS Courses</h3>
-          <!-- <p class="font-semibold text-[24px] leading-[30px] text-secondary-dark">
-            $
-            <span class="text-[28px] leading-[34px] xl:text-[36px] xl:leading-[42px]">180</span>
-          </p> -->
+
         </div>
         <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
       </div>
