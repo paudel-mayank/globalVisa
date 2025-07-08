@@ -30,7 +30,8 @@ include 'includes/header.php';
 
 <div class="container py-[70px] xl:py-[100px]  gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[50px]">
-    <img class="max-w-full" src="assets/visaDetail-5382a8ae.png" alt="visaDetail" />
+    <img class="max-w-full" src="assets/visaDetail-5382a8ae.png" alt="visaDetail"
+      style="height:450px; object-fit:cover; object-position:center;" />
 
     <div class="flex flex-col gap-5 xl:gap-[30px]">
       <div class="flex flex-col gap-[5px]">

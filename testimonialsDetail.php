@@ -29,82 +29,41 @@ include 'includes/header.php';
 </div>
 
 <!-- grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 -->
-<div class="container py-[70px] xl:py-[100px] 
- gap-10 overflow-hidden">
-    <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[70px]">
-        <div class="flex flex-col gap-10 xl:gap-[50px]">
-            <div class="flex flex-col gap-5">
-                <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1"
-                    style="height:450px; object-fit:cover; object-position:center;" />
-                <div class="flex flex-wrap sm:flex-nowrap justify-start items-center gap-1 sm:gap-3 xl:gap-5">
-                    <div class="flex gap-[10px] justify-start items-center pr-2 xl:pr-5 border-r border-textColor-dark">
-                        <i class="text-primary-light text-[18px] leading-[17.5px] ri-calendar-fill"></i>
-                        <p class="text-textColor-dark text-body1">15 FEB 2024</p>
-                    </div>
-                    <div class="flex gap-[10px] justify-start items-center pr-2 xl:pr-5 border-r border-textColor-dark">
-                        <i class="text-primary-light text-[18px] leading-[18px] ri-shield-user-fill"></i>
-                        <p class="text-textColor-dark text-body1">Ronald Sullivan</p>
-                    </div>
-                    <!-- <div class="flex gap-[10px] justify-start items-center">
-            <i class="text-primary-light text-[18px] leading-[18px] ri-message-2-fill"></i>
-            <p class="text-textColor-dark text-body1">Comments(02)</p>
-          </div> -->
+<div class="relative  pt-[70px] xl:pt-[100px] pb-[90px] xl:pb-[176px] overflow-hidden">
+
+
+    <div class="flex-equal-height gap-10 container">
+        <div data-aos="fade-right" data-aos-duration="700"
+            class="text-section flex flex-col gap-5 lg:gap-10 max-w-[580px]">
+            <div class="flex flex-col gap-2">
+                <div class="flex flex-col gap-[10px]">
+                    <h3 class="text-primary-dark">Sadie Pearson</h3>
+                    <h5 class="text-primary-light">Student Visa to USA</h5>
                 </div>
+                <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
             </div>
-
-            <div class="flex flex-col gap-5 xl:gap-[30px]">
-                <div class="flex flex-col gap-[5px]">
-                    <h3 class="text-primary-dark max-w-[780px]">
-                        How to Get a Visa Fast: Tips & Tricks for a Smooth Process
-                    </h3>
-
-                    <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                </div>
-                <p class="text-textColor-dark">
-                    <span class="text-[28px] leading-[34px] font-semibold">M</span>orbi
-                    vulputate at facilisis sed. A nisl amet libero faucibus
-                    etiam risus aliquet magna blandit. Diam integer mollis metus
-                    montes pellentesque vel. Purus neque enim aenean sed sodales est.
-                    Hendrerit sed sed erat leo orci nibh purus. Augue tortor duis
-                    lobortis purus convallis facilisi. Aliquam elit sit aliquam nisi
-                    venenatis arcu est. Quisque dictumst pretium mauris tristique ut
-                    sed. Nisl nunc et pharetra donec tempor. Consectetur amet est duis
-                    vestibulum sit donec pellentesque ultricies. Aliquet mauris nisi
-                    sed quis lorem id aliquet lorem quis. Leo morbi ac justo ut diam
-                    nunc.
-                </p>
-                <p class="text-textColor-dark">
-                    <span class="text-[28px] leading-[34px] font-semibold">N</span>isl
-                    quisque aliquet bibendum amet pharetra sit facilisi. At pulvinar
-                    in pellentesque habitant tincidunt pulvinar urna. Elit neque lacus
-                    est scelerisque quis. Et turpis velit donec sodales nunc neque
-                    sagittis. Posuere convallis volutpat eu blandit in diam. t Magna
-                    purus donec lacus tincidunt.
-                </p>
-                <p class="text-textColor-dark">
-                    <span class="text-[28px] leading-[34px] font-semibold">V</span>ulputate
-                    sed scelerisque sit mi. Netus ornare ut in elit vel
-                    viverra ut venenatis. In purus quam in velit cras pellentesque.
-                    Laoreet libero dictum convallis tristique nunc. Aliquet ac ut enim
-                    nunc est eget. Turpis senectus sit lobortis eros orci mi commodo.
-                    Ipsum quam donec vitae non. Sagittis enim dui mauris pharetra nisi
-                    diam urna. Diam mauris gravida et semper cras. Diam eu nunc
-                    faucibus at venenatis lacus enim.
-                </p>
-            </div>
-
-
-
-
-
-
-
+            <p class="text-textColor-dark">
+                <span class="text-[28px] leading-[34px] font-semibold">A</span>c
+                feugiat a ut ut quis hendrerit vitae quis mauris. Morbi commodo id
+                egestas lacus ac. Id pellentesque mi proin sed pellentesque libero
+                consectetur feugiat. Posuere diam curabitur ut sagittis urna purus
+                auctor. Enim at diam facilisis pulvinar augue lectus nulla feugiat
+                neque. Hendrerit amet vitae eget ultrices sit posuere. Volutpat
+                lacinia sed malesuada ipsum. Tempor varius ullamcorper etiam elit.
+                Quam consectetur tincidunt volutpat lobortis cras auctor euismod
+                fames aliquam. Curabitur in elit neque nunc id. Blandit dis ornare
+                morbi tristique diam arcu lacus ultrices.
+            </p>
 
         </div>
 
+        <div data-aos="fade-left" data-aos-duration="700" class=" image-section relative mx-auto group 
+            hover:drop-shadow-medium transition-all duration-300 ease-linear">
+            <img class="transition-all duration-300 ease-linear" src="assets/teamDetail-bdfc174e.png"
+                alt="teamDetail" />
 
+        </div>
     </div>
-
 </div>
 
 <?php include "includes/footer.php" ?>
@@ -130,6 +89,5 @@ include 'includes/header.php';
 
 </body>
 
-<!-- Mirrored from globelvisa-html.vercel.app/blogDetail.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:19 GMT -->
 
 </html>
