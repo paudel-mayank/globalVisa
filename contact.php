@@ -42,7 +42,7 @@ include 'includes/header.php';
               <div class="flex flex-col gap-[9px]">
                 <h2 class="text-primary-dark">
                   Have any
-                  nquiries?
+                  Inquiries?
                   Contact us
                   Anytime!
                 </h2>

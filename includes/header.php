@@ -17,6 +17,7 @@
     <!-- favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/V.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
@@ -132,21 +133,29 @@
         </nav>
 
         <div id="mobile-menu"
-            class="lg:hidden fixed top-[56px] sm:top-[60px] right-0 w-[100%] h-screen bg-[rgba(36,42,45,0.7)] backdrop-blur-[30px] z-[999] px-6 py-10 transition-transform duration-300 ease-linear transform translate-x-full overflow-y-auto">
+            class="lg:hidden fixed top-[56px] sm:top-[60px] right-0 w-[100%] 
+            h-screen bg-[rgba(36,42,45,0.7)] backdrop-blur-[30px] z-[999] px-6 py-10 transition-transform duration-300 ease-linear transform translate-x-full overflow-y-auto">
             <div class="relative flex flex-col items-center gap-4">
                 <div class="relative w-full">
-                    <div class="dropdown-btn flex group justify-between items-center">
-                        <a class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full"
-                            href=' index.php'>
-                            Home
+                    <div class="flex group justify-between items-center">
+                        <a href="about.php"
+                            class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
+                            About Us
                         </a>
                     </div>
-
+                </div>
+                <div class="relative w-full">
+                    <div class="flex group justify-between items-center">
+                        <a href="service.php"
+                            class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
+                            Service
+                        </a>
+                    </div>
                 </div>
 
                 <div class="relative w-full">
                     <div class="flex group justify-between items-center">
-                        <a href="about.php"
+                        <a href="countries.php"
                             class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
                             Study Abroad
                         </a>
@@ -183,10 +192,16 @@
                     </div>
                 </div>
 
-
+                <div class="relative w-full">
+                    <div class="flex group justify-between items-center">
+                        <a href="contact.php"
+                            class="flex justify-start items-start transition-all duration-300 ease-in text-[20px] leading-[26px] font-body1 w-full">
+                            Contact </a>
+                    </div>
+                </div>
                 <div class="flex justify-center items-center">
                     <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
-                        href="contact.php"> Apply Now</a>
+                        href="contact.php#inquiry"> Apply Now</a>
                 </div>
             </div>
         </div>

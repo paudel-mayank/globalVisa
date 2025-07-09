@@ -3522,9 +3522,9 @@
   });
   new D(".countryFlag-slider", {
     spaceBetween: 30,
-    speed: 1500,
-    loop: !1,
-    autoplay: { delay: 1500, disableOnInteraction: !1 },
+    speed: 200,
+    loop:true,
+    autoplay: { delay: 200, disableOnInteraction:false },
     breakpoints: {
       1199: { slidesPerView: 4 },
       991: { slidesPerView: 3 },
@@ -3533,8 +3533,8 @@
       575: { slidesPerView: 2 },
       0: { slidesPerView: 1 },
     },
-    modules: [ge],
-    navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
+    // modules: [ge],
+    // navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
   });
   new D(".testimonial-slider", {
     spaceBetween: 30,
@@ -3546,20 +3546,23 @@
     navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
   });
   new D(".homeSlider", {
-    spaceBetween: 30,
-    speed: 1500,
-    loop: !1,
-    autoplay: { delay: 200, disableOnInteraction: !1 },
+    // spaceBetween: 30,
+    speed: 200, 
+    loop: true,
+    autoplay: { delay: 500, disableOnInteraction:false },
     slidesPerView: 1,
-    modules: [he],
-    pagination: { el: ".swiper-pagination", clickable: !0 },
+    effect: 'slide'
+    // modules: [he],
+    // pagination: { el: ".swiper-pagination", clickable: !0 },
   });
   new Swiper(".universitySlider", {
     spaceBetween: 40,
     speed: 1100,
     loop: true,
     autoplay: { delay: 100, disableOnInteraction: false },
-    slidesPerView: 6,
+    // slidesPerView: 6,
+        breakpoints: { 1024: { slidesPerView: 6 }, 640: { slidesPerView: 3 }, 0: { slidesPerView: 2 } },
+
     // pagination: { el: ".swiper-pagination", clickable: false },
   });
 
