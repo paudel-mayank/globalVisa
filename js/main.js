@@ -3525,9 +3525,9 @@ new D(".coaching-slider", {
   modules: [ge],
   navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
 });
-new D(".countryFlag-slider", {
+new Swiper(".countryFlag-slider", {
   spaceBetween: 30,
-  speed: 200,
+  speed: 1000,
   loop: true,
   autoplay: { delay: 200, disableOnInteraction: false },
   breakpoints: {
@@ -3580,25 +3580,25 @@ new Swiper(".team-swiper", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  new D(".service-slider", {
+  new Swiper(".service-slider", {
     spaceBetween: 30,
     speed: 1500,
-    loop: !1,
-    autoplay: { delay: 200, disableOnInteraction: !1 },
+    loop: true,
+    autoplay: { delay: 200, disableOnInteraction: false },
     breakpoints: {
       1024: { slidesPerView: 3, spaceBetween: 20 },
       640: { slidesPerView: 2, spaceBetween: 15 },
       0: { slidesPerView: 1, spaceBetween: 20 },
     },
     spaceBetween: 20,
-    modules: [he],
-    pagination: { el: ".swiper-pagination", clickable: !0 },
+    // modules: [he],
+    // pagination: { el: ".swiper-pagination", clickable: !0 },
   }),
-    new D(".team2-slider", {
+    new Swiper(".team2-slider", {
       spaceBetween: 30,
       speed: 1500,
-      loop: !1,
-      autoplay: { delay: 200, disableOnInteraction: !1 },
+      loop: true,
+      autoplay: { delay: 200, disableOnInteraction: false },
       breakpoints: {
         1440: { slidesPerView: 4, spaceBetween: 20 },
         1024: { slidesPerView: 3, spaceBetween: 15 },
@@ -3606,8 +3606,8 @@ document.addEventListener("DOMContentLoaded", function() {
         0: { slidesPerView: 1, spaceBetween: 20 },
       },
       spaceBetween: 20,
-      modules: [he],
-      pagination: { el: ".swiper-pagination", clickable: !0 },
+      // modules: [he],
+      // pagination: { el: ".swiper-pagination", clickable: !0 },
     }),
     new D(".feedback-slider", {
       spaceBetween: 30,

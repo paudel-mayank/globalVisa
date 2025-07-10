@@ -715,8 +715,8 @@ include 'includes/header.php';
 
 <div id="teams">
     <div class="container">
-        <div
-            class=" swiper container  py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-row overflow-hidden team-swiper ">
+        <div class=" swiper container  py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-row overflow-hidden 
+            service-slider ">
             <div data-aos="" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
                 class="swiper-wrapper " style="display: flex; flex-direction: row; justify-content:space-between">
                 <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
