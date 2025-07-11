@@ -70,7 +70,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile1-739ed259.png" alt="profile1" />
+                                    <img src="assets/profile1-739ed259.png" alt="profile1"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Bob
                                             Harrison</h6>
@@ -121,7 +122,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile2-b4bc3f60.png" alt="profile2" />
+                                    <img src="assets/profile2-b4bc3f60.png" alt="profile2"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Marc
                                             Barber</h6>
@@ -172,7 +174,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile3-47608cbf.png" alt="profile3" />
+                                    <img src="assets/profile3-47608cbf.png" alt="profile3"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Tiffany Hawkins
@@ -224,7 +227,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile4-c09e4e66.png" alt="profile4" />
+                                    <img src="assets/profile4-c09e4e66.png" alt="profile4"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Travis Douglas
@@ -276,7 +280,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile5-efc8f312.png" alt="profile5" />
+                                    <img src="assets/profile5-efc8f312.png" alt="profile5"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Steve Chambers
@@ -328,7 +333,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile6-9a61146d.png" alt="profile6" />
+                                    <img src="assets/profile6-9a61146d.png" alt="profile6"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Eunice
                                             Solis</h6>
@@ -380,7 +386,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile4-c09e4e66.png" alt="profile4" />
+                                    <img src="assets/profile4-c09e4e66.png" alt="profile4"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Travis Douglas
@@ -432,7 +439,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile5-efc8f312.png" alt="profile5" />
+                                    <img src="assets/profile5-efc8f312.png" alt="profile5"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Steve Chambers
@@ -484,7 +492,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile6-9a61146d.png" alt="profile6" />
+                                    <img src="assets/profile6-9a61146d.png" alt="profile6"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Eunice
                                             Solis</h6>

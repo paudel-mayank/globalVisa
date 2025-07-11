@@ -35,8 +35,8 @@ include 'includes/header.php';
         <div
           class="max-w-[288px]  relative  sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
 
-          <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog1-a36e4b8b.png"
-            alt="blog1" />
+          <img class="size-full objectCover lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+            src="assets/about.jpg" alt="blog1" />
           <p
             class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
             15 FEB 2024
@@ -77,8 +77,8 @@ include 'includes/header.php';
       <div class="members cursor-pointer">
         <div
           class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-          <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog2-d36ad345.png"
-            alt="blog2" />
+          <img class="size-full  objectCover lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+            src="assets/blog2-d36ad345.png" alt="blog2" />
           <p
             class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
             15 FEB 2024
@@ -119,8 +119,8 @@ include 'includes/header.php';
       <div class="members cursor-pointer">
         <div
           class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-          <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog3-2f4f0194.png"
-            alt="blog3" />
+          <img class="size-full  objectCover lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+            src="assets/blog3-2f4f0194.png" alt="blog3" />
           <p
             class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
             15 FEB 2024
@@ -161,8 +161,8 @@ include 'includes/header.php';
       <div class="members cursor-pointer">
         <div
           class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
-          <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog4-f0430086.png"
-            alt="blog4" />
+          <img class="size-full  objectCover lg:size-[200px] xl:size-[280px] relative rounded-[20px]"
+            src="assets/blog4-f0430086.png" alt="blog4" />
           <p
             class="hidden sm:block absolute top-0 left-0 rounded-tl-[20px] rounded-br-[10px] text-body1 bg-primary-light py-[5px] px-[15px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in">
             15 FEB 2024
@@ -202,7 +202,7 @@ include 'includes/header.php';
       </div>
       <div class="members hidden cursor-pointer">
         <div
-          class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+          class="max-w-[288px]  objectCover relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
           <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog5-e6b36b61.png"
             alt="blog5" />
           <p
@@ -244,7 +244,7 @@ include 'includes/header.php';
       </div>
       <div class="members hidden cursor-pointer">
         <div
-          class="max-w-[288px] relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
+          class="max-w-[288px]  objectCover relative sm:max-w-full mx-auto sm:mx-0 flex flex-wrap lg:flex-nowrap justify-center items-center border-2 border-secondary-medium rounded-[20px] group bg-white hover:bg-secondary-medium transition-all duration-300 ease-in">
           <img class="size-full lg:size-[200px] xl:size-[280px] relative rounded-[20px]" src="assets/blog6-02faa1a4.png"
             alt="blog6" />
           <p

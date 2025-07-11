@@ -4755,3 +4755,13 @@ h6 {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
+
+.objectCover {
+    object-fit: cover;
+}
+
+.testimonialAvatar {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}

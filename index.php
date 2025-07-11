@@ -1192,7 +1192,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile1-739ed259.png" alt="profile1" />
+                                    <img src="assets/profile1-739ed259.png" alt="profile1"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Bob
                                             Harrison</h6>
@@ -1245,7 +1246,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile2-b4bc3f60.png" alt="profile2" />
+                                    <img src="assets/profile2-b4bc3f60.png" alt="profile2"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">Marc
                                             Barber</h6>
@@ -1298,7 +1300,8 @@ include 'includes/header.php';
                                 <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
                                 <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile3-47608cbf.png" alt="profile3" />
+                                    <img src="assets/about.jpg" alt="profile3"
+                                        class="rounded-[30px] testimonialAvatar" />
                                     <div>
                                         <h6 class="text-primary-dark font-semibold">
                                             Tiffany Hawkins
@@ -1311,8 +1314,8 @@ include 'includes/header.php';
                             </div>
                             <div
                                 class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                <i class="text-[35px] leading-[35px] xl:text-[45px]
+                                     xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
                             </div>
                         </div>
                     </div>
@@ -1597,25 +1600,7 @@ include 'includes/header.php';
         speed: 600,
         effect: 'slide',
     });
-    // document.addEventListener('DOMContentLoaded', function () {
-    //     const swiperSlider = new Swiper('.team-swiper', {
-    //         loop: true,
-    //         autoplay: {
-    //             delay: 5000,
-    //             disableOnInteraction: false,
-    //         },
-    //         speed: 600,
-    //         // effect: 'slide',
-    //         breakpoints: {
-    //             1199: { slidesPerView: 3 },
-    //             991: { slidesPerView: 3 },
-    //             767: { slidesPerView: 2 },
-    //             650: { slidesPerView: 2 },
-    //             575: { slidesPerView: 2 },
-    //             0: { slidesPerView: 1 },
-    //         }
-    //     });
-    // });
+
 </script>
 
 </body>
