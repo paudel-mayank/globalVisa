@@ -1795,6 +1795,11 @@ h6 {
     background-color: transparent
 }
 
+.bg-transparent-2 {
+    background-color: transparent;
+    opacity: 0.9
+}
+
 .bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity))
@@ -4730,4 +4735,23 @@ h6 {
     .flex-equal-height>div {
         flex: 1;
     }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animate-gradient {
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }

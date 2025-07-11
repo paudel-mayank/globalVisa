@@ -3538,9 +3538,39 @@ new Swiper(".countryFlag-slider", {
     575: { slidesPerView: 2 },
     0: { slidesPerView: 1 },
   },
+});
+new Swiper(".ms-slider", {
+  spaceBetween: 40,
+  speed: 1500,
+  loop: true,
+  autoplay: { delay: 200, disableOnInteraction: false },
+  breakpoints: {
+    1199: { slidesPerView: 3 },
+    991: { slidesPerView: 3 },
+    767: { slidesPerView: 2 },
+    650: { slidesPerView: 2 },
+    575: { slidesPerView: 2 },
+    0: { slidesPerView: 1 },
+  },
   // modules: [ge],
   // navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
 });
+// new Swiper(".service-slider", {
+//   spaceBetween: 30,
+//   speed: 1000,
+//   loop: true,
+//   autoplay: { delay: 200, disableOnInteraction: false },
+//   breakpoints: {
+//     1199: { slidesPerView: 4 },
+//     991: { slidesPerView: 3 },
+//     767: { slidesPerView: 2 },
+//     650: { slidesPerView: 2 },
+//     575: { slidesPerView: 2 },
+//     0: { slidesPerView: 1 },
+//   },
+//   // modules: [ge],
+//   // navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
+// });
 new D(".testimonial-slider", {
   spaceBetween: 30,
   speed: 1500,
@@ -3580,35 +3610,35 @@ new Swiper(".team-swiper", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  new Swiper(".service-slider", {
+  // new Swiper(".service-slider", {
+  //   spaceBetween: 30,
+  //   speed: 1500,
+  //   loop: true,
+  //   autoplay: { delay: 400, disableOnInteraction: false },
+  //   breakpoints: {
+  //     1024: { slidesPerView: 3, spaceBetween: 30 },
+  //     640: { slidesPerView: 2, spaceBetween: 20 },
+  //     0: { slidesPerView: 1, spaceBetween: 15 },
+  //   },
+  //   spaceBetween: 20,
+  //   // modules: [he],
+  //   // pagination: { el: ".swiper-pagination", clickable: !0 },
+  // }),
+  new Swiper(".team2-slider", {
     spaceBetween: 30,
     speed: 1500,
     loop: true,
     autoplay: { delay: 200, disableOnInteraction: false },
     breakpoints: {
-      1024: { slidesPerView: 3, spaceBetween: 20 },
-      640: { slidesPerView: 2, spaceBetween: 15 },
+      1440: { slidesPerView: 4, spaceBetween: 20 },
+      1024: { slidesPerView: 3, spaceBetween: 15 },
+      535: { slidesPerView: 2, spaceBetween: 15 },
       0: { slidesPerView: 1, spaceBetween: 20 },
     },
     spaceBetween: 20,
     // modules: [he],
     // pagination: { el: ".swiper-pagination", clickable: !0 },
   }),
-    new Swiper(".team2-slider", {
-      spaceBetween: 30,
-      speed: 1500,
-      loop: true,
-      autoplay: { delay: 200, disableOnInteraction: false },
-      breakpoints: {
-        1440: { slidesPerView: 4, spaceBetween: 20 },
-        1024: { slidesPerView: 3, spaceBetween: 15 },
-        535: { slidesPerView: 2, spaceBetween: 15 },
-        0: { slidesPerView: 1, spaceBetween: 20 },
-      },
-      spaceBetween: 20,
-      // modules: [he],
-      // pagination: { el: ".swiper-pagination", clickable: !0 },
-    }),
     new D(".feedback-slider", {
       spaceBetween: 30,
       speed: 1500,

@@ -133,7 +133,9 @@
         </nav>
 
         <div id="mobile-menu" class="lg:hidden fixed  right-0 w-[100%] 
-            h-screen bg-white  top-[58px] backdrop-blur-[30px] z-[999] px-6 py-10
+        bg-transparent-2
+            h-screen  top-[58px] bg-white  
+            z-[999] px-6 py-10
              transition-transform duration-300 ease-linear transform translate-x-full overflow-y-auto">
             <div class="relative flex flex-col items-center gap-4">
                 <div class="relative w-full">

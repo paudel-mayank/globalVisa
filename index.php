@@ -629,7 +629,8 @@ include 'includes/header.php';
         <div
             class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
             <div class="flex justify-center items-center gap-5">
-                <i class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
+                <i class="text-primary-light group-hover:text-white transition-all 
+                duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
                                                                 ri-exchange-dollar-fill"></i>
                 <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                     40+
@@ -644,7 +645,7 @@ include 'includes/header.php';
             class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
             <div class="flex justify-center items-center gap-5">
                 <i
-                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-passport-line"></i>
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-passport-line"></i>
                 <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                     500+
                 </h1>
@@ -658,7 +659,7 @@ include 'includes/header.php';
             class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
             <div class="flex justify-center items-center gap-5">
                 <i
-                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] fa-solid fa-piggy-bank"></i>
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] fa-solid fa-piggy-bank"></i>
                 <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                     20M
                 </h1>
@@ -672,7 +673,7 @@ include 'includes/header.php';
             class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
             <div class="flex justify-center items-center gap-5">
                 <i
-                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[48px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-user-add-fill"></i>
+                    class="text-primary-light group-hover:text-white transition-all duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] ri-user-add-fill"></i>
                 <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                     5+
                 </h1>
@@ -715,14 +716,14 @@ include 'includes/header.php';
 
 <div id="teams">
     <div class="container">
-        <div class=" swiper container  py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-row overflow-hidden 
-            service-slider ">
-            <div data-aos="" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
-                class="swiper-wrapper " style="display: flex; flex-direction: row; justify-content:space-between">
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+        <div
+            class="swiper container  py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-row overflow-hidden ms-slider">
+            <div class="swiper-wrapper transition-all duration-300 ease-in "
+                style=" display: flex; flex-direction: row; justify-content:space-between">
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto; height:450px;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
+                        src="assets/service1-264b6f59.png" alt="img1.png" style="height:450px;
                         object-fit:cover; object-position:center;" />
                     <div
                         class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all
@@ -760,13 +761,14 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group duration-300 ease-in transition-all"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
+                        src="assets/service2-e043e363.png" alt="img1.png" style="height:450px;
                         object-fit:cover; object-position:center;" />
                     <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                        class="w-full h-full absolute top-0
+                         opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
                         <!-- <i
                     class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i> -->
                         <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
@@ -794,7 +796,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
                         src="assets/about.jpg" alt="img1.png" style="height:450px;
@@ -830,7 +832,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
                         src="assets/about.jpg" alt="img1.png" style="height:450px;
@@ -866,7 +868,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
                         src="assets/about.jpg" alt="img1.png" style="height:450px;
@@ -900,10 +902,10 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
+                        src="assets/service4-7060361e.png" alt="img1.png" style="height:450px;
                         object-fit:cover; object-position:center;" />
                     <div
                         class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
@@ -936,10 +938,10 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px; flex: 0 0 auto;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
+                        src="assets/service2-e043e363.png" alt="img1.png" style="height:450px;
                         object-fit:cover; object-position:center;" />
                     <div
                         class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
@@ -949,8 +951,7 @@ include 'includes/header.php';
                             <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
                                 <div class="flex flex-col xl:gap-[6px]">
                                     <h4 class="text-primary-dark font-semibold">
-                                        Tourist & Guest Visa
-                                    </h4>
+                                        Transit Visa </h4>
                                     <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
                                 </div>
                                 <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
@@ -972,7 +973,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
                         src="assets/about.jpg" alt="img1.png" style="height:450px;
@@ -1008,7 +1009,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="members swiper-slide max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
+                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
                     style="max-width:300px;">
                     <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
                         src="assets/about.jpg" alt="img1.png" style="height:450px;
