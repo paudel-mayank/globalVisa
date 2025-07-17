@@ -37,478 +37,492 @@ include 'includes/header.php';
 
             <div data-aos="fade-up" data-aos-duration="700" class=" w-full h-full ">
                 <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                    <div
-                        class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
-                            <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile1-739ed259.png" alt="profile1"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">Bob
-                                            Harrison</h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                    <div
+                        class="swiper-slide cursor-pointe   r group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
+                            <div
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile2-b4bc3f60.png" alt="profile2"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">Marc
-                                            Barber</h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile3-47608cbf.png" alt="profile3"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">
-                                            Tiffany Hawkins
-                                        </h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile4-c09e4e66.png" alt="profile4"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">
-                                            Travis Douglas
-                                        </h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile5-efc8f312.png" alt="profile5"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">
-                                            Steve Chambers
-                                        </h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div
-                        class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
-                            <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
-
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile6-9a61146d.png" alt="profile6"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">Eunice
-                                            Solis</h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
-                                    </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
                                 </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
 
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile4-c09e4e66.png" alt="profile4"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">
-                                            Travis Douglas
-                                        </h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile6-9a61146d.png" alt="profile6"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Eunice
+                                                Solis</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
+
+
 
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile5-efc8f312.png" alt="profile5"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">
-                                            Steve Chambers
-                                        </h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                            <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
-                            </div>
-                        </div>
+                        </a>
                     </div>
+
 
                     <div
                         class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
-                        <div
-                            class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
-                                <div class="flex justify-start items-center gap-1">
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                    <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
-                                </div>
-                                <p class="text-textColor-dark">
-                                    <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
-                                    orci leo at risus sed. Malesuada
-                                    feugiat id adipiscing
-                                    consequat bibendum. Mi amet
-                                    lectus
-                                    eget augue lectus sagittis
-                                    sed. Vitae neque vel arcu
-                                    egestas.
-                                    Egestas vestibulum viverra
-                                    dignissim malesuada est aliquet
-                                    nec.
-                                    Tincidunt nulla purus
-                                    aenean vivamus dolor nulla
-                                    bibendum
-                                    urna.
-                                </p>
-                                <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
 
-                                <div class="flex justify-start items-center gap-5">
-                                    <img src="assets/profile6-9a61146d.png" alt="profile6"
-                                        class="rounded-[30px] testimonialAvatar" />
-                                    <div>
-                                        <h6 class="text-primary-dark font-semibold">Eunice
-                                            Solis</h6>
-                                        <p class="text-textColor-dark text-body3 font-body3">
-                                            Customer
-                                        </p>
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
+                        </a>
+                    </div>
+
+
+                    <div
+                        class="swiper-slide cursor-pointer group hover:bg-primary pb-[24px] xl:pb-[40px] 2xl:pb-[52px] transition-all duration-300 ease-in">
+                        <a href='testimonialsDetail.php'>
                             <div
-                                class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
-                                <i
-                                    class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                class="max-w-[288px] sm:max-w-full mx-auto sm:mx-0 relative transition-all duration-300 ease-in">
+                                <div
+                                    class="relative w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] bg-white py-5 xl:py-[30px] top-6 xl:top-10 2xl:top-[50px] left-6 xl:left-10 2xl:left-[50px] px-[15px] xl:px-5 flex flex-col gap-[15px] xl:gap-5 border-2 border-primary-light rounded-[20px]">
+                                    <div class="flex justify-start items-center gap-1">
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                        <i class="text-[15px] leading-[15px] text-primary-light ri-star-s-fill"></i>
+                                    </div>
+                                    <p class="text-textColor-dark">
+                                        <span class="text-[28px] leading-[34px] font-semibold">E</span>nim
+                                        orci leo at risus sed. Malesuada
+                                        feugiat id adipiscing
+                                        consequat bibendum. Mi amet
+                                        lectus
+                                        eget augue lectus sagittis
+                                        sed. Vitae neque vel arcu
+                                        egestas.
+                                        Egestas vestibulum viverra
+                                        dignissim malesuada est aliquet
+                                        nec.
+                                        Tincidunt nulla purus
+                                        aenean vivamus dolor nulla
+                                        bibendum
+                                        urna.
+                                    </p>
+                                    <img class="max-w-full" src="assets/lineB-28c55641.svg" alt="lineB.svg" />
+
+                                    <div class="flex justify-start items-center gap-5">
+                                        <img src="assets/profile1-739ed259.png" alt="profile1"
+                                            class="rounded-[30px] testimonialAvatar" />
+                                        <div>
+                                            <h6 class="text-primary-dark font-semibold">Bob
+                                                Harrison</h6>
+                                            <p class="text-textColor-dark text-body3 font-body3">
+                                                Customer
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
+                                    <i
+                                        class="text-[35px] leading-[35px] xl:text-[45px] xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

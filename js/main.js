@@ -3596,7 +3596,7 @@ new Swiper(".universitySlider", {
   loop: true,
   autoplay: { delay: 100, disableOnInteraction: false },
   // slidesPerView: 6,
-  breakpoints: { 1024: { slidesPerView: 6 }, 640: { slidesPerView: 3 }, 0: { slidesPerView: 2 } },
+  breakpoints: { 1024: { slidesPerView: 6 }, 640: { slidesPerView: 3 }, 0: { slidesPerView: 1 } },
   // pagination: { el: ".swiper-pagination", clickable: false },
 });
 new Swiper(".team-swiper", {

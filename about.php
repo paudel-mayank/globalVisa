@@ -354,31 +354,33 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
+  </div>
+</div>
 
 
 
-    <?php include "includes/footer.php" ?>
+<?php include "includes/footer.php" ?>
 
 
-    <!-- loader js -->
+<!-- loader js -->
 
-    <!-- Include Alpine.js CDN -->
-    <script src="cdn.jsdelivr.net/npm/alpinejs%402.8.2/dist/alpine.min.js" defer></script>
+<!-- Include Alpine.js CDN -->
+<script src="cdn.jsdelivr.net/npm/alpinejs%402.8.2/dist/alpine.min.js" defer></script>
 
-    <!-- preline js -->
+<!-- preline js -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/preline@latest/dist/preline.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/preline@latest/dist/preline.js"></script> -->
 
-    <!-- main js -->
+<!-- main js -->
 
-    <!-- swiper js  -->
-    <script src="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
+<!-- swiper js  -->
+<script src="cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
 
-    <!-- aos  -->
-    <script src="js/aos.js"></script>
+<!-- aos  -->
+<script src="js/aos.js"></script>
 
-    </body>
+</body>
 
-    <!-- Mirrored from globelvisa-html.vercel.app/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 15:59:50 GMT -->
+<!-- Mirrored from globelvisa-html.vercel.app/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 15:59:50 GMT -->
 
-    </html>
+</html>
