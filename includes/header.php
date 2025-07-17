@@ -39,7 +39,8 @@
 
 <body class="overflow-x-hidden">
     <header class="overflow-x-hidden">
-        <nav data-aos="fade-down" data-aos-duration="700" class="left-0 right-0 fixed top-0 z-20 bg-white">
+        <nav data-aos="fade-down" data-aos-duration="700" class="left-0
+         right-0 fixed top-0 bg-transparent-2 z-20 ">
             <div class="flex py-[10px] lg:py-0 justify-between container items-center">
                 <a href="index.php">
                     <img class="max-w-[30%] sm:max-w-full" src="assets/logo-1.png" alt="Logo" style="height: 50px;" />
@@ -119,7 +120,15 @@
                         </div>
 
                         <div class="hidden xl:flex justify-center items-center">
-                            <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px] rounded-[20px] bg-primary-light hover:bg-secondary-medium text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
+                            <!-- <a class="py-[10px] sm:py-3 lg:py-[14px]
+                             px-[14px] sm:px-4 lg:px-[18px] rounded-[20px]
+                              bg-primary-light hover:bg-secondary-medium 
+                              text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
+                                href="contact.php#inquiry">Apply Now</a> -->
+                            <a class="py-[10px] sm:py-3 lg:py-[14px]
+                             px-[14px] sm:px-4 lg:px-[18px] rounded-[20px]
+                              bg-primary-light bg-secondary-medium 
+                              text-subtitle3 sm:text-subtitle2 lg:text-subtitle1 font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 transition-all duration-300 ease-in"
                                 href="contact.php#inquiry">Apply Now</a>
                         </div>
                     </div>
