@@ -471,12 +471,7 @@ include 'includes/header.php';
 
 
 </div>
-
-
-
-
-
-<div class=" relative w-full h-full flex flex-col gap-[70px] container">
+<div class=" relative overflow-hidden w-full h-full flex flex-col gap-[70px] container">
     <div class="flex-equal-height gap-10 items-center">
         <div data-aos="fade-right" data-aos-duration="700" class="relative h-full w-full choose-us" id='image-column'>
             <img class="w-full h-full object-cover relative" src="assets/a.jpg" alt="chooseImg" />
@@ -623,6 +618,12 @@ include 'includes/header.php';
         </div>
     </div>
 </div>
+
+
+
+
+
+
 <div class="py-[50px]">
     <div data-aos="zoom-in" data-aos-duration="700"
         class="grid grid-cols-2 min-[530px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 container ">
