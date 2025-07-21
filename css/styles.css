@@ -872,6 +872,10 @@ h6 {
     right: 1.75rem
 }
 
+.right-30 {
+    right: 100px
+}
+
 .right-\[10px\] {
     right: 10px
 }
@@ -907,6 +911,11 @@ h6 {
 .top-9 {
     top: 2.25rem
 }
+
+.top-20 {
+    top: -.5rem
+}
+
 
 .top-\[100PX\] {
     top: 100PX
@@ -1029,6 +1038,10 @@ h6 {
 
 .mt-\[50px\] {
     margin-top: 50px
+}
+
+.mt-\[58px\] {
+    margin-top: 58px
 }
 
 .block {

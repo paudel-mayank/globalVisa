@@ -7,6 +7,8 @@ include 'includes/header.php';
 
 <div class="max-w-full overflow-hidden relative  h-full bg-cover bg-center bg-no-repeat   "
   style="background-image: url('assets/allBackground-8d35f342.png');">
+  <?php include 'includes/navMenu.php' ?>
+
   <div class="container  pt-[140px] sm:pt-[170px] lg:pt-[190px] xl:pt-[223px] pb-[110px] sm:pb-[130px]">
 
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
@@ -154,7 +156,30 @@ include 'includes/header.php';
 
 <!-- aos  -->
 <script src="js/aos.js"></script>
+<script>
+  window.addEventListener('scroll', function () {
+    const nav = document.getElementById('mainNav');
+    const links = document.querySelectorAll('.nav-link');
 
+    if (window.scrollY > 20) {
+      nav.classList.add('bg-transparent-2');
+      // nav.classList.add('bg-transparent-2');
+      nav.classList.remove('bg-transparent');
+      links.forEach(link => {
+        link.classList.remove('text-white');
+        link.classList.add('text-primary-light');
+
+      });
+    } else {
+      nav.classList.add('bg-transparent');
+      nav.classList.remove('bg-transparent-2');
+      links.forEach(link => {
+        link.classList.remove('text-primary-light');
+        link.classList.add('text-white');
+      });
+    }
+  });
+</script>
 </body>
 
 <!-- Mirrored from globelvisa-html.vercel.app/countryDetail.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Jun 2025 16:00:09 GMT -->

@@ -6,6 +6,8 @@ include 'includes/header.php';
 
 <div class="max-w-full overflow-hidden relative  h-full bg-cover bg-center bg-no-repeat"
     style="background-image: url('assets/allBackground-8d35f342.png');">
+    <?php include 'includes/navMenu.php' ?>
+
     <!-- <img class=" hidden lg:block absolute right-5 top-[100PX]"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAYAAACJm/9dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALRSURBVHgB7drRbdpQGIbhYyZIL1C3SUdpNmg6QekEDRs0oyQdh0owQU8dirhwPqUWBGNbzyNRFMR/U/JKifI1pVU3v76Vpt6XWm4Kw2vKrv2//9ksb7/2efvx89p/4e4Sd03dPP9ov7wvXN+f+r35+Gn11lvi5+Xu3e8W7dNdYRwWzZce77pzd/m7RQFeacOo68I41PrY401rd5e/a/bPm6eH9ulz+1ugX76vou7af9bN8u2fh4/vPn5ee+6udAcAAAAAAHANhz/wWddelXXt6O6sa8fE2tW6lsDadTR31rUQWNeOibXraO6sa0fBunaKdwAAAAAAAMAZXlay9ffzdv/4Nw48+a4pMAPvvsotMAPtN/i2fepOmnbN8vbDKXfWtRAIg5kYepULE/Gykm0f28Njdek7AAAAAAAA4AzWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS0MQBjMhHUtRNa1AAAAAAAAMCHWtdBhXQuBdS1kNz1f63UnDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBgQCAMCYUAgDAiEAYEwIBAGBMKAQBjMxa7na73uhMFM1PXrl+pj+a9T72Ai6ubpoX1sD4/VOXd/AaY9jPpdnCdEAAAAAElFTkSuQmCC"
             alt="right" /> -->
@@ -553,6 +555,30 @@ include 'includes/header.php';
 
 <!-- aos  -->
 <script src="js/aos.js"></script>
+<script>
+    window.addEventListener('scroll', function () {
+        const nav = document.getElementById('mainNav');
+        const links = document.querySelectorAll('.nav-link');
+
+        if (window.scrollY > 20) {
+            nav.classList.add('bg-transparent-2');
+            // nav.classList.add('bg-transparent-2');
+            nav.classList.remove('bg-transparent');
+            links.forEach(link => {
+                link.classList.remove('text-white');
+                link.classList.add('text-primary-light');
+
+            });
+        } else {
+            nav.classList.add('bg-transparent');
+            nav.classList.remove('bg-transparent-2');
+            links.forEach(link => {
+                link.classList.remove('text-primary-light');
+                link.classList.add('text-white');
+            });
+        }
+    });
+</script>
 
 </body>
 

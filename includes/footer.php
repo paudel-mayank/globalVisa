@@ -18,7 +18,8 @@
 
     <div class="container py-[50px]">
         <div data-aos="fade-up" data-aos-duration="700" class="flex flex-col gap-10">
-            <img class="max-w-[228px] mx-auto" src="assets/logo-1.png" alt="footerLogo1.svg" />
+            <!-- max-w-[228px] w-[200px]  -->
+            <img class="mx-auto max-w-[228px]" src="assets/logo-1.png" alt="footerLogo1.svg" />
             <img class="max-w-full" src="assets/line-c4949527.svg" alt="line.svg" />
 
             <div class="flex flex-wrap justify-between gap-[50px] xl:gap-0 items-start">
@@ -183,11 +184,11 @@
             </div>
         </div>
     </div>
+    <!-- <button id="to-top-button" onclick="goToTop()" title="Go To Top" class="hidden fixed z-50 bottom-5 right-5">
+        <span class="h-10 w-10 flex items-center justify-center
+                            border-secodary-medium border-[3px] rounded-full text-secondary-medium">
+            <i class="ri-arrow-up-line  text-xl"></i>
+        </span>
+    </button> -->
 </div>
 <!-- Back to top -->
-<button id="to-top-button" onclick="goToTop()" title="Go To Top" class="hidden fixed z-50 bottom-5 right-5">
-    <span class="h-10 w-10 flex items-center justify-center
-                            border-secodary-medium border-[3px] rounded-full text-secondary-medium">
-        <i class="ri-arrow-up-line  text-xl"></i>
-    </span>
-</button>

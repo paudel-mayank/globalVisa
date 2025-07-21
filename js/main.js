@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     n = document.getElementById("showSearch"),
     a = document.getElementById("searchBar"),
     l = document.getElementById("closeSearch");
+
   function o() {
     e.classList.toggle("translate-x-full"),
       e.classList.toggle("open"),
@@ -3580,11 +3581,11 @@ new D(".testimonial-slider", {
   modules: [ge],
   navigation: { nextEl: ".next-btn", prevEl: ".prev-btn" },
 });
-new D(".homeSlider", {
+new Swiper(".homeSlider", {
   // spaceBetween: 30,
-  speed: 200,
+  speed: 3000,
   loop: true,
-  autoplay: { delay: 500, disableOnInteraction: false },
+  autoplay: { delay: 200, disableOnInteraction: false },
   slidesPerView: 1,
   effect: "slide",
   // modules: [he],
