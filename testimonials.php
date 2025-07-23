@@ -559,19 +559,24 @@ include 'includes/header.php';
     window.addEventListener('scroll', function () {
         const nav = document.getElementById('mainNav');
         const links = document.querySelectorAll('.nav-link');
+        const buttontab = document.getElementById('menu-icon')
+        // const closetab = document.getElementById('close-icon');
+
 
         if (window.scrollY > 20) {
-            nav.classList.add('bg-transparent-2');
-            // nav.classList.add('bg-transparent-2');
+            nav.classList.add('bg-white');
+            buttontab.classList.add('text-primary-light')
+            buttontab.classList.remove('text-white')
             nav.classList.remove('bg-transparent');
             links.forEach(link => {
                 link.classList.remove('text-white');
                 link.classList.add('text-primary-light');
-
             });
         } else {
             nav.classList.add('bg-transparent');
-            nav.classList.remove('bg-transparent-2');
+            nav.classList.remove('bg-white');
+            buttontab.classList.remove('text-primary-light')
+            buttontab.classList.add('text-white')
             links.forEach(link => {
                 link.classList.remove('text-primary-light');
                 link.classList.add('text-white');

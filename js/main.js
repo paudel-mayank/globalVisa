@@ -27,13 +27,13 @@
     fetch(r.href, n);
   }
 })();
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector(".loader").classList.remove("hidden"),
-    document.body.style.overflow = "hidden",
-    setTimeout(function() {
-      document.querySelector(".loader").classList.add("hidden"), document.body.style.overflow = "";
-    }, 2e3);
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   document.querySelector(".loader").classList.remove("hidden"),
+//     document.body.style.overflow = "hidden",
+//     setTimeout(function() {
+//       document.querySelector(".loader").classList.add("hidden"), document.body.style.overflow = "";
+//     }, 2e3);
+// });
 document.addEventListener("DOMContentLoaded", function() {
   const i = document.getElementById("menu-toggle"),
     e = document.getElementById("mobile-menu"),
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
     n = document.getElementById("showSearch"),
     a = document.getElementById("searchBar"),
     l = document.getElementById("closeSearch");
-
+  s.addEventListener("click", o);
   function o() {
     e.classList.toggle("translate-x-full"),
       e.classList.toggle("open"),

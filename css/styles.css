@@ -1795,7 +1795,9 @@ h6 {
 
 .bg-primary-light {
     --tw-bg-opacity: 1;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: #0f76bd;
+
     /* background-color: rgb(192 75 98 / var(--tw-bg-opacity)) */
 }
 

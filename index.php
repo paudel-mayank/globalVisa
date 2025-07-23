@@ -6,7 +6,7 @@ include 'includes/header.php';
 
 
 
-<div class="swiper w-full h-full  homeSlider ">
+<div class="swiper w-full h-full  homeSlider  z-[999]">
     <?php include 'includes/navMenu.php' ?>
 
 
@@ -317,8 +317,8 @@ include 'includes/header.php';
 
                 <div data-aos="fade-up" data-aos-duration="700" class="swiper w-full h-full countryFlag-slider">
                     <div class="swiper-wrapper">
-                        <div
-                            class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
+                        <div class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px]
+                             group hover:bg-primary transition-all duration-300 ease-in">
                             <div
                                 class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/india-74be8e43.svg" alt="india" />
@@ -353,10 +353,11 @@ include 'includes/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
+                        <div class="swiper-slide cursor-pointer border border-primary bg-bgOpacity
+                             rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
                             <div
-                                class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+                                class="p-[30px] flex flex-col gap-[30px] bg-white 
+                                hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/canada-96831683.svg" alt="canada" />
                                 <div class="grid grid-cols-1 gap-[10px]">
                                     <h4 class="text-primary-dark text-center font-semibold">
@@ -449,7 +450,8 @@ include 'includes/header.php';
                         <div
                             class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
                             <div
-                                class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+                                class="p-[30px] flex flex-col gap-[30px] 
+                                bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/russia-7be430b7.svg" alt="russia" />
                                 <div class="grid grid-cols-1 gap-[10px]">
                                     <h4 class="text-primary-dark text-center font-semibold">
@@ -1613,19 +1615,24 @@ include 'includes/header.php';
     window.addEventListener('scroll', function () {
         const nav = document.getElementById('mainNav');
         const links = document.querySelectorAll('.nav-link');
+        const buttontab = document.getElementById('menu-icon')
+        // const closetab = document.getElementById('close-icon');
+
 
         if (window.scrollY > 20) {
-            nav.classList.add('bg-transparent-2');
-            // nav.classList.add('bg-transparent-2');
+            nav.classList.add('bg-white');
+            buttontab.classList.add('text-primary-light')
+            buttontab.classList.remove('text-white')
             nav.classList.remove('bg-transparent');
             links.forEach(link => {
                 link.classList.remove('text-white');
                 link.classList.add('text-primary-light');
-
             });
         } else {
             nav.classList.add('bg-transparent');
-            nav.classList.remove('bg-transparent-2');
+            nav.classList.remove('bg-white');
+            buttontab.classList.remove('text-primary-light')
+            buttontab.classList.add('text-white')
             links.forEach(link => {
                 link.classList.remove('text-primary-light');
                 link.classList.add('text-white');
@@ -1633,6 +1640,7 @@ include 'includes/header.php';
         }
     });
 </script>
+
 
 </body>
 

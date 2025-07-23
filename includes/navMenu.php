@@ -1,5 +1,5 @@
 <header class="overflow-x-hidden w-full">
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-transparent " id="mainNav">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-transparent" id="mainNav">
         <div class="container">
             <div class="flex py-[10px] lg:py-0 justify-between items-center">
                 <a href="index.php">
@@ -25,8 +25,6 @@
 
                         </div>
                     </li>
-
-
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="countries.php"
@@ -89,26 +87,28 @@
                                 href="contact.php#inquiry">Apply Now</a>
                         </div>
                     </div>
-                    <button id="menu-toggle" class="block lg:hidden relative" style="z-Index:999;">
+                    <button id="menu-toggle" class="block  lg:hidden z-[9999] ">
                         <i id="menu-icon" class="text-[25px] text-white font-semibold ri-menu-3-line"></i>
-                        <i id="close-icon" class="text-[25px] text-primary-light 
-                            hidden font-semibold ri-close-line"></i>
+                        <!-- <i id="close-icon"
+                            class="text-[25px] translate-x-full text-primary-light hidden font-semibold ri-close-line"></i> -->
                     </button>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- bg-transparent-2  -->
 
     <div id="mobile-menu" class="lg:hidden fixed  
     right-0 w-[100%] 
-                bg-transparent-2 
-                    h-screen  top-0 bg-white  
-                    z-[99] py-10 
+    bg-transparent-2 
+                    h-screen  top-0 
+                    z-50 py-10 
                     transition-transform 
                     duration-300 ease-linear 
                     transform translate-x-full overflow-y-auto">
-
-
+        <i id="close-icon"
+            class="text-[25px] absolute  translate-x-full text-primary-light hidden font-semibold ri-close-line"
+            style="right:70px;"></i>
         <div class="container">
 
             <div class="relative flex flex-col items-center gap-4 mt-5">
