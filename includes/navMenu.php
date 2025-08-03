@@ -1,5 +1,5 @@
 <header class="overflow-x-hidden w-full">
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-transparent" id="mainNav">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-transparent-2" id="mainNav">
         <div class="container">
             <div class="flex py-[10px] lg:py-0 justify-between items-center">
                 <a href="index.php">
@@ -10,7 +10,7 @@
                 <ul class="hidden lg:flex justify-center gap-[30px] items-center">
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
-                            <a href="about.php" class=" nav-link text-subtitle2 font-subtitle2 text-white 
+                            <a href="about.php" class=" nav-link text-subtitle2 font-subtitle2 text-primary-light 
                         group-hover:text-primary-light transition-all duration-300 ease-in">
                                 About Us
                             </a>
@@ -19,7 +19,7 @@
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="service.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Service
                             </a>
 
@@ -28,14 +28,14 @@
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="countries.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Study Abroad </a>
                         </div>
                     </li>
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="coaching.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Test Preparation </a>
                         </div>
                     </li>
@@ -43,14 +43,14 @@
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="testimonials.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Success Story </a>
                         </div>
                     </li>
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="faq.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 FAQ
                             </a>
                         </div>
@@ -59,7 +59,7 @@
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="blog.php"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Blogs
                             </a>
                     </li>
@@ -67,7 +67,7 @@
                     <li class="relative group">
                         <div class="flex py-[25px] xl:py-[34px] group items-center justify-center gap-[6px]">
                             <a href="contact.php#branch"
-                                class=" nav-link text-subtitle2 font-subtitle2 text-white group-hover:text-primary-light transition-all duration-300 ease-in">
+                                class=" nav-link text-subtitle2 font-subtitle2 text-primary-light group-hover:text-primary-light transition-all duration-300 ease-in">
                                 Contact
                             </a>
                     </li>

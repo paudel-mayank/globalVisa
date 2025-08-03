@@ -10,13 +10,14 @@ include 'includes/header.php';
     <?php include 'includes/navMenu.php' ?>
 
 
+
     <div class="swiper-wrapper">
         <div class="swiper-slide  top-0 w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center"
             style="background-image: url('assets/slide1-4daa9b6e.png');">
             <div class="container">
                 <div data-aos="fade-right" data-aos-duration="700"
                     class="flex max-w-[500px] xl:max-w-[585px] mx-auto 
-                                                                        lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10">
+                                                                            lg:mx-0 justify-center lg:justify-start items-center lg:items-start flex-col gap-5 sm:gap-[30px] xl:gap-10">
                     <div class="flex flex-col gap-5 sm:gap-[30px]">
                         <div class="flex flex-col gap-5">
                             <div class="flex justify-center lg:justify-start items-center lg:items-start gap-2">
@@ -50,20 +51,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                                                text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 
-                                                                                font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                                                rounded-[20px] border-[2px] border-primary-white 
-                                                                                text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 
+                                                                                    font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                                                    rounded-[20px] border-[2px] border-primary-white 
+                                                                                    text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                                                px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                                                sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                                                border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                                                    sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                                                    border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="#contact">
                             Apply Now</a>
                     </div>
@@ -71,7 +72,7 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center 
-                                                            "
+                                                                "
             style="background-image: url('assets/slide2-f9945d95.png');">
             <div class="container">
                 <div data-aos="fade-right" data-aos-duration="700"
@@ -107,20 +108,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                                                text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 
-                                                                                font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                                                rounded-[20px] border-[2px] border-primary-white 
-                                                                                text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 
+                                                                                    font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                                                    rounded-[20px] border-[2px] border-primary-white 
+                                                                                    text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                                                px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                                                sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                                                border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                                                    sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                                                    border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="  ">
                             Apply Now</a>
                     </div>
@@ -128,7 +129,7 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="swiper-slide w-full h-full py-[119px] sm:py-[118px] xl:py-[133px] bg-cover bg-center 
-                                                            "
+                                                                "
             style="background-image: url('assets/slide2-f9945d95.png');">
             <div class="container">
                 <div data-aos="fade-right" data-aos-duration="700"
@@ -164,20 +165,20 @@ include 'includes/header.php';
                     </div>
                     <div class="flex gap-5 justify-start items-center">
                         <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 lg:px-[18px]
-                                                                                text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 
-                                                                                font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
-                                                                                rounded-[20px] border-[2px] border-primary-white 
-                                                                                text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 
+                                                                                    font-subtitle3 sm:font-subtitle2 lg:font-subtitle1 
+                                                                                    rounded-[20px] border-[2px] border-primary-white 
+                                                                                    text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="/about.php">
                             Learn More</a>
                         <a class="py-[10px] sm:py-3 lg:py-[14px] 
-                                                                                px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
-                                                                                sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
-                                                                                sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
-                                                                                border-[2px] border-primary-white text-primary-white hover:text-white 
-                                                                                hover:bg-secondary-medium transition-all duration-300 ease-in"
+                                                                                    px-[14px] sm:px-4 lg:px-[18px] text-subtitle3 
+                                                                                    sm:text-subtitle2 lg:text-subtitle1 font-subtitle3
+                                                                                    sm:font-subtitle2 lg:font-subtitle1 rounded-[20px] 
+                                                                                    border-[2px] border-primary-white text-primary-white hover:text-white 
+                                                                                    hover:bg-secondary-medium transition-all duration-300 ease-in"
                             href="  ">
                             Apply Now</a>
                     </div>
@@ -211,7 +212,7 @@ include 'includes/header.php';
                                             Stress-Free Visa
                                             Assistance
                                             <!-- <span class="text-primary-light">Visa
-                                                                                            Assistance.</span> -->
+                                                                                                Assistance.</span> -->
                                         </h2>
                                         <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
                                     </div>
@@ -290,15 +291,15 @@ include 'includes/header.php';
 
             <div class="container flex flex-col py-[70px] gap-10 sm:gap-[50px] xl:gap-[70px]">
                 <div class="overflow-hidden text-center max-w-[680px] lg:max-w-full mx-auto lg:mx-0 
-                        flex flex-wrap lg:flex-nowrap justify-start items-center lg:items-end">
+                            flex flex-wrap lg:flex-nowrap justify-start items-center lg:items-end">
                     <div data-aos="fade-right" data-aos-duration="700"
                         class="flex overflow-hidden flex-col xl:gap-[20px] max-w-[680px] mx-auto ">
                         <div class="flex text-center lg:justify-center items-center lg:items-center"
                             style='margin-bottom:30px;'>
                             <i class="text-secondary-light text-subtitle2 sm:text-subtitle1 
-                                    font-subtitle1 ri-shield-star-fill"></i>
+                                        font-subtitle1 ri-shield-star-fill"></i>
                             <p class="text-secondary-light text-center text-subtitle2 sm:text-subtitle1 
-                                font-subtitle1" style='line-height:32px;'>
+                                    font-subtitle1" style='line-height:32px;'>
                                 Countries we offer for Visa
                             </p>
                         </div>
@@ -318,7 +319,7 @@ include 'includes/header.php';
                 <div data-aos="fade-up" data-aos-duration="700" class="swiper w-full h-full countryFlag-slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px]
-                             group hover:bg-primary transition-all duration-300 ease-in">
+                                group hover:bg-primary transition-all duration-300 ease-in">
                             <div
                                 class="p-[30px] flex flex-col gap-[30px] bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/india-74be8e43.svg" alt="india" />
@@ -354,10 +355,10 @@ include 'includes/header.php';
                             </div>
                         </div>
                         <div class="swiper-slide cursor-pointer border border-primary bg-bgOpacity
-                             rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
+                                rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
                             <div
                                 class="p-[30px] flex flex-col gap-[30px] bg-white 
-                                hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+                                    hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/canada-96831683.svg" alt="canada" />
                                 <div class="grid grid-cols-1 gap-[10px]">
                                     <h4 class="text-primary-dark text-center font-semibold">
@@ -451,7 +452,7 @@ include 'includes/header.php';
                             class="swiper-slide cursor-pointer border border-primary bg-bgOpacity rounded-[20px] group hover:bg-primary transition-all duration-300 ease-in">
                             <div
                                 class="p-[30px] flex flex-col gap-[30px] 
-                                bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
+                                    bg-white hover:bg-secondary-light rounded-[20px] transition-all duration-300 ease-in justify-center items-center">
                                 <img class="drop-shadow-medium" src="assets/russia-7be430b7.svg" alt="russia" />
                                 <div class="grid grid-cols-1 gap-[10px]">
                                     <h4 class="text-primary-dark text-center font-semibold">
@@ -485,9 +486,9 @@ include 'includes/header.php';
             <img class="w-full h-full object-cover relative" src="assets/a.jpg" alt="chooseImg" />
             <div
                 class="flex flex-col gap-[5px] sm:gap-[10px] absolute bottom-[150px] sm:bottom-[130px] 
-                                            left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
+                                                left-1/2 -translate-x-1/2 max-w-[170px] sm:max-w-[228px] w-full p-[15px] sm:p-[29px] border-[5px] bg-primary-light border-white rounded-[20px] drop-shadow-medium">
                 <p class="text-[35px] leading-10 sm:leading-[74px] sm:text-[56px] 
-                                                                    text-center font-bold">
+                                                                        text-center font-bold">
                     40+
                 </p>
                 <p class="sm:leading-[26px] sm:text-[20px] text-center">
@@ -520,7 +521,7 @@ include 'includes/header.php';
                                 Effortless
                                 Visa Processing, Exceptional
                                 <!-- <span class="text-primary-light">
-                                                                                    Exceptional</span> -->
+                                                                                        Exceptional</span> -->
                                 Service.
                             </h2>
                             <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
@@ -538,7 +539,7 @@ include 'includes/header.php';
                 <div class="flex flex-col gap-[15px] xl:gap-10">
                     <div class="flex justify-start items-start gap-[10px] sm:gap-[15px] xl:gap-5 ">
                         <!-- <img class="size-[40px] sm:size-[50px] xl:size-[70px]" src="assets/choose1-59b164c9.svg"
-                                                    alt="choose1.svg" /> -->
+                                                        alt="choose1.svg" /> -->
                         <div class="icon-wrapper">
                             <!-- Paste your SVG content directly here -->
                             <!-- Example (you'll replace this with your actual SVG content): -->
@@ -546,9 +547,9 @@ include 'includes/header.php';
 
                         </div>
                         <!-- <div class=" size-[80px] bg-secondary-medium sm:gap-[15px] xl:gap-5 ">
-                                                                            <i class="ri-search-eye-line  
-                                                                                text-[48px] xl:text-[58px] " />
-                                                                        </div> -->
+                                                                                <i class="ri-search-eye-line  
+                                                                                    text-[48px] xl:text-[58px] " />
+                                                                            </div> -->
                         <div class="flex flex-col gap-[5px] xl:gap-[10px]">
                             <div class="flex flex-col gap-[5px]">
                                 <h5 class="text-primary-dark">Virtual
@@ -639,14 +640,14 @@ include 'includes/header.php';
             class="py-[30px] px-5 border-2 border-primary-light bg-white group hover:bg-primary-light transition-all duration-300 ease-in rounded-[20px] flex flex-col gap-5">
             <div class="flex justify-center items-center gap-5">
                 <i class="text-primary-light group-hover:text-white transition-all 
-                    duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
-                                                                    ri-exchange-dollar-fill"></i>
+                        duration-300 ease-in text-[40px] xl:text-[58px] leading-[50px] xl:leading-[60px] 
+                                                                        ri-exchange-dollar-fill"></i>
                 <h1 class="group-hover:text-white text-primary-dark transition-all duration-300 ease-in">
                     40+
                 </h1>
             </div>
             <h6 class="text-primary-dark group-hover:text-white transition-all duration-300
-                                                                ease-in font-semibold text-center">
+                                                                    ease-in font-semibold text-center">
                 Countries we offer
             </h6>
         </div>
@@ -724,338 +725,123 @@ include 'includes/header.php';
 </div>
 
 <div id="teams">
-    <div class="container">
-        <div
-            class="swiper container  py-[50px] xl:py-[70px] gap-10 lg:gap-[70px] flex flex-row overflow-hidden ms-slider">
-            <div class="swiper-wrapper transition-all duration-300 ease-in "
-                style=" display: flex; flex-direction: row; justify-content:space-between">
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto; height:450px;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/service1-264b6f59.png" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all
-                                duration-300 ease-in drop-shadow-medium 
-                                py-5 xl:py-[37px] px-[15px] md:px-[25px]
-                                lg:px-5 2xl:px-[30px] bg-white flex flex-col
-                                gap-[10px] md:gap-[15px] xl:gap-[30px]
-                                    2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Student Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
-                        </p> -->
+    <div class="container mt-[50px]  gap-10 lg:gap-[70px] flex flex-col overflow-hidden">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            class="team-member  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="members max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                <img class="w-full" src="assets/img1-cbb28be8.png" alt="img1.png" />
+                <div
+                    class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all 
+            duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                    <!-- <i
+                class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i> -->
+                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <div class="flex flex-col xl:gap-[6px]">
+                                <h4 class="text-primary-dark font-semibold">
+                                    Student Visa
+                                </h4>
+                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
                             </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                            <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                    $
+                    <span
+                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
+                </p> -->
                         </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group duration-300 ease-in transition-all"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/service2-e043e363.png" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0
-                            opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">Work Visa</h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Tourist & Guest Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-graduation-cap-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Student Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">170</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">Work Visa</h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/service4-7060361e.png" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Tourist & Guest Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px; flex: 0 0 auto;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/service2-e043e363.png" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Transit Visa </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Tourist & Guest Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="members swiper-slide  duration-300 ease-in transition-all max-w-[300px] mx-auto sm:max-w-full sm:mx-0 relative group"
-                    style="max-width:300px;">
-                    <img class="w-fullborder-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]"
-                        src="assets/about.jpg" alt="img1.png" style="height:450px;
-                            object-fit:cover; object-position:center;" />
-                    <div
-                        class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
-                        <!-- <i
-                        class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
-                        <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
-                            <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
-                                <div class="flex flex-col xl:gap-[6px]">
-                                    <h4 class="text-primary-dark font-semibold">
-                                        Tourist & Guest Visa
-                                    </h4>
-                                    <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-                                </div>
-                                <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
-                            $
-                            <span
-                            class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
-                        </p> -->
-                            </div>
-                            <p
-                                class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
-                                Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
-                                mattis nibh. Orci nisl sagittis augue nibh tempus nulla
-                                elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
-                                semper posuere dui at ut molestie tempus. Tempor risus iaculis
-                                lectus lacus amet dolor
-                            </p>
-                            <a href="visaDetail.php"><i
-                                    class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
-                        </div>
+                        <p
+                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                            Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
+                            mattis nibh. Orci nisl sagittis augue nibh tempus nulla
+                            elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
+                            semper posuere dui at ut molestie tempus. Tempor risus iaculis
+                            lectus lacus amet dolor
+                        </p>
+                        <a href="visaDetail.php"><i
+                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
                     </div>
                 </div>
             </div>
+            <div class="members max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                <img class="w-full" src="assets/img2-b2148f00.png" alt="img2.png" />
+                <div
+                    class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                    <!-- <i
+                class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-shopping-bag-fill"></i> -->
+                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <div class="flex flex-col xl:gap-[6px]">
+                                <h4 class="text-primary-dark font-semibold">Work Visa</h4>
+                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                            </div>
+                            <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                    $
+                    <span
+                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">180</span>
+                </p> -->
+                        </div>
+                        <p
+                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                            Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
+                            mattis nibh. Orci nisl sagittis augue nibh tempus nulla
+                            elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
+                            semper posuere dui at ut molestie tempus. Tempor risus iaculis
+                            lectus lacus amet dolor
+                        </p>
+                        <a href="visaDetail.php"><i
+                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="members max-w-[288px] mx-auto sm:max-w-full sm:mx-0 relative group">
+                <img class="w-full" src="assets/img3-3b89a210.png" alt="img3.png" />
+                <div
+                    class="w-full h-full absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in drop-shadow-medium py-5 xl:py-[37px] px-[15px] md:px-[25px] lg:px-5 2xl:px-[30px] bg-white flex flex-col gap-[10px] md:gap-[15px] xl:gap-[30px] 2xl:gap-[50px] border-t-2 border-x-2 border-b-[10px] border-primary-light rounded-[20px]">
+                    <!-- <i
+                class="text-primary-light text-[40px] md:text-[50px] lg:text-[40px] xl:text-[60px] 2xl:text-[80px] leading-[30px] md:leading-10 lg:leading-[30px] xl:leading-[37px] 2xl:leading-[57px] ri-map-pin-fill"></i> -->
+                    <div class="flex flex-col gap-[10px] md:gap-[15px] xl:gap-5">
+                        <div class="flex flex-col gap-[5px] md:gap-[10px] lg:gap-[5px] xl:gap-[10px]">
+                            <div class="flex flex-col xl:gap-[6px]">
+                                <h4 class="text-primary-dark font-semibold">
+                                    Tourist & Guest Visa
+                                </h4>
+                                <img class="max-w-full" src="assets/lineA-831eca49.svg" alt="lineA.svg" />
+                            </div>
+                            <!-- <p class="text-[18px] md:text-[24px] leading-[24px] md:leading-[30px] font-semibold text-secondary-dark">
+                    $
+                    <span
+                    class="text-[25px] md:text-[35px] xl:text-[36px] leading-[32px] xl:leading-[42px] font-semibold">160</span>
+                </p> -->
+                        </div>
+                        <p
+                            class="text-textColor-dark text-[14px] leading-5 md:text-[16px] md:leading-6 lg:text-[14px] xl:text-[16px] lg:leading-5 xl:leading-6">
+                            Lorem ipsum dolor sit amet consectetur. Risus interdum vitae
+                            mattis nibh. Orci nisl sagittis augue nibh tempus nulla
+                            elementum id nunc. Interdum sit blandit sed eu dolor. Pharetra
+                            semper posuere dui at ut molestie tempus. Tempor risus iaculis
+                            lectus lacus amet dolor
+                        </p>
+                        <a href="visaDetail.php"><i
+                                class="cursor-pointer ri-arrow-right-up-line p-[7px] md:p-[9.5px] rounded-[30px] bg-primary-light hover:bg-secondary-dark transition-all duration-300 ease-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
+
+
+        <div class="flex justify-center lg:justify-center items-center lg:items-start">
+            <a class="py-[10px] sm:py-3 lg:py-[14px] px-[14px] sm:px-4 
+                                lg:px-[18px] rounded-[20px] bg-primary-light
+                                hover:bg-secondary-medium text-subtitle3
+                                sm:text-subtitle2 lg:text-subtitle1 
+                                font-subtitle3 sm:font-subtitle2 
+                                lg:font-subtitle1 transition-all duration-300 ease-in" href="about.php">More
+                Services</a>
+        </div>
+
     </div>
 </div>
 <div class=" mt-[50px] sm:mt-[61px] xl:mt-[79px] ">
@@ -1112,9 +898,9 @@ include 'includes/header.php';
 
             foreach ($images as $img) {
                 echo '<div class="swiper-slide" style="flex: 0 0 auto; width: 150px; height: 180px; display: flex; 
-                            justify-content: center; align-items: center; padding: 10px;">
-                                            <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
-                                            </div>';
+                                justify-content: center; align-items: center; padding: 10px;">
+                                                <img src="' . $img . '" style="width: 100%; height: 100%; object-fit: contain; border-radius: 10px;" />
+                                                </div>';
             }
             ?>
         </div>
@@ -1324,7 +1110,7 @@ include 'includes/header.php';
                             <div
                                 class="w-[260px] sm:w-[248px] md:w-[310px] lg:w-[260px] xl:w-[320px] 2xl:w-[330px] -z-[1] h-full absolute top-0 rounded-[20px] bg-secondary-medium transition-all duration-300 ease-in">
                                 <i class="text-[35px] leading-[35px] xl:text-[45px]
-                                        xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
+                                            xl:leading-[45px] w-full text-white ri-double-quotes-l"></i>
                             </div>
                         </div>
                     </div>
@@ -1534,9 +1320,9 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <!-- <p class="xl:text-body1 font-body1 text-textColor-dark">
-                                    Lorem ipsum dolor sit amet consectetur. Elementum massa risus
-                                    euismod semper fringilla tristique viverra urna metus.
-                                </p> -->
+                                        Lorem ipsum dolor sit amet consectetur. Elementum massa risus
+                                        euismod semper fringilla tristique viverra urna metus.
+                                    </p> -->
                 </div>
                 <form class="flex flex-col gap-[15px] xl:gap-5">
                     <input required
@@ -1566,7 +1352,7 @@ include 'includes/header.php';
         </div>
         <div data-aos="fade-left" data-aos-duration="700" class='image-section'>
             <img src="assets/contact.jpg
-                        " class="mx-auto" alt="contact" />
+                            " class="mx-auto" alt="contact" />
         </div>
     </div>
 </div>
@@ -1599,18 +1385,18 @@ include 'includes/header.php';
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <!-- <script>
-    const homeSlider = new Swiper('.homeSlider', {
-        loop: true,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
+        const homeSlider = new Swiper('.homeSlider', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
 
-        speed: 800,
-        effect: 'slide',
-    });
+            speed: 800,
+            effect: 'slide',
+        });
 
-</script> -->
+    </script> -->
 <script>
     window.addEventListener('scroll', function () {
         const nav = document.getElementById('mainNav');
@@ -1620,7 +1406,7 @@ include 'includes/header.php';
 
 
         if (window.scrollY > 20) {
-            nav.classList.add('bg-white');
+            nav.classList.add('bg-transparent-2');
             buttontab.classList.add('text-primary-light')
             buttontab.classList.remove('text-white')
             nav.classList.remove('bg-transparent');
@@ -1629,13 +1415,13 @@ include 'includes/header.php';
                 link.classList.add('text-primary-light');
             });
         } else {
-            nav.classList.add('bg-transparent');
-            nav.classList.remove('bg-white');
-            buttontab.classList.remove('text-primary-light')
+            nav.classList.add('bg-transparent-2');
+            // nav.classList.remove('bg-transparent-2');
+            // buttontab.classList.remove('text-primary-light')
             buttontab.classList.add('text-white')
             links.forEach(link => {
-                link.classList.remove('text-primary-light');
-                link.classList.add('text-white');
+                // link.classList.remove('text-primary-light');
+                link.classList.add('text-primary-light');
             });
         }
     });
