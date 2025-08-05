@@ -13,7 +13,7 @@ include 'includes/header.php';
 
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
       class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
-      <h1>Our Testimonails</h1>
+      <h1> Blogs</h1>
       <div
         class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
         <a href=" index.php" class="leading-none"><i
@@ -237,7 +237,7 @@ include 'includes/header.php';
 
 
     if (window.scrollY > 20) {
-      nav.classList.add('bg-white');
+      nav.classList.add('bg-transparent-2');
       buttontab.classList.add('text-primary-light')
       buttontab.classList.remove('text-white')
       nav.classList.remove('bg-transparent');
@@ -246,13 +246,13 @@ include 'includes/header.php';
         link.classList.add('text-primary-light');
       });
     } else {
-      nav.classList.add('bg-transparent');
-      nav.classList.remove('bg-white');
-      buttontab.classList.remove('text-primary-light')
+      nav.classList.add('bg-transparent-2');
+      // nav.classList.remove('bg-transparent-2');
+      // buttontab.classList.remove('text-primary-light')
       buttontab.classList.add('text-white')
       links.forEach(link => {
-        link.classList.remove('text-primary-light');
-        link.classList.add('text-white');
+        // link.classList.remove('text-primary-light');
+        link.classList.add('text-primary-light');
       });
     }
   });

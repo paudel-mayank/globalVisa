@@ -13,24 +13,22 @@ include 'includes/header.php';
 
     <div data-aos="fade-right" data-aos-duration="700" data-aos-delay="500"
       class="flex flex-col justify-start items-start gap-[5px] sm:gap-[10px]">
-      <h1>Coaching Details</h1>
+      <h1> Coaching</h1>
       <div
         class="flex gap-[18px] justify-start items-center py-[7px] px-[10px] bg-[#FFFFFF1A] backdrop-blur-[20px] border border-primary-light rounded-[20px]">
         <a href=" index.php" class="leading-none"><i
             class="ri-home-7-fill text-[16px] leading-[16px] hover:text-primary-light transition-all duration-300 ease-linear"></i></a>
         <img src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="coaching.php" class="sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light
-            transition-all duration-300 ease-linear">Course</a>
+        <a href="blog.php" class="sm:text-subtitle2 
+          font-medium sm:font-subtitle2 hover:text-primary-light transition-all duration-300 ease-linear"></a>
         <img class src="assets/miniLine-a36e5f89.svg" alt="miniLines" />
-        <a href="#" class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light
-            transition-all duration-300 ease-linear">Course Details</a>
+        <a href="#" class=" sm:text-subtitle2 font-medium sm:font-subtitle2 hover:text-primary-light transition-all 
+          duration-300 ease-linear">Coaching Details</a>
       </div>
     </div>
   </div>
 </div>
-<div class="container py-[70px] xl:py-[100px] 
-
-  gap-10 overflow-hidden">
+<div class="container py-[70px] xl:py-[100px] gap-10 overflow-hidden">
   <div data-aos="fade-right" data-aos-duration="700" class="xl:col-span-2 flex flex-col gap-10 xl:gap-[50px]">
     <img class="max-w-full" src="assets/coach1-ac37501d.png" alt="coach1"
       style="height:450px; object-fit:cover; object-position:center;" />
@@ -67,84 +65,6 @@ include 'includes/header.php';
       </p>
     </div>
 
-    <!-- <div class="flex flex-col gap-5 xl:gap-[30px]">
-        <div class="flex flex-col gap-[5px]">
-          <h4 class="text-primary-dark font-semibold">
-            Included in the Course
-            <span class="text-body1 font-normal">
-              (terms and conditions apply)</span>
-          </h4>
-
-          <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-        </div>
-
-        <div class="flex flex-col gap-4 sm:gap-5">
-          <div class="flex justify-start items-start xl:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Pellentesque netus malesuada pellentesque enim massa et a.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Varius auctor congue aliquam pretium eget id.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Nisl nunc et pharetra donec tempor.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Varius auctor congue aliquam pretium eget id.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col gap-5 xl:gap-[30px]">
-        <div class="flex flex-col gap-[5px]">
-          <h4 class="text-primary-dark font-semibold">
-            Not Included in the Course
-            <span class="text-body1 font-normal">(terms and conditions
-              apply)</span>
-          </h4>
-
-          <img src="assets/lineA-831eca49.svg" alt="lineA.svg" />
-        </div>
-
-        <div class="flex flex-col gap-4 sm:gap-5">
-          <div class="flex justify-start items-start xl:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Pellentesque netus malesuada pellentesque enim massa et a.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Varius auctor congue aliquam pretium eget id.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Nisl nunc et pharetra donec tempor.
-            </p>
-          </div>
-          <div class="flex justify-start items-start sm:items-center gap-[10px]">
-            <i class="text-[24px] leading-5 ri-arrow-right-circle-fill text-primary-light"></i>
-            <p class="text-[18px] leading-5 font-subtitle1 text-primary-dark">
-              Varius auctor congue aliquam pretium eget id.
-            </p>
-          </div>
-        </div>
-      </div> -->
-
 
   </div>
 
@@ -154,11 +74,13 @@ include 'includes/header.php';
 
 <?php include "includes/footer.php" ?>
 
+<?php include "includes/footer.php" ?>
+
 <!-- loader js -->
 
 <!-- Include Alpine.js CDN -->
 <script src="cdn
-  .jsdelivr.net/npm/alpinejs%402.8.2/dist/alpine.min.js" defer></script>
+.jsdelivr.net/npm/alpinejs%402.8.2/dist/alpine.min.js" defer></script>
 
 <!-- preline js -->
 
@@ -168,7 +90,7 @@ include 'includes/header.php';
 
 <!-- swiper js  -->
 <script src="cdn
-  .jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
+.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
 
 <!-- aos  -->
 <script src="js/aos.js"></script>
@@ -181,7 +103,7 @@ include 'includes/header.php';
 
 
     if (window.scrollY > 20) {
-      nav.classList.add('bg-white');
+      nav.classList.add('bg-transparent-2');
       buttontab.classList.add('text-primary-light')
       buttontab.classList.remove('text-white')
       nav.classList.remove('bg-transparent');
@@ -190,13 +112,13 @@ include 'includes/header.php';
         link.classList.add('text-primary-light');
       });
     } else {
-      nav.classList.add('bg-transparent');
-      nav.classList.remove('bg-white');
-      buttontab.classList.remove('text-primary-light')
+      nav.classList.add('bg-transparent-2');
+      // nav.classList.remove('bg-transparent-2');
+      // buttontab.classList.remove('text-primary-light')
       buttontab.classList.add('text-white')
       links.forEach(link => {
-        link.classList.remove('text-primary-light');
-        link.classList.add('text-white');
+        // link.classList.remove('text-primary-light');
+        link.classList.add('text-primary-light');
       });
     }
   });

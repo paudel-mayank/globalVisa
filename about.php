@@ -387,7 +387,7 @@ h-full bg-cover bg-center bg-no-repeat" style="background-image: url('assets/all
 
 
     if (window.scrollY > 20) {
-      nav.classList.add('bg-white');
+      nav.classList.add('bg-transparent-2');
       buttontab.classList.add('text-primary-light')
       buttontab.classList.remove('text-white')
       nav.classList.remove('bg-transparent');
@@ -396,13 +396,13 @@ h-full bg-cover bg-center bg-no-repeat" style="background-image: url('assets/all
         link.classList.add('text-primary-light');
       });
     } else {
-      nav.classList.add('bg-transparent');
-      nav.classList.remove('bg-white');
-      buttontab.classList.remove('text-primary-light')
+      nav.classList.add('bg-transparent-2');
+      // nav.classList.remove('bg-transparent-2');
+      // buttontab.classList.remove('text-primary-light')
       buttontab.classList.add('text-white')
       links.forEach(link => {
-        link.classList.remove('text-primary-light');
-        link.classList.add('text-white');
+        // link.classList.remove('text-primary-light');
+        link.classList.add('text-primary-light');
       });
     }
   });
